@@ -1,0 +1,19 @@
+- [ ] Deadlocks
+- [ ] System calls
+	- [ ] Forking
+		- [ ] Child process
+		- [ ] Parent Process
+		- [ ] Dead, Orphan, Zombie
+	- [ ] System Services
+- [ ] Multi-threading
+	- [ ] Parallel Processing
+	- [ ] What exactly are threads?
+	- [ ] Daemon threads?
+	- [ ] posix threads, java threads, windows threads
+	- [ ] pthreads glibc library
+
+- [ ] Computer system organization
+	- [ ] Types of OS
+	- [ ] Types of computing clusters/servers/networks
+	- [x] CPU architecture
+	- [ ] Types of memory (Cache, RAM, Storage, Registers (what are registers?))
