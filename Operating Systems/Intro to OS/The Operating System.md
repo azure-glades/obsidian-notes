@@ -11,19 +11,19 @@ The OS provides a way a means for proper use of resources to meet the user's tas
 >**middleware**: a set of software frameworks that provide additional services to application developers.
 >**system programs**: Aid in managing the system while it is running
 
-#### 0.1.1. User View
+## 1. What does an OS appear to do?
+### 1.1. User View
 - The goal is to maximize the work (or play) that the user is performing
 - Focus is on Ease of use
 - Contain features like touch-screens, voice assistants etc.
 - Computers with no user-view (like embedded systems) lack a gui. OS is designed to run without user intervention
-#### 0.1.2. System View
+### 1.2. System View
 - Resource allocator: Manages cpu, i/o devices, memory, storage
 - Control Program: manages the execution of user programs to prevent errors. 
 
----
-
-Multiple [[types of operating systems]] evolved from simple ones, each developing new features that increased in complexity
-#### 0.1.3. Multi-programming
+## 2. Modes of Operation
+Multiple [[types of operating systems]] evolved from simple ones, each developing new features that increased in complexity, but all os's have specific modes of operation
+### 2.1. Multi-programming
 - CPU maintains and runs multiple programs
 - Several processes are kept in memory for running
 - Process switching occurs when current-running process waits for an event
@@ -33,7 +33,7 @@ Multiple [[types of operating systems]] evolved from simple ones, each developin
 	- Prevents CPU idling since a process is always allocated if the CPU starts to idle
 	- Process-preemption/context switching is not involved
 
-#### 0.1.4. Multi-tasking
+### 2.2. Multi-tasking
 - CPU maintains and runs multiple processes
 - Several processes are continuously switched between running-ready states
 - [[Context switching]] is seen here. Multiple processes are switched via [[Interrupts]] or via I/O user operations
@@ -54,7 +54,7 @@ Multiple [[types of operating systems]] evolved from simple ones, each developin
 The OS interacts with users, hardware and applications via events, interrupts and system calls
 
 ---
-#### 0.1.5. Modes of operation
+### 2.3. Dual-Mode
 - Mode of operation is a set of permissions that a process carries. OS have atleast 2 modes/rings of operation/permissions
 	- *User mode*: Where all user programs reside and the OS communicates to
 	- *Kernel mode*: Where all system/OS programs reside. User programs can use kernel resources by communicating via [[System Calls]]
@@ -69,7 +69,10 @@ The OS interacts with users, hardware and applications via events, interrupts an
 		- I/O control
 		- timer management
 		- interrupt management
-- More than 2 modes of operations can also exist -> called protection rings/rings of operation
+
+### 2.4. Multi-mode
+- More than 2 modes of operations can also exist -> called protection rings/rings of operation, common in intel chipsets.
+- Here, multiple levels of privileges exist, with each level giving access to specific system calls and OS resources
 
 > [!info]+ Timer
 > A timer prevents infinite loops in the CPU by interrupting the CPU processes at regular intervals
@@ -77,5 +80,7 @@ The OS interacts with users, hardware and applications via events, interrupts an
 > - When the timer interrupts, control is transferred to the OS which deals with the running process
 > Interrupt time of the timer can be uniform or changed (which is a superuser permission)
 
-
- 
+## 3. Virtualization
+Virtualization enables abstraction of hardware components of a computer. Virtualization is implemented as **Virtual machines** which allows multiple operating systems to run on that same computer, that can be switched-around like a process.
+- Virtualization is a category of **Emulation**, which attempts to simulate computer hardware in software to run software specific to that hardware.
+![[Pasted image 20241206184107.png]]

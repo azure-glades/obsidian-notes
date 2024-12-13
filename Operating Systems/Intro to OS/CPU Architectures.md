@@ -62,7 +62,10 @@ The type of instruction set implemented determines the CPU architecture design. 
 	Main advantage of clustered systems is their reliability in providing continuous service, even when some hardware breaks-down (called *graceful degradation*) and such systems are termed *fault tolerant*, since other processors can take over and divide workloads when an individual system (or **node**) fails.
 	Clustering can be:
 	1. **Asymmetric clustering**: where a collection of systems are active and running and perform tasks while the other set of backup systems (in *hot-standby mode*) continuously monitor the health of the active systems. 
-	2. **Symmetric clustering**: where all systems in good health are performing tasks while also monitoring each others health. Is a better use of computing resources but requires parallelization between the system tasks to ensure synchronization. This requires the software/hardware to support [[Parallel Processing]]
+	2. **Symmetric clustering**: where all systems in good health are performing tasks while also monitoring each others health. Is a better use of computing resources but requires parallelization between the system tasks to ensure synchronization. This requires the software/hardware to support parallel processing
+	[[Distributed Systems]] are a collection of independent processors that are capable of communicating and sharing peripheral devices and memory storages with each other.
+	- Generally connected via a WiFi/Ethernet network.
+	- They function independently of each other run distinct operating systems.
 
 ## 4. Based on architecture
 1. [**Von Neumann Architecture**](https://en.wikipedia.org/wiki/Von_Neumann_architecture#von_Neumann_bottleneck)

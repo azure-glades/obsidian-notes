@@ -13,7 +13,12 @@
 	- [ ] pthreads glibc library
 
 - [ ] Computer system organization
-	- [ ] Types of OS
-	- [ ] Types of computing clusters/servers/networks
+	- [x] Types of OS
+	- [x] Types of computing clusters/servers/networks
 	- [x] CPU architecture
-	- [ ] Types of memory (Cache, RAM, Storage, Registers (what are registers?))
+	- [x] Types of memory (Cache, RAM, Storage, Registers (what are registers?))
+	- [x] 1.4 Operating system operations
+	- [x] 1.7 Virtualization
+	- [x] 1.8 Distributed systems
+	- [ ] 1.10 computing envs
+	- [ ] Kernel structure 2.8

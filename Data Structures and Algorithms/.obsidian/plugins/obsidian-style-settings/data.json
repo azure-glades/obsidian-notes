@@ -23,7 +23,14 @@
   "things-style@@h4-color": "#260069",
   "things-style@@h5-color": "#000000",
   "things-style@@h1-color": "#0A0C37",
-  "things-style@@h2-color": "#BD162C",
+  "things-style@@h2-color": "#FF61CF",
   "things-style@@fancy-code": true,
-  "things-style@@active-line": false
+  "things-style@@active-line": false,
+  "anuppuccin-theme-settings@@ctp-custom-blue@@light": "#26619C",
+  "anuppuccin-theme-settings@@anp-h2-color-custom": "anp-h2-red",
+  "anuppuccin-theme-settings@@anp-h2-divider": true,
+  "anuppuccin-theme-settings@@anp-h3-color-custom": "anp-h3-rosewater",
+  "anuppuccin-theme-settings@@anp-decoration-toggle": true,
+  "anuppuccin-theme-settings@@anp-bold-custom": "anp-bold-blue",
+  "anuppuccin-theme-settings@@anp-italic-custom": "anp-italic-blue"
 }
