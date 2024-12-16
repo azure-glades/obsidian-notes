@@ -46,6 +46,7 @@ A process runs the entry section _atomically_ (i.e process cannot be preempted w
 > 1 core can execute only 1 process at a time. Where can resource conflicts occur here?
 ### 2.2. [[Synchronization Hardware]]
 Peterson's algorithm is a software-based solution for resource synchronization. There are hardware solutions to synchronization hardware, like:
++
 - Memory barriers: Block the access of same address of memory simultaneously by different processors
 - Hardware instructions: Low level operations for atomic manipulation of memory
 - Atomic Variables: Variables who's manipulation and access occurs atomically and in-sequence
@@ -61,7 +62,7 @@ A mutex lock is a high-level software tool to allow application designers to sol
 >- This often decreases CPU efficiency since CPU cycles are spent to check the access condition
 >- This is avoided by process blocking
 ### 2.4. [[Semaphore]]
-A **semaphore** is a synchronization primitive type (in `semaphore.h` header) used in to manage access to shared resource
+A+ **semaphore** is a synchronization primitive type (in `semaphore.h` header) used in to manage access to shared resource
 - It helps ensure proper coordination between threads
 - preventing race conditions 
 - maintaining mutual exclusion

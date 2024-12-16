@@ -1,3 +1,4 @@
+[[Binary Tree]]
 - Efficient storing and re**trie**val data structure
 - Tree based data structure
 - Root node is empty in a trie

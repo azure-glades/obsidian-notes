@@ -9,7 +9,7 @@
 	- via contiguous memory allocation or pointer/links between elements 
 - **Non-Linear:** Elements are not stored in a sequential manner. Data elements need not have unique adjacent elements
 ---
-## 1: Arrays
+## 1. Arrays
 - Linear data-structure where elements of a *single data type* stored in consecutive memory locations
 - Elements are referred to via an **index**
 
@@ -19,7 +19,7 @@
 - Contiguous memory locations may not always be available
 - Insertion and Deletion is time-consuming for large array sizes. (Since parts of the array have to be shifted to make or remove spaces)
 
-## 2: [[Linked List]]
+## 2. [[Linked List]]
 - Linear data-structure where elements are stored in **nodes**
 - Each node contains *element* and a *link to the next node*
 - More memory can be allocated/elements can be stored to a list by attaching more nodes
@@ -30,7 +30,7 @@
 - Insertion-Deletion operations are *constant time*
 - Searching operations are a lot slower and need more memory
 
-## 3: [[Stack]]
+## 3. [[Stack]]
 - Linear data-structure where insertion and deletion of elements are done only at one end
 - A stack is LIFO (last in ; first out) and is implemented with array or linked-list
 - Contains:
@@ -46,8 +46,10 @@
 >`error: stack overflow` occurs when trying to push to a full stack
 >`error: stack underflow` occurs when trying to pop from an empty stack
 
-## 4: [[Queue]]
+## 4. [[Queue]]
 
-## 5: [[Graph]]
+## 5. [[Graph]]
 
-## 6: [[Binary Tree]]
+## 6. [[Binary Tree]]
+
+## 7. [[Hash tables]]

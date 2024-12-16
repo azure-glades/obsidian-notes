@@ -12,6 +12,7 @@
 	- [ ] posix threads, java threads, windows threads
 	- [ ] pthreads glibc library
 
+
 - [ ] Computer system organization
 	- [x] Types of OS
 	- [x] Types of computing clusters/servers/networks
@@ -22,3 +23,7 @@
 	- [x] 1.8 Distributed systems
 	- [ ] 1.10 computing envs
 	- [ ] Kernel structure 2.8
+
+- [ ] memory management
+	- [ ] thrashing
+	- [ ] check syllabussy (catch up to neetu before stuff does bad)

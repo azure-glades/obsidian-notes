@@ -1,7 +1,6 @@
 To help you remember the key components of this C program for your exam, let's break it down into memorable sections and concepts. You can use mnemonic devices, summaries, or key points to aid your memory.
 
 ## Key Components of the Program
-
 ### 1. **Program Structure**
 
 - **Includes**: The program includes essential headers for input/output, process control, and system calls:
@@ -11,7 +10,6 @@ To help you remember the key components of this C program for your exam, let's b
   - `#include <wait.h>`: Macros for process termination.
 
 ### 2. **Main Function**
-
 - The entry point of the program is the `main` function:
   ```c
   int main(int argc, char *argv[]) {
@@ -19,7 +17,6 @@ To help you remember the key components of this C program for your exam, let's b
   ```
 
 ### 3. **Process Creation with `fork()`**
-
 - **Forking a Process**:
   - The program creates a new process using `fork()`.
   - The return value of `fork()` is stored in `pid`:
@@ -28,7 +25,6 @@ To help you remember the key components of this C program for your exam, let's b
     - **Positive Value**: Indicates that this is the parent process.
 
 ### 4. **Child Process Logic**
-
 - If the process is the child (`pid == 0`):
   ```c
   if(pid == 0) {
@@ -39,7 +35,6 @@ To help you remember the key components of this C program for your exam, let's b
   - It attempts to execute another program (`binsearch`) using `execl()`, passing the first command-line argument (`argv`).
 
 ### 5. **Parent Process Logic**
-
 - If the process is the parent (`pid > 0`):
   ```c
   else {
@@ -60,7 +55,6 @@ To help you remember the key components of this C program for your exam, let's b
     - If false, it indicates abnormal termination and exits.
 
 ### 6. **Return Statement**
-
 - The program ends with a return statement:
 ```c
 return 0;
