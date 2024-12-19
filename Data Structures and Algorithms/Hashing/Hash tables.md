@@ -7,11 +7,26 @@
 Probing??
 - Linear probing
 - Quadratic probing
-- 
 
 > 3-4mk for theory
 > 4mk for problems
 > 2-3 mk for definitions
+
+> Q. Construct a Hash table resolving collision using linear probing strategy for inputs: {30,20,56,75,31,90}  and hash function as h(k) = k (mod 11)
+
+| Hash Index | Data -> |
+| ---------- | ------- |
+| 0          | 31      |
+| 1          | 56      |
+| 2          | 90      |
+| 3          |         |
+| 4          |         |
+| 5          |         |
+| 6          |         |
+| 7          |         |
+| 8          | 30      |
+| 9          | 20      |
+| 10         | 75      |
 
 
 AI generated ->

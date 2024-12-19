@@ -11,4 +11,31 @@
 		- *File-serve interface:* Clients can read, create, delete and update files by directly accessing the server
 4. **Peer-to-peer Computing**:
 	- A type of distributed system
-	- All connected systems are equa
+	- All nodes connected are considered peers and act as client-servers for each other
+	- To participate in p2p network:
+		- It registers itself with a centralized look-up (called trackers (which can be public or private)) which allows other peers to discover and request service from it.
+		- The tracker also stores what node has what service/files/data available for use by the other peers
+			- Alternatively, the nodes must discover themselves what sort of services are available by broadcasting to the nodes and requesting for the service. There is no centralized tracker here. A *discovery protocol* enables the discovery of services by peers
+	- Ex: Napster, GNUtella 
+		- Skype (which uses *VoIP* - Voice over IP). Central system handles login and authentication and communication is over peers
+> *See also; Usenet*
+
+5. **Cloud Computing:**
+	- A "cloud" which is a pool of resources (like computing power and storage) that is accessed by clients through the internet/network. 
+	- Uses virtualized operating systems that can be accessed by the client to use the cloud servers.
+		- Ex: Amazon Elastic CloudComputer (*ec2*)
+	- Types of cloud access
+		- Public cloud: Available publically over the internet that can be accessed by paying for the service
+		- Private cloud: Accessible only across a personal/corporate network and is used only by the corporate entity
+		- Hybrid cloud: Accessible by both public and corporate clients.
+	- Cloud Services:
+		- *SaaS*: Application software are given as a service (Ex: Microsoft 365)
+		- *PaaS*: (Platform as a service) Software stack/bundle ready for application use over the internet (Ex: Google cloud platform, AWS)
+		- *IaaS*: (Infrastructure as a service) Servers/Storage is made accessible over the internet (Ex: AWS, Storage systems, High performance computing clusters (HPCC))
+
+6. **Real-time Computing**:
+	- Computing systems that run continuously, often as embedded systems that control hardware/sensors/controllers
+	- Run continuously with minimal user-inputs. Meeting deadlines for tasks is fundamental for embedded system, and hence they always run *real-time operating systems*
+	- Often have a set of challenges (like limited memory, computing power, resources)
+	- Often run their own OS to handle device specific hardware. Some may run lightweight linux distributions
+	- 

@@ -33,6 +33,7 @@ Multiple partition allocation
 - Variable partition sizes increase efficiency of memory utilisation.
 - *Hole*: Block of empty memory 
 
+**Contiguous memory** allocation is where processes are allocated in a continuous range of memory
 Dynamic storage allocation problem: How to satisfy size request when memory has a set of free holes
 1. **First fit**: Allocate the *first* hole that is big enough. Fastest strategy
 2. **Best fit:** Allocate the *smallest* hole that can fit the memory. Has to search the entire list of holes
@@ -45,3 +46,18 @@ Dynamic storage allocation problem: How to satisfy size request when memory has 
 > - Moving all holes to the end of memory
 > - Compacting allocated memory into a continuous block of assigned memory
 
+To solve these issues, non-contiguous memory allocation is used.
+**Non-contiguous memory allocation** is where processes are allocated fragments of memory distributed across holes. Non-contiguous allocation is implemented by segmentation or paging.
+1. **Segmentation:** A process is divided and stored in different holes. The division is done between functions. Ensures each contiguous part of memory stores a complete function and prevents a function (with potentially critical sections) from being divided/fragmented across memory. Therfore, process exists are several segments spread across memory.
+	- The base-register and segment length (limit) of all segments is tracked in a segment table.
+	- Segment table itself has a base register (STBR) and a length register (STLR) which indicates where the table exists and the number of segments stored
+	> *See further: Segmentation Fault*
+
+Segmentation architecture
+- When CPU tries to access a segment not present in physical memory: Segmentation fault
+- For efficient memory usage, segments of memory are usually swapped out to storage and only loaded when required.
+- All segments are stored in the table. An *invalidation bit* is used to indicate whether the segment exists in memory. 
+- If a segment is in storage, an interrupt is sent to the CPU when it tries to access the segment. This is a segmentation fault, which is resolved by the interrupt handler to load the segment into memory and update the segmentation table
+
+Dirty bit
+- 

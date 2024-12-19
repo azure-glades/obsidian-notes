@@ -1,3 +1,8 @@
+- [ ] memory management
+	- [ ] thrashing
+	- [ ] check syllabussy (catch up to neetu before stuff does bad)
+	- [ ] Segmentation and paging... yeah theres a lotta stuff
+ 
 - [ ] Deadlocks
 - [ ] System calls
 	- [ ] Forking
@@ -21,9 +26,6 @@
 	- [x] 1.4 Operating system operations
 	- [x] 1.7 Virtualization
 	- [x] 1.8 Distributed systems
-	- [ ] 1.10 computing envs
+	- [x] 1.10 computing envs
 	- [ ] Kernel structure 2.8
 
-- [ ] memory management
-	- [ ] thrashing
-	- [ ] check syllabussy (catch up to neetu before stuff does bad)

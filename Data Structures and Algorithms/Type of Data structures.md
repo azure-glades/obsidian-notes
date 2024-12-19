@@ -1,14 +1,13 @@
 
-## Primitive and Non-Primitive DS []
+## Primitive and Non-Primitive DS
 - Primitive DS/Basic DS: Basic data types used to store information
 	EX: char, bool, int, float
 - Non-Primitive DS: Collections/groups of primitive DS
 	EX: array, stack, linked-list, queue, tree
-## Linear and Non-linear DS []
+## Linear and Non-linear DS
 - **Linear**: Elements are stored in a sequential manner. Data elements have distinct, unique adjacent elements
-	- via contiguous memory allocation or pointer/links between elements 
+	- via contiguous memory allocation or pointer/links between elements
 - **Non-Linear:** Elements are not stored in a sequential manner. Data elements need not have unique adjacent elements
----
 ## 1. Arrays
 - Linear data-structure where elements of a *single data type* stored in consecutive memory locations
 - Elements are referred to via an **index**
@@ -50,6 +49,6 @@
 
 ## 5. [[Graph]]
 
-## 6. [[Binary Tree]]
+## 6. [[Tree]]
 
 ## 7. [[Hash tables]]

@@ -1,0 +1,11 @@
+- [ ] Threaded Binary tree
+- [ ] AVL tree
+- [ ] Hash tables
+- [ ] Heaps
+- [ ] Trie
+- [ ] Tree driver code and stuff
+- [ ] DSA lab programs
+- [ ] Queue
+- [ ] Application of linked lists
+- [ ] Huffman algorithm
+- [ ] Josephus Problem
