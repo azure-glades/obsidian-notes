@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e5e302c163c9e5d9",
+            "id": "975018689e5bb63e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Synchronization/Producer-Consumer Problem.md",
+                "file": "Memory Management/Memmanage.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Producer-Consumer Problem"
+              "title": "Memmanage"
             }
           }
         ]
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 213.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "967f3d7ad023c895",
@@ -144,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Synchronization/Producer-Consumer Problem.md",
+                "file": "Memmanage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +155,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Producer-Consumer Problem"
+              "title": "Backlinks for Memmanage"
             }
           },
           {
@@ -176,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 314.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,12 +190,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e5e302c163c9e5d9",
+  "active": "975018689e5bb63e",
   "lastOpenFiles": [
-    "Synchronization/Mutex Locks.md",
-    "To Do List.md",
     "Memory Management/Memory Management.md",
+    "Memory Management/Memory Management Unit.md",
+    "Memory Management/Paging.md",
+    "Memory Management/Memmanage.md",
+    "To Do List.md",
+    "Pasted image 20241221212342.png",
+    "Abraham Silberschatz Operating System Concepts 10th.pdf",
+    "Pasted image 20241220181109.png",
+    "Untitled.md",
     "Memory Management/Memory.md",
+    "MemNotes Attempt 2.md",
+    "SYLLABUS.jpg",
+    "Synchronization/Producer-Consumer Problem.md",
+    "Synchronization/Mutex Locks.md",
     "Memory Management/Memory Management 2.md",
     "Intro to OS/Computing Environments.md",
     "Intro to OS/CPU Architectures.md",
@@ -204,7 +216,6 @@
     "images/Pasted image 20241216104559.png",
     "Intro to OS/Types of Operating Systems.md",
     "Memory Management",
-    "SYLLABUS.jpg",
     "images/Pasted image 20241025102252.png",
     "Process Scheduling/Processes.md",
     "Process Scheduling/Interrupts.md",
@@ -214,24 +225,14 @@
     "System Calls/Forks.md",
     "Synchronization/Resource synchronization.md",
     "Synchronization/Semaphore.md",
-    "Synchronization/Reader Writer Problem.md",
-    "Synchronization/Producer-Consumer Problem.md",
-    "Synchronization/Process Blocking.md",
-    "Synchronization/Dining Philosopher Problem.md",
-    "Multi-threading/Parallel Processing.md",
-    "Intro to OS/Virtualization.md",
     "images/Pasted image 20241206184107.png",
     "images/Pasted image 20241205183110.png",
-    "Process Scheduling/Interrupt Handler.md",
-    "Abraham Silberschatz Operating System Concepts 10th.pdf",
     "images/Pasted image 20241205181637.png",
     "System Calls",
     "images/Pasted image 20241126184555.png",
-    "images/Pasted image 20241126184521.png",
     "Lab Programs",
     "Synchronization",
     "Process Scheduling",
-    "images/Pasted image 20241025122141.png",
     "Multi-threading",
     "Untitled 1.0 folder",
     "Intro to OS"

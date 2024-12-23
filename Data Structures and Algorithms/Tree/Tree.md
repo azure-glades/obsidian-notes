@@ -1,6 +1,4 @@
-
-
-***A tree is recursively defined as a set of one or more nodes where one node is designated as the root of the tree and all the remaining nodes can be partitioned into sub-trees.***
+>***A tree is recursively defined as a set of one or more nodes where one node is designated as the root of the tree and all the remaining nodes can be partitioned into sub-trees.***
 
 > [!info]+ Definitions
 > - **Root Node**: The top most node of a tree. if `root == NULL` tree doesnt exist

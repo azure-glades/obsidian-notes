@@ -1,4 +1,4 @@
-- Sequential Binary Multiplication
+	- Sequential Binary Multiplication
 	- Sequential Multiplier algorithm
 	- Booth's algorithm
 	- Bit-Pair recording algorithm

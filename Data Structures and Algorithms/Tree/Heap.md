@@ -1,7 +1,9 @@
 *Definition:* A binary tree that satisfies two properties
 - Structural Property: Tree is an almost complete binary tree (All levels except the last are fully filled with nodes, and all leaf nodes are left-most)
 - Parental Dominance: The info stored in the parent node is dominates that of its children. (The value in the parent is either greater than children (*max heap*), or is lesser than children (*min heap*))
-![[Pasted image 20241219114842.png]]
+![[Pasted image 20241219160928.png]]
+![[Pasted image 20241219161000.png]]
+
 
 ## Heapification
 The construction of a heap is called **heapification**. Both the methods need not produce the same heap.
