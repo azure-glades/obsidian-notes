@@ -1,6 +1,6 @@
 
-## 1. Implementation
-### 1.1. **Node Definition and Typedef**
+## Implementation
+### 1. **Node Definition and Typedef**
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -14,7 +14,7 @@ struct node {
 typedef struct node *NODE; // Define NODE as a pointer to the struct node
 ```
 Defines the structure for a node in a singly linked list and creates a type alias `NODE` to simplify the code.
-### 1.2. **Create a New Node**
+### 2. **Create a New Node**
 ```c
 NODE getNode(int ele) {
     NODE p = (NODE)malloc(sizeof(struct node));  // Allocate memory for a new node
@@ -23,7 +23,7 @@ NODE getNode(int ele) {
 }
 ```
 Creates and returns a new node containing the given integer value.
-### 1.3. **Free the First Node**
+### 3. **Free the First Node**
 ```c
 NODE freeNode(NODE head) {
     if (head == NULL) {                         // Check if the list is empty
@@ -39,7 +39,7 @@ NODE freeNode(NODE head) {
 }
 ```
 Removes the first node from the list and updates the head pointer.
-### 1.4. **Add a Node to the Beginning**
+### 4. **Add a Node to the Beginning**
 ```c
 NODE attachNode(NODE head, int ele) {
     if (head == NULL) {                         // If the list is empty
@@ -55,7 +55,7 @@ NODE attachNode(NODE head, int ele) {
 }
 ```
 Adds a new node with the given value at the beginning of the list.
-### 1.5. **Free the Last Node**
+### 5. **Free the Last Node**
 ```c
 NODE freeNodeFromEnd(NODE head) {
     NODE t = head;
@@ -74,7 +74,7 @@ NODE freeNodeFromEnd(NODE head) {
 ```
 Removes the last node in the list and ensures the second last node points to `NULL`.
 
-### 1.6. **Add a Node to the End**
+### 6. **Add a Node to the End**
 ```c
 NODE attachNodeAtEnd(NODE head, int ele) {
     NODE t = head;
@@ -90,7 +90,7 @@ NODE attachNodeAtEnd(NODE head, int ele) {
 }
 ```
 Adds a new node with the given value at the end of the list.
-### 1.7. **Display the List**
+### 7. **Display the List**
 ```c
 void display(NODE head) {
     NODE t = head;
@@ -106,7 +106,7 @@ void display(NODE head) {
 }
 ``` 
 Prints all the elements in the linked list in a readable format.
-### 1.8. **Calculate Length of the List**
+### 8. **Calculate Length of the List**
 ```c
 int listLength(NODE head) {
     NODE mv = head;
@@ -119,7 +119,7 @@ int listLength(NODE head) {
 }
 ```
 Counts and returns the number of nodes in the linked list.
-### 1.9. **Get the Last Node**
+### 9. **Get the Last Node**
 ```c
 NODE getTail(NODE head) {
     NODE mv = head;
@@ -131,9 +131,9 @@ NODE getTail(NODE head) {
 ```
 Returns a pointer to the last node in the linked list.
 
-### 1.11. Example
+### 10. Example
 - [[Sparse Matrix]]
-## 2. Application of singly Linked List
+## Application of singly Linked List
 Singly linked lists are versatile data structures used in various applications due to their dynamic nature and efficient memory management. Here are five notable applications of singly linked lists:
 1. **Web Browsers**: Singly linked lists are utilized to manage the browsing history of users. Each visited URL is stored as a node, allowing users to navigate back through their history using back and forward buttons[1][2].
 2. **Music Players**: In music applications, playlists can be implemented using singly linked lists. Each song is represented as a node, enabling users to play songs sequentially or jump to the next or previous song easily[1][3].

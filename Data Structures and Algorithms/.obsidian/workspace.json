@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fe6e50c89cc80109",
+            "id": "02f7b5c97338291c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tree/Trie.md",
+                "file": "Tree/Binary Tree/Splay Tree.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trie"
+              "title": "Splay Tree"
             }
           }
         ]
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tree/Trie.md",
+                "file": "Tree/Binary Tree/Splay Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Trie"
+              "title": "Backlinks for Splay Tree"
             }
           },
           {
@@ -190,45 +190,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fe6e50c89cc80109",
+  "active": "34228058dd931a9a",
   "lastOpenFiles": [
-    "Tree/Threaded Binary Tree.md",
-    "Tree/Priority Queue.md",
-    "Tree/Binary Tree.md",
+    "Tree/Binary Tree/Splay Tree.md",
+    "Tree/Binary Tree/Splay Tree.md",
+    "Tree/Binary Tree/Heap.md",
+    "Tree/Binary Tree/Binary Tree.md",
+    "Tree/Binary Tree/Binary Search Tree.md",
+    "Tree/Binary Tree/Expression Tree.md",
+    "Tree/Binary Tree/Priority Queue.md",
+    "Tree/Binary Tree/Threaded Binary Tree.md",
+    "Tree/B tree.md",
+    "Tree/Type of Data structures.md",
     "Tree/Trie.md",
     "Tree/Tree Traversal Techniques.md",
     "Tree/Tree.md",
-    "Tree/Heap.md",
     "Tree/Graph.md",
-    "Tree/AVL Tree.md",
-    "Tree/Binary Search Tree.md",
-    "Tree/Expression Tree.md",
+    "Tree/Binary Tree/AVL Tree.md",
+    "Stack/Infix to Postfix.md",
+    "Stack/Infix to Prefix.md",
+    "Stack/Prefix Evaluation.md",
+    "Stack/Postfix Evaluation.md",
+    "Stack/Parenthesis checker.md",
+    "Stack/Infix-Prefix-Postfix.md",
     "TO DO.md",
-    "Hashing 2.md",
-    "Hashing/Hash tables.md",
+    "Deletion in binary trees.md",
+    "Hashing/Hashing 2.md",
+    "Stack/Stack.md",
+    "Stack/Reversing a list.md",
+    "Tree/Binary Tree",
     "SYLLABUS.jpg",
-    "DSA.md",
     "Data structures using C (Reema Thareja).pdf",
     "all-images/Pasted image 20241219161000.png",
     "all-images/Pasted image 20241219160945.png",
     "all-images/Pasted image 20241219160928.png",
-    "Type of Data structures.md",
     "all-images/Pasted image 20241219131904.png",
     "all-images/Pasted image 20241219131324.png",
     "all-images/Pasted image 20241219130629.png",
     "all-images/Pasted image 20241219130612.png",
     "all-images/Pasted image 20241219114842.png",
-    "Puzzles.md",
-    "Linked List/Linear linked list.md",
-    "Linked List/Linked List.md",
     "Hashing",
-    "Linked List/Circular linked list.md",
-    "Linked List/Circular doubly linked list.md",
-    "Queue/Queue.md",
-    "Linked List/Dynamic Memory Allocation.md",
-    "Linked List/Doubly linked list.md",
-    "Stack/Stack.md",
-    "Linked List/Sparse Matrix.md",
     "Untitled.canvas",
     "Linked List",
     "Tree",

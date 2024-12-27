@@ -26,8 +26,9 @@
 > 	- A binary tree of height $h$ has atleast $h$ nodes and atmost $2^{h} - 1$ nodes
 > 	- Similarly, a binary tree of $n$ nodes has a height of atleast $\log_{2}(n+1)$  or atmost $n$.
 
-## 1. Types of Trees
+### Types of Trees
 1. [[Binary Tree]]
 2. [[Trie]]
+3. [[B tree]]
 
-## 2. [[Tree Traversal Techniques]]
+### [[Tree Traversal Techniques]]

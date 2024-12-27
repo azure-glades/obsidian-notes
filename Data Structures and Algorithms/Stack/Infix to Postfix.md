@@ -1,11 +1,11 @@
 ### Evaluating infix to postfix
 Bodmas is followed
 - (a+b)\*c -> (ab+)\*c -> (ab+)c\* -> ab+c\*
-- a+b\\\*c -> a+(bc\*) -> a(bc\*)+ -> abc\*+
-- a+b-c\\\*d+e -> a+b-(cd\*)+e -> (ab+)-(cd\*e+) -> (a+(b(cd\*e+)-) -> a(bcd\*e+-)+ -> abcd\*e+-+
+- a+b\*c -> a+(bc\*) -> a(bc\*)+ -> abc\*+
+- a+b-c\*d+e -> a+b-(cd\*)+e -> (ab+)-(cd\*e+) -> (a+(b(cd\*e+)-) -> a(bcd\*e+-)+ -> abcd\*e+-+
 - a+b-c -> a+bc- -> abc-+
-- a+b\\* c -> a+bc\* -> abc\*+
-- a\\\*b+c -> (ab*) + c -> c(ab*)+
+- a+b\* c -> a+bc\* -> abc\*+
+- a\*b+c -> (ab*) + c -> c(ab*)+
 
 > Convert a valid infix expression without parenthesis into postfix expression:
 ```algorithm
@@ -111,8 +111,9 @@ void toPostfix(struct stack *s, char infix[SIZE])
 					}
 					else
 					{
-						while(preced(s->a[s->top])>=preced(symbol) && s->top != -1 && s->a[s->top] != '(')
+						while(preced(s->a[s->top])>=preced(symbol) && s->top != -1 && s->a[s->top] != '('){
 							postfix[j++] = pop(s);
+						}
 						push(s, symbol);
 					}
 					break;

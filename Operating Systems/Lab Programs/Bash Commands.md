@@ -56,7 +56,7 @@ int main(int argc, char* argv[])
 }
 ```
 
-## 2. ls
+## 2. [[ls]]
 ```c
 #include <stdio.h>
 #include <dirent.h>

@@ -8,14 +8,14 @@ Ex: ![[Pasted image 20241219131904.png]]
 >***The shape of a BST depends on the order of keys, hence many different shapes of BST can be produced for the same set of keys. AVL tree aims to store the set keys in the most efficient structure possible***
 ![[Pasted image 20241219131324.png]]
 
-## 1. Rotations
+### 1. Rotations
 The method of conversion of a BST to AVL tree is done using *rotations*.
 ***Rotations are always performed between 3 nodes***
 1. Left Rotations: When the nodes are rotated/shifted towards the left of the key-node
 2. Right Rotations: When the nodes are rotated/shifted towards the right of the key-node
 
 Sometimes rotations are done in sequence to resolve imbalance.
-1. Single Rotation
-2. Double Rotation
+1. Single Rotation -> L and R
+2. Double Rotation -> LR and RL
 
 To revise; [GRS](https://www.youtube.com/watch?v=O5cKauV7Kmw&list=PLtg1mdkLERgkJX3pOmHAqf-Gwp5P5PcKh&index=55) 

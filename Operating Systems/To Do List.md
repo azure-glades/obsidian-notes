@@ -15,7 +15,7 @@
 	- [ ] What exactly are threads?
 	- [ ] Daemon threads?
 	- [ ] posix threads, java threads, windows threads
-	- [ ] pthreads glibc library
+	- [ ] pthreads glibc library VIFE
 
 
 - [ ] Computer system organization

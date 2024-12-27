@@ -16,7 +16,7 @@ struct linked_list *node;
 ```
 > Last node in a linked list points to `NULL`
 
-## 1. Properties of linked list
+## Properties of linked list
 - The entire list need not be moved when inserting or deleting elements between the linked list.
 - Memory allocation is not contiguous
 - Random access of elements of a linked list is not possible since the list has to be traversed from the beginning
@@ -34,13 +34,13 @@ struct linked_list *node;
 | Insertion and deletion at random place may need the elements to be shifted to fill or create spaces | Insertion and deletion at random place can be done by defining a node and linking it between the nodes |
 > 6 Advantages of linked lists
 
-## 2. Types of Linked Lists
-### 2.1. [[Linear linked list]]
-### 2.2. [[Circular linked list]]
-### 2.3. [[Doubly linked list]]
+## Types of Linked Lists
+### 1. [[Linear linked list]]
+### 2. [[Circular linked list]]
+### 3. [[Doubly linked list]]
 
 
-## 3. Advantages of Linked Lists
+## Advantages of Linked Lists
 
 Linked lists are a fundamental data structure in computer science, offering several advantages over traditional arrays. Here are six key benefits:
 
@@ -59,7 +59,7 @@ Linked lists are a fundamental data structure in computer science, offering seve
 These advantages make linked lists a versatile choice for many programming scenarios, especially where dynamic data management is essential.
 
 
-## 4. Applications of Linked Lists
+## Applications of Linked Lists
 
 Linked lists are versatile data structures that find applications in various fields, including operating systems and scheduling. Here are six notable applications, with three specifically related to operating systems:
 

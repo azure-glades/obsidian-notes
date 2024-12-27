@@ -8,10 +8,10 @@
 > 	- **front**
 > 	- **rear**
 
-### Implementation of Queues in C
+### 1. Implementation of Queues in C
 
 
-### Types of Queues
+### 2. Types of Queues
 - **simple/linear queue**
 - **circular queue**:
 	- EX: Task scheduling
@@ -28,7 +28,7 @@
 	- Event driven programming for network messaging/input arrangement
 - **blocking queue**: a type of queue that waits for itself to become non-empty before retrieving an element, and waits for the space to become available before storing an element. 
 
-### Application of Queues
+### 3. Application of Queues
 - FIFO (first in first out) order of elements
 - Producer-Consumer problems
 - Sliding window problem

@@ -5,7 +5,7 @@
 - Trie comes from Re*trie*val
 
 The path from the root to any leaf of the Trie lists out a string.
-## Classification
+### 1. Classification
 - **Standard trie**: Each node stores a character
 - **Compressed trie**: Each node stores a character or a set of character.
 	- All internal nodes have at least 2 or more children
@@ -28,7 +28,7 @@ The path from the root to any leaf of the Trie lists out a string.
 			nimize
 			inimize
 			minimize
-## Applications
+### 2. Applications
 - NLP
 - Spell checkers
 - Auto suggest

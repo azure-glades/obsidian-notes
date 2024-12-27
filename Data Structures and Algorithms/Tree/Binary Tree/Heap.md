@@ -5,7 +5,7 @@
 ![[Pasted image 20241219161000.png]]
 
 
-## Heapification
+### 1. Heapification
 The construction of a heap is called **heapification**. Both the methods need not produce the same heap.
 1. Bottom-up approach:
 	- Create a binary tree.
@@ -17,4 +17,6 @@ The construction of a heap is called **heapification**. Both the methods need no
 
 > Q. Construct a max heap and min heap for 5,8,7,6,10,4,1 using bottom up approach and top down approach
 
-[[Priority Queue]]
+
+### 2. Application of Heaps
+1. [[Priority Queue]]

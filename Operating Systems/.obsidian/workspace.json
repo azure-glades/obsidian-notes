@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "697fdc930ea978c1",
+        "id": "849e35a1b46a2fc0",
         "type": "tabs",
         "children": [
           {
-            "id": "975018689e5bb63e",
+            "id": "03f8bfa9d99a5a27",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,6 +19,20 @@
               },
               "icon": "lucide-file",
               "title": "Memmanage"
+            }
+          },
+          {
+            "id": "eee3183d063de397",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ls.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ls"
             }
           }
         ]
@@ -52,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "virtualiza",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.50260543823242,
-    "collapsed": true
+    "width": 213.50260543823242
   },
   "right": {
     "id": "967f3d7ad023c895",
@@ -190,13 +203,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "975018689e5bb63e",
+  "active": "03f8bfa9d99a5a27",
   "lastOpenFiles": [
     "Memory Management/Memory Management.md",
-    "Memory Management/Memory Management Unit.md",
-    "Memory Management/Paging.md",
     "Memory Management/Memmanage.md",
     "To Do List.md",
+    "Lab Programs/Thread Management.md",
+    "Lab Programs/Making Children.md",
+    "Lab Programs/Critical Section Problems.md",
+    "Lab Programs/Explanation for bash copy.md",
+    "Lab Programs/Bash Commands.md",
+    "ls.md",
+    "Pasted image 20241223212845.png",
+    "Pasted image 20241223204826.png",
+    "Memory Management/Memory Management Unit.md",
+    "Pasted image 20241223112744.png",
+    "Memory Management/Paging.md",
     "Pasted image 20241221212342.png",
     "Abraham Silberschatz Operating System Concepts 10th.pdf",
     "Pasted image 20241220181109.png",
@@ -220,16 +242,8 @@
     "Process Scheduling/Processes.md",
     "Process Scheduling/Interrupts.md",
     "Process Scheduling/Context Switching vs Blocking.md",
-    "System Calls/System Services.md",
-    "System Calls/System Calls.md",
-    "System Calls/Forks.md",
-    "Synchronization/Resource synchronization.md",
-    "Synchronization/Semaphore.md",
     "images/Pasted image 20241206184107.png",
-    "images/Pasted image 20241205183110.png",
-    "images/Pasted image 20241205181637.png",
     "System Calls",
-    "images/Pasted image 20241126184555.png",
     "Lab Programs",
     "Synchronization",
     "Process Scheduling",

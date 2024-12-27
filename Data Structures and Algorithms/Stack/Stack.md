@@ -3,7 +3,7 @@
 A **stack** is a linear data structure that operates on a **Last In, First Out (LIFO)** principle.
 Stacks have 2 variables `top` and `MAX` and 3 primitive operations; `pop`, `push`, `peek`
 
-## 1. Implementing a stack in C
+## Implementing a stack in C
 - Stacks are represented using a structure, either via an array, or via a linked list
 ```c
 struct stack {
@@ -11,7 +11,7 @@ struct stack {
 	int top;
 }
 ```
-### 1.1. `pop()`
+### 1. `pop()`
 - Implement in array
 ```algorithm
 if(top == NULL)
@@ -34,7 +34,7 @@ else
 exit
 ```
 
-### 1.2. `push()`
+### 2. `push()`
 - Implement in array
 ```
 if(top == MAX - 1)
@@ -56,7 +56,7 @@ head = new_node
 exit
 ```
 
-### 1.3. `peek()`
+### 3. `peek()`
 - Implement in array
 ```algorithm
 if(top == NULL)
@@ -75,7 +75,7 @@ else
 exit
 ```
 
-## 2. Application of stacks
+## Application of stacks
 All applications of stacks utillize the LIFO to their advantage
 1. [[Reversing a list]]
 2. [[Parenthesis checker]]
