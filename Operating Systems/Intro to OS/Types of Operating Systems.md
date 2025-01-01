@@ -1,4 +1,4 @@
-- Operating systems have to handle multiple different [[CPU Architectures]] and organizations
+- Operating systems have to handle multiple different [[CPU Architectures]] and organizations and run different [[Computing Environments]].
 - set of programs that takes up memory management, file management, process management, process management (scheduler and dispatcher)
 #### Types
 - **Batch processing system**: Batches of processes are sent to the cpu. 

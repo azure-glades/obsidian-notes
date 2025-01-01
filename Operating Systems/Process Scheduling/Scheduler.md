@@ -1,4 +1,4 @@
-## [[Scheduling algorithm]]
+## [[Scheduling algorithms]]
 A **scheduling discipline** (also called **scheduling policy** or **scheduling algorithm**) is an algorithm used for distributing resources among parties which simultaneously and asynchronously request them. Scheduling disciplines are used in [routers](https://en.wikipedia.org/wiki/Router_(computing) "Router (computing)") (to handle packet traffic) as well as in [operating systems](https://en.wikipedia.org/wiki/Operating_system "Operating system") (to share [CPU time](https://en.wikipedia.org/wiki/CPU_time "CPU time") among both [threads](https://en.wikipedia.org/wiki/Thread_(computer_science) "Thread (computer science)") and [processes](https://en.wikipedia.org/wiki/Process_(computing) "Process (computing)")), disk drives ([I/O scheduling](https://en.wikipedia.org/wiki/I/O_scheduling "I/O scheduling")), printers ([print spooler](https://en.wikipedia.org/wiki/Print_spooler "Print spooler")), most embedded systems, etc.
 
 - FIFO: First in First out
@@ -14,7 +14,6 @@ A **scheduling discipline** (also called **scheduling policy** or **scheduling a
 - **Event based pre-emptive scheduling**: Also uses Priorities (Used in Real-time OS: which listens continously for user input)
 	- Uses priority-based scheduling to ensure real-time tasks to be handled asap to improve responsiveness
 
----
 ## Types of schedulers
 ### _1. Long term scheduler_
 Also called admission scheduler.
@@ -39,7 +38,7 @@ Also called *CPU Scheduler*.
 - Short term scheduler is invoked more frequently that LTS and MTS. Always invoked once per time-quantum (time slice)
 - Short term scheduler may implement preemptive or non-preemptive scheduling.
 	- Preemptive scheduler can forcefully preempt processes from CPU
-- Short-term scheduler invokes the [[Interrupt Handler]]
+- Short-term scheduler invokes the *Interrupt Handler*
 - Short-term scheduler invokes the [[Dispatcher]]
 ## Scheduling Priorities
 Gantt chart: Visually depicts execution of tasks/processes over time

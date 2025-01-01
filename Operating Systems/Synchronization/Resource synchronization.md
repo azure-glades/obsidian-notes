@@ -1,4 +1,3 @@
-[[The Operating System]]
 - A way to share resources among processes without causing conflicts
 - There are physical resources and software resources.
 - Not all resources can be concurrently accessed and manipulated by multiple resources

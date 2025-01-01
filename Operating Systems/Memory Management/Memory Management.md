@@ -1,53 +1,232 @@
-> Goals:
+---
+number headings:
+---
+-> [[Page Table Structure]]
+-> [[Swapping]]
+-> [[Virtual memory]]
+
+> Understand what happens behind the abstraction of memory allocation and deallocation.
 > What goes behind the abstraction when we allocate memory, deallocate memory, how RAM is managed
 > What the hell is virtual memory?
 
-Cache memory stores frequently used variables for quick access by CPU.
+[[Computer memory]] is a crucial component of a computer system, serving as the electronic storage space for data and instructions that the CPU needs to access quickly during processing
+- Memory access should be quick and correct.
+- Memory access has to be monitored to protect memory integrity (Like accessing memory that does not belong to you)
 
-- A pair of *base* and *limit* registers define the logical address space for a process. They act as walls that separate the memory of different processes inside RAM. 
-	- If processes cross this base-limit size they are auto-aborted
-- Any time  a process terminates/moved out, it's current cache is cleared and stored in the PCB. This makes room for the cache of the next processes to load in. This is *cache invalidation* 
-- *Relocation registers* are used as temporary registers for transferring user processes across memory. Stores the base-limit registers to know where the transferred memory is initially taken from.
-> MMU: Memory Management Unit > Responsible for allocating, deallocating memory, it is a chip/hardware device present on RAM that is more of a device controller
+- CPU can only access memory directly from *Registers* and *Cache*. Processes are stored in RAM (memory), and these instructions are loaded sequentially in registers for execution
+	- *Register* stores the immediate next set of instructions and stored output/input data.
+		- Extremely fast -> Accessed within 1 clock cycle
+	- *Cache* stores various environment variables and info that is regularly referred to by the process. It enables quick access of regularly used variables/info.
+		- Faster than main memory
+	- Range of an address space given to a process is specified using base-limit registers
+	- A pair of _base_ and _limit_ registers define the logical address space for a process, acting as boundaries to separate memory for different processes in RAM. If a process exceeds its base-limit size, it is auto-aborted.
+		- Ex: Base = 30040, Limit = 120900. The program can legally access addresses from 30040 to 420939
+		- Attempt to access memory outside bounds causes an interrupt which usually terminates the program
+		- This enforces *memory safety*, where a user program cannot modify the code/data-structure of other programs
+			- Prevents unauthorized/dangerous execution of code.
+	- The base-limit registers assigned to a process can only be changed by the OS, when it is operating in *kernel mode*.
+		- Kernel mode operation allows the OS to load programs to memory, execute them, dump the core/call-stack, manage i/o operations and handle system calls.
+	- When a process terminates or is moved out of memory, its cache is cleared and stored in the Process Control Block (PCB). This process, called _cache invalidation_, makes room for the next process's cache.
+	- *Relocation registers* are temporary registers used for transferring user processes across memory. They store base-limit registers to track where the transferred memory originated.
 
-Address binding: Merging logical address with hardware address. 
-- Can be done during compile time, linker time etc.
-- Source code addresses are symbolic addresses.
-- Compiled object files have addresses that are bound to relocatable addresses (address that can be adjusted to point to a location)
-- Linker/Loader will bind relocatable addresses to absolute (static) addresses.
-- Static addresses are bound to physical addresses by the MMU
+Memory consists of a **system area** (reserved for the OS/Kernel) and a **user area** (for user programs). The system area includes a buffer zone, called the _transient area_, for additional memory needs.
+## [[Memory Management Unit]]
+The **Memory Management Unit (MMU)** is a hardware chip on RAM that allocates and deallocates memory. It acts as the device controller for RAM, and manages the memory operations between OS and physical memory.
+### 1. Address Binding
+Address binding is where variables in program are bound to physical addresses in memory. This can be done at any step along the compilation-execution process
+- Variables in program: *Symbolic addresses*
+- Addresses in object code: *Relocatable addresses*
+- Addresses in executable: *Absolute addresses*
+Compiler: Symbolic -> Relocatable
+Linker/Loader: Relocatable -> Absolute
 
-If logical to hardware linking occurs at compile-time, it is static allocation
-If it occurs at run-time, it is dynamic allocation
+![[Pasted image 20241220181109.png]]
 
-Memory allocation strategy
-1. Contiguous memory allocation
-2. Non-contiguous memory allocation
+1. Compile-time binding: When variables are assigned absolute addresses after compile time, it's called absolute code. This requires the user process to always reside in a fixed location. 
+	- If starting location is changed, the program has to be recompiled
+2. Load time binding: When compiler generates reallocatable addresses. Here, final binding is delayed until load-time where absolute addresses are assigned.
+	- If starting location is changed, the program has to be reloaded
+3. Execution time binding: Allows a program to be moved during its execution between memory segments. Here, relocation registers (base registers in virtual memory) are used for binding. This is also called runtime allocation
 
-Memory has: system area (where os/kernel resides) and user area (where user programs reside) 
-- Memory allocated for OS/Kernel has specifically allocated space in memory
-- Also has a buffer zone incase more memory is needed, called *transient area*
+If the binding occurs at **compile-time**, it is _static allocation_. If it occurs at **runtime**, it is _dynamic allocation_.
+### 2. Address Space
+The set of addresses in memory where the program resides/has access to is called address space.
+- The addresses generated by the CPU are *logical addresses*. They reside in the *logical address space*.
+- The actual addresses in memory, i.e the ones loaded in the MMU are *physical addresses*. This is the *physical address space*
+- In run-time address binding, the program is bound to virtual memory which is then allocated in runtime by the MMU to physical memory. Hence, logical addresses exist as *virtual addresses* and make up the *virtual address space*. 
+	- There are no fixed(static) base and limit registers involved here, as the program is not bound to physical memory yet. These registers can be relocated. Hence, they are termed *relocation registers* which can move and be split across the memory
+User programs never have direct access to physical address space. Any registers the program creates/deletes are with respect to the base address (and hence are always logical addresses). The MMU (in kernel mode) is responsible for mapping the logical to physical addresses.
+Ex:
+	Logical address: 0 to MAX (written to/controlled by program)
+	Physical address: R to R+MAX (where R is a base address) (not under direct access of program)
+![[Pasted image 20241221212342.png]]
 
-Multiple partition allocation
-- Degree of multi-programming (controlling the number of i/o bound programs and cpu bound programs) is limited by number of partitions
-- Variable partition sizes increase efficiency of memory utilisation.
-- *Hole*: Block of empty memory 
+### 3. Linking, Loading and Shared Libraries
+Libraries can be loaded into the program statically or dynamically
+- *Static linking*: Where library modules are combined by the loader into the program binary
+- *Dynamic linking:* Library linking is postponed until execution. (used in glibc)
+	- Libraries can be shared among multiple processes without creating multiple copies of it (hence *DLLs* are called *Shared libraries*)
+	- These shared libraries are also updated centrally and all programs access up-to-date versions of libraries
+- *Dynamic loading:* A technique of running programs larger than memory by dynamically loading-unloading instructions between memory and storage.
+	- Only required functions/routines are loaded into memory when needed.
+	- The relocatable linking loader is called to load a routine into memory from storage. It also checks whether the routine has been loaded in memory.
 
-**Contiguous memory** allocation is where processes are allocated in a continuous range of memory
-Dynamic storage allocation problem: How to satisfy size request when memory has a set of free holes
-1. **First fit**: Allocate the *first* hole that is big enough. Fastest strategy
-2. **Best fit:** Allocate the *smallest* hole that can fit the memory. Has to search the entire list of holes
-3. **Worst-fit**: Allocate the *largest* hole that can fit the memory. Searches the entire list of holes
+## Contiguous Memory Allocation
+- When memory is allocated as a continuous band/range of registers
+- Each process resides in a contiguous band of memory.
+	1. *Simplicity*: Easy to implement with minimal overhead.
+	2. *Faster Execution*: Direct access to memory blocks leads to quicker process execution.
+	3. *Low Overhead*: Fewer pointers and metadata reduce management complexity.
+	4. *Minimal Fragmentation:* Lower risk of small unusable gaps between allocations.
+	5. *Efficient Access:* Sequential data access improves read/write performance.
+	6. *Easier Control*: Simplifies monitoring and management of memory resources.
+### 1. Memory Protection
+- Preventing user processes from accessing memory that is not allocated to them.
+	- Commonly implemented using base-limit registers
+	- During dynamic memory allocation, relocation-limit registers are used
+When a CPU generates a logical address for a process, the following steps occur:
+1. The CPU generates a logical address.
+2. *Memory Validation:* The memory management unit (MMU) checks if this logical address is less than the value in the limit register. If it exceeds this limit, an illegal memory access interrupt is raised.
+3. *Address Mapping:* If the logical address is valid, the MMU adds the value from the relocation register to the logical address to produce the corresponding physical address.
+	- Ex: if a logical address of 346 is generated, and the relocation register holds 100040, the physical address calculated would be 100040+346=100386100040+346=100386.
 
-> **Fragmentation** of memory:
-> - When allocated memory is randomly distributed across the memory resulting in inefficient use of memory. Produces a lot of holes in memory
+### 2. Memory Allocation
+**Variable Partition Scheme:** OS keeps a table of occupied and available memory locations. When a process requests memory, free memory is partitioned and allocated to the process by consulting and updating the allocation table
+- Empty block of memory: hole
+![[Pasted image 20241223112744.png]]
+- Memory always consists of intermittent blocks of allocated and unallocated memory
+	- The memory block always has a set of holes.
+	- Any new arriving process is assigned memory from these holes.
+	- Any leaving process gives up its memory which gets added/combined to the list of holes
+
+> [!NOTE]+ Dynamic Storage Allocation Problem*
+>  Allocating n blocks of memory from a list of free holes:
+> -  _First Fit_: Allocates the first available hole large enough for the process.
+> - _Best Fit_: Allocates the smallest hole that fits. Searches the entire list of holes.
+> - _Worst Fit_: Allocates the largest hole that fits. Also searches the entire list.
 > 
-> **Memory compaction** is an attempted solution to fragmentation:
-> - Moving all holes to the end of memory
-> - Compacting allocated memory into a continuous block of assigned memory
 
-To solve these issues, non-contiguous memory allocation is used.
-**Non-contiguous memory allocation** is where processes are allocated fragments of memory distributed across holes. Non-contiguous allocation is implemented by segmentation or paging.
+### 3. Fragmentation
+The splitting of memory into multiple allocated and unallocated parts, with holes scattered throughout. Results in inefficient use of memory since holes become too small for usage.
+- *External fragmentation*: When free space is present outside memory partitions, which can be reallocated
+- *Internal fragmentation:* When free space is present inside memory partitions, which are allocated to processes
+Memory partitions are blocks of contiguous memory allocated to processes
+
+> 50-percent rule: Statistically, out of N allocated blocks, approx 50% of N will be lost to fragmentation
+
+- _Memory Compaction_ attempts to solve fragmentation by moving all holes to the end of memory and consolidating allocated memory into continuous blocks.
+	- If allocation is static, memory compaction cannot be done
+- Non-contiguous memory allocation is another such solution where memory required by a process is divided across all existing holes
+## Non-contiguous Memory Allocation
+Non-contiguous allocation assigns memory in fragments, spread across different locations in RAM.
+- Avoids external fragmentation
+- Supports dynamic memory allocation
+***Internal fragmentation is still present due to unused memory within pages allocated to processes***
+### 1. [[Paging]]
+A memory allocation scheme where physical and logical memory is divided into *frames* and *pages* of equal sizes.
+- Processes are allocated pages from the OS
+- The mapping of pages to frames is done by hardware (i.e the MMU)
+The MMU translates logical to physical addresses.
+![[Pasted image 20241223204826.png]]
+
+- **Page Table:** Stores an index of all pages present in the logical space, along with info on whether it is allocated to a process
+	- Logical address: Page number + page offset
+		- Page number represents the page in the *page table*
+	- If the logical address space is $2^m$ and the page size is $2^n$, then:
+	    - The high-order $m - n$ bits represent the *page number*.
+	    - The low-order $n$ bits represent the *page offset.
+	- **Frame Table:** A system-wide data structure managed by the MMU that stores all frames, and indicates whether it is free or allocated
+	- Physical address: Frame number + page offset
+		- Frame number is the physical block of memory allocated
+
+- Most processes only use a small portion of the page table which contains their relevant pages (since processes wont consume all available memory)
+	- It is wasteful for the entire page table to be loaded, which is mitgated by loading a small portion of it
+	- Done using *page table base registers* and *page table length registers* which show the starting index of the page and the size. 
+> Page and Frame sizes are fixed and implementation dependant. Usually 4KB. Some OS's support multiple page sizes.
+> `getconf PAGESIZE` : returns page size
+![[Pasted image 20241223212845.png]]
+
+> [!NOTE]+ Calculating Physical Addresses
+> Physical address is calculated from Frame number, frame size and page offset
+> $Physical\ Address = (Frame\ Number*Frame\ Size) + Page\ Offset$
+> Ex:
+> 	Size = 4KB
+> 	Logical address = 0,8 (where 0 is page number) mapped to 5,0 (where 5 is frame number)
+> 	Physical address = 5x4 + 8 = 28
+
+
+### 2. Translation Look-Aside Buffer
+A special, fast-lookup *hardware cache* that is used in virtual-to-physical address translation. It is a part of the MMU
+- Conventional address translation: 2 memory accesses -> to access page table entry and to access the physical memory. Take more clock cycles for each access
+- TLB address translation: 1 memory access -> To check in TLB. Bundled into the instruction pipeline, doesn't take any clock cycle
+A TLB stores recent and most commonly accessed memory registers in a hardware cache. When a process tries to access memory, the CPU checks in TLB first.
+- TLB Hit: When the address is found
+- TLB miss: When the address is new and is not in TLB yet. Gets added to TLB
+>The % of times that the required page number is found is the *hit ratio*, usually the hit ration is ~99%
+
+Usually TLB are 32 - 1024 entries in size. Some computers have multiple TLB levels (like having multiple cache levels). Hence they only have the most commonly accessed memory addresses.
+- When a new entry has to be added, old entry has to be replaced
+	- Replacement policy may be Least Recently Used, round-robin, random etc.
+		- Replacement is handled by OS (in case of LRU) or by the TLB itself
+	- Some basic entries are *wired down* into the hardware and cannot be removed. Usually kernel code addresses are wired down.
+>A TLB entry stores
+>- *Key* or *Tag* -> To identify virtual address
+>- *Value* -> Pointing to corresponding physical address
+> Some TLBs store *Address-space identifiers* 
+
+> [!NOTE]+ Address Space Identifier
+> - ASID is a way of allocating different portions of cache memory to different processes.
+> - Usually, the cache has to be *flushed* everytime a context switch occurs to load the stored cache of the new process
+> - An ASID divides the cache to different portions and allows the associated cache of different processes to remain in cache memory without requiring context switching
+
+> [!note]+ Effective Memory Access Time
+> The average time taken to access memory. Involves the rate of hit and miss.
+> **Hit ratio** = Rate of Hits : Rate of Misses
+> Effective Memory access time = (%of Hits) x (memory access time of cache) + (%of Misses) x (memory access time from page table and cache)
+
+> Q. Given TLB hit ratio is 80%. If time required for a TLB search is 20 ns and 100 ns to access memory, calculate effective memory access time
+> 	Time taken if present in TLB = 120 * 0.8 = 96 (20 for TLB, 100 to access physical memory)
+> 	Time taken if not present in TLB = 220 * 0.2 = 44 (20 for TLB, 100 to access page table, 100 to access physical memory)
+> 	Total Average = 140 ns
+
+- TLBs are a hardware feature -> Many CPUs have multiple levels of TLBs with different sizes.
+
+### 3. Memory Protection
+- Memory protection is a mechanism that controls memory access rights on a computer, ensuring that processes cannot access memory that has not been allocated to them. 
+	- Prevents a process from interacting with memory of another which may causes crashes and data corruption
+	- Securing and protecting sensitive information.
+- Memory protection is enforced by hardware like MMUs and Memory Protection Units (MPUs)
+	- Each process has distinct access rights to blocks of memory: Read, Write, Execute permissions
+
+Memory protection in page tables is enforced using **Valid Invalid bits** which determines if a page is within a processes' address space.
+![[Pasted image 20241228105521.png]]
+
+### 4. Shared Pages
+Ability to share pages and allow multiple access to a page/memory by different processes.
+Ex:
+	Libraries (many libraries use *glibc* which is large, and is wasteful if a copy of the library is present for each process to use), Compilers, Window systems
+
+> [!NOTE]+ Reentrant code
+> Non-self-modifying code is called reentrant code.
+> - Two or more processes can execute the same code at same time
+> - The processes have their own registers and data storage to hold data for execution, but the code is shared
+
+
+
+
+
+
+
+
+
+
+
+[[Segmentation]] divides a process into logical segments based on functions. Each segment is stored contiguously, ensuring critical sections remain intact.
+- A **segmentation table** tracks the base address and size of each segment using:
+    - _STBR_ (Segment Table Base Register): Points to the table's start.
+    - _STLR_ (Segment Table Limit Register): Indicates the number of segments.
+If a segment is not in physical memory, the MMU uses an invalidation bit to flag its absence. When the CPU tries to access such a segment, an interrupt is generated (_segmentation fault_). The segment is then loaded into memory, and the segmentation table is updated.
+
 1. **Segmentation:** A process is divided and stored in different holes. The division is done between functions. Ensures each contiguous part of memory stores a complete function and prevents a function (with potentially critical sections) from being divided/fragmented across memory. Therfore, process exists are several segments spread across memory.
 	- The base-register and segment length (limit) of all segments is tracked in a segment table.
 	- Segment table itself has a base register (STBR) and a length register (STLR) which indicates where the table exists and the number of segments stored
@@ -59,5 +238,4 @@ Segmentation architecture
 - All segments are stored in the table. An *invalidation bit* is used to indicate whether the segment exists in memory. 
 - If a segment is in storage, an interrupt is sent to the CPU when it tries to access the segment. This is a segmentation fault, which is resolved by the interrupt handler to load the segment into memory and update the segmentation table
 
-Dirty bit
-- 
+Dirty bit/Modify bit is in page replacement, under virtual memory

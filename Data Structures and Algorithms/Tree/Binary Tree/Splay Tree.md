@@ -16,11 +16,17 @@ Unlike traditional balanced trees like AVL or Red-Black trees, splay trees do no
 4. **Zag-Zag (LL rotation)**: When the key is the left child and left grandchild. Zag-Zag is performed on the grandparent node
 5. **Zig-Zag (RL rotation)**:
 6. **Zag-Zig(LR rotation)**
-
+wha
 ### 2. Insertion Deletion
+- Insert node like BST -> Perform Zigzags to bring the inserted node to root
+- Delete node like BST -> Perform zigzags to bring the parent of deleted node to root
 
+### 3. Disadvantages
+- Height of the splay tree can become linear
+- Splay tree structure can vary even when accessed in read-only mode
 
-### 3. Application
+### 4. Application
 1. Most obvious application: Cache memory
-2. Network routing table
-3. Virtual memory management
+2. Garbage collection algorithm
+3. Network routing table
+4. Virtual memory management

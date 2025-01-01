@@ -4,38 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "849e35a1b46a2fc0",
+        "id": "b4f2ae4430446ac0",
         "type": "tabs",
         "children": [
           {
-            "id": "03f8bfa9d99a5a27",
+            "id": "a2b3a4259e570ef5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memory Management/Memmanage.md",
+                "file": "Memory Management/Segmentation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Memmanage"
+              "title": "Segmentation"
             }
           },
           {
-            "id": "eee3183d063de397",
+            "id": "53e9278bfc872753",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "SYLLABUS.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "SYLLABUS"
+            }
+          },
+          {
+            "id": "47130b55b2d3ab15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ls.md",
+                "file": "Memory Management/Memory Management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ls"
+              "title": "Memory Management"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -91,7 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.50260543823242
+    "width": 211.50260543823242
   },
   "right": {
     "id": "967f3d7ad023c895",
@@ -158,17 +171,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memmanage.md",
+                "file": "Page Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Memmanage"
+              "title": "Backlinks for Page Structure"
             }
           },
           {
@@ -177,12 +190,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intro to OS/Memory.md",
+                "file": "Page Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Memory"
+              "title": "Outgoing links from Page Structure"
             }
           }
         ],
@@ -203,46 +216,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "03f8bfa9d99a5a27",
+  "active": "53e9278bfc872753",
   "lastOpenFiles": [
     "Memory Management/Memory Management.md",
-    "Memory Management/Memmanage.md",
-    "To Do List.md",
-    "Lab Programs/Thread Management.md",
-    "Lab Programs/Making Children.md",
-    "Lab Programs/Critical Section Problems.md",
-    "Lab Programs/Explanation for bash copy.md",
-    "Lab Programs/Bash Commands.md",
-    "ls.md",
-    "Pasted image 20241223212845.png",
-    "Pasted image 20241223204826.png",
-    "Memory Management/Memory Management Unit.md",
-    "Pasted image 20241223112744.png",
-    "Memory Management/Paging.md",
-    "Pasted image 20241221212342.png",
-    "Abraham Silberschatz Operating System Concepts 10th.pdf",
-    "Pasted image 20241220181109.png",
-    "Untitled.md",
-    "Memory Management/Memory.md",
-    "MemNotes Attempt 2.md",
+    "Memory Management/Segmentation.md",
+    "Memory Management/Virtual memory.md",
+    "Pasted image 20241231171814.png",
+    "Pasted image 20241231171807.png",
     "SYLLABUS.jpg",
-    "Synchronization/Producer-Consumer Problem.md",
-    "Synchronization/Mutex Locks.md",
-    "Memory Management/Memory Management 2.md",
+    "Memory Management/Memory Management Unit.md",
+    "Memory Management/Computer Memory.md",
+    "System Calls/System Calls.md",
+    "System Calls/System Services.md",
+    "System Calls/Forks.md",
+    "images/Pasted image 20241231153634.png",
+    "Abraham Silberschatz Operating System Concepts 10th.pdf",
+    "Memory Management/Swapping.md",
+    "images/Pasted image 20241231164330.png",
+    "Memory Management/Page Table Structure.md",
+    "images/Pasted image 20241231162226.png",
+    "images/Pasted image 20241231155346.png",
+    "images/Pasted image 20241231154313.png",
+    "images/Pasted image 20241231153751.png",
+    "Memory Management/Paging.md",
+    "Intro to OS/Types of Operating Systems.md",
     "Intro to OS/Computing Environments.md",
     "Intro to OS/CPU Architectures.md",
+    "Process Scheduling/Context switching.md",
+    "Process Scheduling/Scheduler.md",
     "Intro to OS/The Operating System.md",
-    "Intro to OS/Distributed Systems.md",
-    "Intro to OS/Resource Management.md",
-    "Pasted image 20241203193753.png",
-    "images/Pasted image 20241216104559.png",
-    "Intro to OS/Types of Operating Systems.md",
-    "Memory Management",
-    "images/Pasted image 20241025102252.png",
     "Process Scheduling/Processes.md",
+    "Intro to OS/Resource Management.md",
+    "Process Scheduling/Process management.md",
+    "proper us[[Resource Management.md",
+    "Synchronization/Resource synchronization.md",
+    "Intro to OS/Distributed Systems.md",
+    "Process Scheduling/Interrupt Handler.md",
     "Process Scheduling/Interrupts.md",
-    "Process Scheduling/Context Switching vs Blocking.md",
-    "images/Pasted image 20241206184107.png",
+    "images/Pasted image 20241228105521.png",
+    "Memory Management",
     "System Calls",
     "Lab Programs",
     "Synchronization",

@@ -1,12 +1,12 @@
 The set of resources that are managed by the operating system.
 
-## 1. Process management
+## 1. [[Process management]]
 • Creating and deleting both user and system processes
 • Scheduling processes and threads on the CPUs
 • Suspending and resuming processes
 • Providing mechanisms for process synchronization
 • Providing mechanisms for process communication
-## 2. Memory Management
+## 2. [[Memory Management]]
 Memory implies RAM
 • Keeping track of which parts of memory are currently being used and
 which process is using them

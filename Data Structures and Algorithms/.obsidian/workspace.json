@@ -190,13 +190,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "34228058dd931a9a",
+  "active": "02f7b5c97338291c",
   "lastOpenFiles": [
+    "Tree/Binary Tree/Binary Search Tree.md",
+    "Tree/Binary Tree/Binary Tree.md",
+    "Tree/Binary Tree/Deletion in binary trees.md",
     "Tree/Binary Tree/Splay Tree.md",
     "Tree/Binary Tree/Splay Tree.md",
     "Tree/Binary Tree/Heap.md",
-    "Tree/Binary Tree/Binary Tree.md",
-    "Tree/Binary Tree/Binary Search Tree.md",
     "Tree/Binary Tree/Expression Tree.md",
     "Tree/Binary Tree/Priority Queue.md",
     "Tree/Binary Tree/Threaded Binary Tree.md",
@@ -214,7 +215,6 @@
     "Stack/Parenthesis checker.md",
     "Stack/Infix-Prefix-Postfix.md",
     "TO DO.md",
-    "Deletion in binary trees.md",
     "Hashing/Hashing 2.md",
     "Stack/Stack.md",
     "Stack/Reversing a list.md",

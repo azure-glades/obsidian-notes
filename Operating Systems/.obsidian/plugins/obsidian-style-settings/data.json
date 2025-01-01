@@ -32,5 +32,8 @@
   "anuppuccin-theme-settings@@anp-h3-color-custom": "anp-h3-rosewater",
   "anuppuccin-theme-settings@@anp-decoration-toggle": true,
   "anuppuccin-theme-settings@@anp-bold-custom": "anp-bold-blue",
-  "anuppuccin-theme-settings@@anp-italic-custom": "anp-italic-blue"
+  "anuppuccin-theme-settings@@anp-italic-custom": "anp-italic-blue",
+  "anuppuccin-theme-settings@@anp-callout-select": "anp-callout-block",
+  "anuppuccin-theme-settings@@anp-callout-color-toggle": false,
+  "anuppuccin-theme-settings@@anp-callout-fold-position": "0"
 }

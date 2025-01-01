@@ -6,7 +6,7 @@ A computer system has:
 - Application Programs
 - User
 
-The OS provides a way a means for proper use of resources to meet the user's task requirements. It provides the right environment for other programs to run. The operating system is the one program running at all times on the computer—usually called the kernel. Along with the kernel, there are two other types of programs: system programs, which are associated with the operating system but are not necessarily part of the kernel
+The OS provides a way a means for proper use of resources([[Resource Management]]) to meet the user's task requirements. It provides the right environment for other programs to run. The operating system is the one program running at all times on the computer—usually called the kernel. Along with the kernel, there are two other types of programs: system programs, which are associated with the operating system but are not necessarily part of the kernel
 
 >**middleware**: a set of software frameworks that provide additional services to application developers.
 >**system programs**: Aid in managing the system while it is running
@@ -36,7 +36,7 @@ Multiple [[types of operating systems]] evolved from simple ones, each developin
 ### 2.2. Multi-tasking
 - CPU maintains and runs multiple processes
 - Several processes are continuously switched between running-ready states
-- [[Context switching]] is seen here. Multiple processes are switched via [[Interrupts]] or via I/O user operations
+- Context switching is seen here. Multiple processes are switched via [[Interrupts]] or via I/O user operations
 	- Increases *response time*
 - Multi-tasking is implemented via [[Parallel Processing]]
 
@@ -45,7 +45,7 @@ Multiple [[types of operating systems]] evolved from simple ones, each developin
 
 ---
 
-- To enable multi-tasking and multi-programming, the OS has to choose/schedule the order of execution of tasks. This is handled by the **scheduling algorithm** run by the [[Scheduler]].
+- To enable multi-tasking and multi-programming, the OS has to choose/schedule the order of execution of tasks. This is handled by the **scheduling algorithm** run by the Scheduler.
 - The OS has to allocate memory, files, i/o devices, cache and threads to processes from a common index of resources called the **resource allocation table**. This is an essential task called [[Resource Management]]
 - These systems provide file/storage management
 - Ensure reasonable response time via **virtual memory** which can run programs larger than normal memory

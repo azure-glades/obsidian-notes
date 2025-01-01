@@ -9,7 +9,7 @@ Scheduling decisions occur when:
 - Process is terminated
 [[Deadlocks]]
  
-## 1. Scheduling criteria
+## Scheduling criteria
 Criteria that the scheduling algorithm tries to improve/maximize by scheduling appropriate tasks
 - **Throughput**: Amount of output by input. Number of tasks being run, involving context switching. 
 - **CPU efficiency**: %utillization of CPU cores and uptime of CPU.
@@ -17,12 +17,12 @@ Criteria that the scheduling algorithm tries to improve/maximize by scheduling a
 - **Response time**: Time elapsed between first subrequest and first response.
 - **Turnaround time**: Time elapsed for a process to go from ready-state to dead-state (Lifetime of a process/time taken to complete a process) (Includes CPU time and I/O time and interrupts and time spent while it was context-switched)
 
-## 2. Scheduling Algorithm
+## Scheduling Algorithm
 A set of instructions that a scheduler follows to decide the order in which tasks enter the CPU
 - Burst time: time taken for each process execution is called cpu burst-time for that process
 - Waiting time: the time when the process entered cpu - time it arrived to ready queue
 - Turnaround time: the when the process completed execution - time it arrived to ready queue
-### 2.1. First Come First Served (FCFS)
+### 1. First Come First Served (FCFS)
 The processes are sent to the cpu based on when they arrive. The length of each process and priority is not considered.
 Example:
 
@@ -43,7 +43,7 @@ Average waiting time: 17 ms
 	- Average waiting time = 3ms. This is 14 ms shorter and is significant
 
 
-### 2.2. Shortest Job First (SJF)
+### 2. Shortest Job First (SJF)
 SJF is optimal since it consistently gives the minimum average waiting time.
 Example:
 
@@ -71,7 +71,7 @@ Average waiting time: 7 ms
 SJF implemented with pre-emption is called *Shortest-remaining-time first*
 ***-- more stuff to be added --***
 
-### 2.3. Round Robin Scheduling (RRS)
+### 3. Round Robin Scheduling (RRS)
 - Round Robin (RR) Scheduling is a preemptive CPU scheduling algorithm designed for time-sharing systems.
 - Each process is assigned a fixed time in cyclic order, allowing multiple processes to share the CPU fairly.
 
@@ -92,7 +92,7 @@ process must wait no longer than (n − 1) × q time units until its next time q
 tum
 
 
-### 2.4. Priority based preemptive scheduling (PBPS)
+### 4. Priority based preemptive scheduling (PBPS)
 Two types of priority assignment: *Fixed priority* and *Variable priority*
 
 > [!info]- **Starvation**
@@ -107,9 +107,9 @@ Two types of priority assignment: *Fixed priority* and *Variable priority*
 		- Generally OS/System process and critical functions occupy highest priority and user programs generally have lower priority.
 - _SJF is a type of priority based CPU scheduling where the priority is the time taken for a process to execute_
 
-### 2.5. Earliest Deadline First Scheduling
+### 5. Earliest Deadline First Scheduling
 A type of PBPS where the priority is given to processes with earlier deadlines
-## 3. [[Real-Time Scheduling]]
+## [[Real-Time Scheduling]]
 A set of scheduling algorithms used in real time operating systems. The goal here is to maximize ease of use. Prioritizes short response time and context switching to prevent the system from hanging.
 - essential in systems where timing is critical, such as embedded systems in medical devices, industrial automation, and automotive control systems.
 - 

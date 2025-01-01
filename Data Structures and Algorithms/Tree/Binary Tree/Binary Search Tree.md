@@ -1,1 +1,2 @@
 [[AVL Tree]]
+[[Splay Tree]]
