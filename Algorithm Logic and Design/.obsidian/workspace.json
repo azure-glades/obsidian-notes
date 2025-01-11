@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer organization.md",
+                "file": "Computer Organization/Computer organization.md",
                 "mode": "source",
                 "source": false
               },
@@ -188,9 +188,10 @@
       "graph:Open graph view": false
     }
   },
-  "active": "4034d7a501935638",
+  "active": "417b0a1f9bc835ac",
   "lastOpenFiles": [
-    "Computer organization.md",
+    "Computer Organization",
+    "Computer Organization/Computer organization.md",
     "Multiplication Algorithms.md",
     "K Maps.md",
     "Untitled.md",
@@ -203,7 +204,6 @@
     "Untitled 3.md",
     "Pasted image 20241016101244.png",
     "Multiplexer.md",
-    "Untitled",
     "ADLD.md",
     "2024-10-17.md",
     "Addition and Subtraction.md"

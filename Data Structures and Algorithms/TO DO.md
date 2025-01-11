@@ -3,6 +3,8 @@
 - [x] Hash tables
 - [x] Heaps
 - [x] Trie
+- [ ] Tree sort
+- [ ] Heap sort
 - [ ] B tree and B+ tree
 - [ ] Splay tree
 - [ ] Kd tree

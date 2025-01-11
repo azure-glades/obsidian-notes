@@ -35,34 +35,34 @@
 
 > Binary Trees are implemented in Heap memory, and are often used to implement binary search trees, expression trees, binary heaps, tournament trees.
 
-## 1. Types of binary tree
-### 1.1. Strictly binary tree
+## Types of binary tree
+### 1. Strictly binary tree
 *Definition:*
 - A strictly binary tree or full binary tree is characterized by every node having either **zero or two children**. 
 - No node can have only one child; all internal nodes must have exactly two children if they are not leaf nodes. 
 - All leaf nodes are at the same level.
-### 1.2. Complete binary tree
+### 2. Complete binary tree
 *Definition*:
 - All levels are fully filled with nodes.
 > Ex: Heaps, Cache memory
-### 1.3. Almost complete binary tree
+### 3. Almost complete binary tree
 *Definition*:
 - All levels are (except the last) fully filled with nodes
 - In the last level, all leaf nodes are as leftmost as possible
-### 1.4. Extended Binary Tree
+### 4. Extended Binary Tree
 An **extended binary tree** (also known as a **2-tree** or **full binary tree**) is a binary tree in which every non-leaf node has exactly two children, and each leaf node has two `null` or empty children.
 - **Base Case**: An extended binary tree is empty or consists of a single leaf node.
 - **Recursive Case**: If a node is not a leaf, it has exactly two children, both of which are also extended binary trees.
 Also called a **2-Tree** or **Full binary tree**
-### 1.5. Skewed binary tree
+### 5. Skewed binary tree
 When all the nodes are shifted to either right or left.
-### 1.6. [[Binary Search Tree]]
+### 6. [[Binary Search Tree]]
 A **binary search tree (BST)** is a type of binary tree where
 - Each node in the tree has at most two children.
 - For every node:
     - All nodes in its left sub-tree contain values that are **less than** the value of the node.
     - All nodes in its right sub-tree contain values that are **greater than** the value of the node.
-### 1.7. [[Expression Tree]]
+### 7. [[Expression Tree]]
 An **expression tree** is a binary tree that represents a mathematical expression. In this tree:
 - **Leaf nodes** (terminal nodes) represent **operands**, such as constants or variables.
 - **Internal nodes** represent **operators**, such as addition (`+`), multiplication (`*`), or other mathematical functions.
@@ -72,10 +72,10 @@ Evaluation of expression is dependant on order of traversal
 - Postorder -> postfix expression
 - Inorder -> infix expression
 
-### 1.8. [[Threaded Binary Tree]]
+### 8. [[Threaded Binary Tree]]
 
-### [[Heap]]
-## 2. Representation of binary trees
+### 9. [[Heap]]
+## Representation of binary trees
 Binary trees are represented by linked lists, or as 1D arrays (which is memory inefficient).
 ***Linked list representation***: Each node has 3 parts, left pointer, right pointer and value
 ```c

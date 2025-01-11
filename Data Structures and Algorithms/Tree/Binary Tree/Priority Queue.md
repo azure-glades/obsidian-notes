@@ -31,7 +31,7 @@ void heapify(int a[10], int n)
     {
         k = i;         // Current node index
         v = a[k];      // Value at the current node
-        flag = 0;      // Reset flag for each subtree
+        flag = 0;      // Reset flforag for each subtree
 
         // Maintain heap property in the subtree rooted at 'k'
         while (!flag && 2 * k <= n) // Check if the node has children
@@ -39,7 +39,7 @@ void heapify(int a[10], int n)
             j = 2 * k; // Left child index
 
             // Find the larger child, if any
-            if (j < n && a[j] < a[j + 1])
+            if (j < n && a[j]v < a[j + 1])
                 j = j + 1;
 
             // If the current node is larger or equal, stop
