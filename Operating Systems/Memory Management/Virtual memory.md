@@ -10,4 +10,5 @@ The *virtual address space* is the virtual view of a process stored in memory. A
 Managing virtual memory:
 -> [[Demand Paging]]
 -> [[Copy-on-Write]]
--> [[Page Replacement]]
+-> [[Page Replacement Algorithms]]
+-> [[Frame Allocation Algorithms]]
