@@ -7,7 +7,7 @@ EX: File copy, file read, read input from i/o device, write message to console, 
 > - They are generally handled via `traps/exception interrupts` but some implementations have a dedicated `syscall` instruction handler
 
 ![[Pasted image 20241020153913.png]]
-
+-> [[Forks]]
 ## Application Programming Interface (API)
 Set of functions, with parameters and return values that a programmer can use to access computer resources from the OS through system calls.
 There are 3 main OS APIs

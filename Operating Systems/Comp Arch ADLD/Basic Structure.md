@@ -1,3 +1,4 @@
+[[The Operating System]]
 - A computer has 5 functional parts:
 	- Input units
 	- Memory units

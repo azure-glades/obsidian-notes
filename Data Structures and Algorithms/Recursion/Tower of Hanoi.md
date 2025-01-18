@@ -21,12 +21,12 @@ void towerofhanoi(int n, char src, char aux, char dest)
 	if(n == 1)
 	{
 		printf("\n Move %d from %c to %c\n", n, src, dest);
+		count++;
 		return;
 	}
 	towerofhanoi(n-1, src, dest, aux);
-	count++;
 	printf("\nMove %d from %c to %c\n", n, src, dest);
-	towerofhanoi(n-1, aux, src, dest);
 	count++;
+	towerofhanoi(n-1, aux, src, dest);
 }
 ```

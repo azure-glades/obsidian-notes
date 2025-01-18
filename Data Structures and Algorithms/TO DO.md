@@ -5,16 +5,16 @@
 - [x] Trie
 - [ ] Tree sort
 - [ ] Heap sort
-- [ ] B tree and B+ tree
-- [ ] Splay tree
+- [x] B tree and B+ tree
+- [x] Splay tree
 - [ ] Kd tree
-- [ ] Tree driver code and stuff
+- [x] Tree driver code and stuff
 - [ ] DSA lab programs
-- [ ] Queue
-- [ ] Application of linked lists
+- [x] Queue
+- [x] Application of linked lists
 - [ ] Huffman algorithm
 - [ ] Josephus Problem
 
 Some other trees:
 - [ ] Red Black tree -> advanced algorithm elective
-- [ ] Hash set and Hash maps
+- [x] Hash set and Hash maps

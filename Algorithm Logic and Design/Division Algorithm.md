@@ -32,5 +32,5 @@ Values are all the same
 	    - A = 1 -> LSB of Q = 0
 1. **After n loops**
 	- *If MSB of A = 1 -> A = A + M*
-    - Q now contains the quotient.
+    - Q now contains the quotient. 
     - A contains the remainder.

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Organization/Computer organization.md",
+                "file": "Division Algorithm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Computer organization"
+              "title": "Division Algorithm"
             }
           }
         ]
@@ -188,14 +188,14 @@
       "graph:Open graph view": false
     }
   },
-  "active": "417b0a1f9bc835ac",
+  "active": "4034d7a501935638",
   "lastOpenFiles": [
-    "Computer Organization",
-    "Computer Organization/Computer organization.md",
     "Multiplication Algorithms.md",
+    "Division Algorithm.md",
+    "Computer Organization/Computer organization.md",
+    "Computer Organization",
     "K Maps.md",
     "Untitled.md",
-    "Division Algorithm.md",
     "Signed binary.md",
     "Untitled 4.md",
     "Untitled 5.md",

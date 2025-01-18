@@ -75,7 +75,9 @@ int preced(char symbol)
 }
 
 void toPostfix(struct stack *s, char infix[SIZE])
-{
+{p743-
+g \
+
 	int i, j = 0;
 	char postfix[SIZE], temp, symbol;
 	for(i = 0; infix[i] !='\0'; i++)

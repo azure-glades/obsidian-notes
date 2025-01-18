@@ -1,4 +1,4 @@
-
+[[Basic Structure]]
 ## Memory locations and addresses
 - All instructions are stored in memory.
 - Memory is organized such that groups of 'n' bits can be stored/retrived in a single operation, the gorup of n bits is called a *word* of information. Ex: 16 bit, 32 bit, 64 bit, 128 bit
@@ -104,7 +104,7 @@ Similar to auto-increment but decrements the address before accessing it.
 
 ## Assembly Language
 Translated to machine code by an *assembler*
-
+-> [[Subroutine]]
 ### 1. Assembler Directives
 Special instructions that guide the assembler in processing asm code
 - Directives are not translated into machine code, they control various aspects of assembling, like mem allocation, data definition, program structure etc

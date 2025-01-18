@@ -16,7 +16,6 @@ Method of defining operators
 >Convert to prefix: a + (\*bc) -> +a(\*bc) -> +a\*bc
 
 > Convert [[Infix to Postfix]]
-
 >Write an algorithm using stack to do [[Postfix Evaluation]]
 ```algorithm
 s = empty-stack
