@@ -11,17 +11,30 @@
             "id": "e8af30df30e27aa1",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "SYLLABUS 1.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "SYLLABUS 1"
+            }
+          },
+          {
+            "id": "725118a4996773bc",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "File Systems/VFS 1.md",
+                "file": "Something interesting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VFS 1"
+              "title": "Something interesting"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -145,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "File Systems/VFS 1.md",
+                "file": "Something interesting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +168,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for VFS 1"
+              "title": "Backlinks for Something interesting"
             }
           },
           {
@@ -189,20 +202,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8af30df30e27aa1",
+  "active": "725118a4996773bc",
   "lastOpenFiles": [
-    "File Systems/File 1.md",
+    "SYLLABUS 1.jpg",
+    "Something interesting.md",
+    "SYLLABUS.jpg",
+    "Abraham Silberschatz Operating System Concepts 10th.pdf",
+    "Memory Management/Thrashing.md",
+    "Memory Management/Virtual memory.md",
+    "To Do List.md",
+    "Lab Programs/Thread Management.md",
+    "Lab Programs/Critical Section Problems.md",
+    "Lab Programs/Making Children.md",
+    "Lab Programs/Child Processes.md",
+    "Lab Programs/ls.md",
     "File Systems/VFS 1.md",
+    "File Systems/File 1.md",
     "Comp Arch ADLD/Instruction Set Architecture.md",
     "System Calls/System Calls.md",
     "Comp Arch ADLD/Basic Structure.md",
     "System Calls/Forks.md",
     "Comp Arch ADLD/Subroutine.md",
-    "SYLLABUS.jpg",
-    "SYLLABUS 1.jpg",
     "File Systems",
     "all images/Pasted image 20250114112935.png",
-    "Memory Management/Thrashing.md",
     "all images/Pasted image 20250115183040.png",
     "all images/Pasted image 20250115102136.png",
     "Memory Management/Non Uniform Memory Access.md",
@@ -210,7 +232,6 @@
     "Memory Management/Page Table Structure.md",
     "Memory Management/Paging.md",
     "Memory Management/Frame Allocation Algorithms.md",
-    "Memory Management/Virtual memory.md",
     "Memory Management/Memory Management.md",
     "Memory Management/Swapping.md",
     "Memory Management/Memory Management Unit.md",
@@ -218,18 +239,10 @@
     "all images/Pasted image 20250113093343.png",
     "all images/Pasted image 20250108205526.png",
     "Memory Management/Demand Paging.md",
-    "Memory Management/Copy-on-Write.md",
     "all images/Pasted image 20250108205147.png",
     "all images/Pasted image 20250108204559.png",
     "Comp Arch ADLD",
     "Virtual File Systems",
-    "Memory Management/Segmentation.md",
-    "Memory Management/Computer Memory.md",
-    "System Calls/System Services.md",
-    "Abraham Silberschatz Operating System Concepts 10th.pdf",
-    "Intro to OS/Types of Operating Systems.md",
-    "Intro to OS/Computing Environments.md",
-    "Intro to OS/CPU Architectures.md",
     "Memory Management",
     "System Calls",
     "Lab Programs",

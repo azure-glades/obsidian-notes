@@ -1,6 +1,9 @@
 ***Allocation of memory at run-time***
 Implemented via c standard functions
 
+-> [[Pointers]]
+->[[Null Pointers]]
+
 ### `malloc()`: Memory Allocate
 Reserves a block of memory for the specific number of bytes.
 Returns a void pointer which is type-caste to other data-types.

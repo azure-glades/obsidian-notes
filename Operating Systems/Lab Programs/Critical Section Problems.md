@@ -7,13 +7,13 @@
 
 int count = 0, rcount = 0;
 sem_t mutex;
-sem_t wr;
+sem_t edit;
 void* writer(void *p)
 {
 	int* i =(int*)p;
-	sem_wait(&wr);
+	sem_wait(&edit);
 	printf("\nWriter %d writes page number %d",*i,++count);
-	sem_post(&wr);
+	sem_post(&edit);
 }
 void* reader(void* p)
 {
@@ -22,21 +22,21 @@ void* reader(void* p)
 	rcount++;
 	
 	if(rcount==1)
-		sem_wait(&wr);
+		sem_wait(&edit);
 	sem_post(&mutex);
 	printf("\nReader %d reads page number %d ",*i,count);
 	sem_wait(&mutex);
 	rcount--;
 	
 	if(rcount==0)
-		sem_post(&wr);
+		sem_post(&edit);
 	sem_post(&mutex);
 }
 
 int main()
 {
 	sem_init(&mutex,0,1);
-	sem_init(&wr,0,1); 
+	sem_init(&edit,0,1); 
 	int a[6]={1,2,3,1,2,3};
 	pthread_t p[6];
 	

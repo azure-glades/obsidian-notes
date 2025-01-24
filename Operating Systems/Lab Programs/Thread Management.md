@@ -52,3 +52,11 @@ int main()
 	return 0;
 }
 ```
+
+
+| Component                                   | Vendor                   | Cost (Including shipping) |
+| ------------------------------------------- | ------------------------ | ------------------------- |
+| RTL-SDR Blog V3 R860 RTL2832U 1PPM TCXQ SMA | RTL SDR Blog             | 3,000 INR                 |
+| VBFZ-1400-S+                                | Mouser Electronics India | 6,300 INR                 |
+| Nooelec SAWbird+ H1                         | Nooelec Inc.             | 5,000 INR                 |
+|                                             | **Total**                | 14,300 INR                |

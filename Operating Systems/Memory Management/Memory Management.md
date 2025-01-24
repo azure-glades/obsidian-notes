@@ -10,7 +10,7 @@ number headings:
 > What goes behind the abstraction when we allocate memory, deallocate memory, how RAM is managed
 > What the hell is virtual memory?
 
-[[Computer memory]] is a crucial component of a computer system, serving as the electronic storage space for data and instructions that the CPU needs to access quickly during processing
+[[Computer Memory]] is a crucial component of a computer system, serving as the electronic storage space for data and instructions that the CPU needs to access quickly during processing
 - Memory access should be quick and correct.
 - Memory access has to be monitored to protect memory integrity (Like accessing memory that does not belong to you)
 
