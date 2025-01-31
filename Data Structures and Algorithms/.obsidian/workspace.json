@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pointers.md",
+                "file": "Hashing/Open Hashing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pointers"
+              "title": "Open Hashing"
             }
           },
           {
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pointers.md",
+                "file": "Hashing/Open Hashing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pointers"
+              "title": "Backlinks for Open Hashing"
             }
           },
           {
@@ -203,16 +203,16 @@
   },
   "active": "2ee5d73af8a295ce",
   "lastOpenFiles": [
-    "Linked List/Dynamic Memory Allocation.md",
+    "Hashing/Double Hashing.md",
+    "Hashing/Hash tables.md",
+    "Hashing/Open Hashing.md",
+    "Hashing/Probing.md",
+    "Hashing/Hashing 2.md",
     "Pointers.md",
+    "Linked List/Dynamic Memory Allocation.md",
     "TO DO.md",
     "Linked List/Linked List.md",
-    "Hashing/Hash tables.md",
     "SYLLABUS.jpg",
-    "Hashing/Probing.md",
-    "Hashing/Double Hashing.md",
-    "Hashing/Hashing 2.md",
-    "Hashing/Open Hashing.md",
     "Type of Data structuresto.md",
     "Tree/Type of Data structures.md",
     "Queue/Circular Queue.md",
