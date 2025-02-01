@@ -11,12 +11,14 @@
             "id": "a1de5345eaa44584",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "all images/Pasted image 20250131185709.png"
+                "file": "Something interesting.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250131185709"
+              "icon": "lucide-file",
+              "title": "Something interesting"
             }
           }
         ]
@@ -191,6 +193,7 @@
   },
   "active": "a1de5345eaa44584",
   "lastOpenFiles": [
+    "all images/Pasted image 20250131185709.png",
     "Computer Memory Systems_ Architecture and Design.wav",
     "Abraham Silberschatz Operating System Concepts 10th.pdf",
     "SYLLABUS.jpg",
@@ -207,7 +210,6 @@
     "Multi-threading/Parallel Processing.md",
     "Memory Design ADLD/Memory Design 4.md",
     "all images/Pasted image 20250131185725.png",
-    "all images/Pasted image 20250131185709.png",
     "Memory Design ADLD/Memory Design 1.md",
     "all images/Pasted image 20250131164658.png",
     "Untitled 1.md",
