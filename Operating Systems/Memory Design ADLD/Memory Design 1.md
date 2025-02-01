@@ -47,7 +47,7 @@ Matrix expansion -> both
 
 **VII. Read-Only Memory (ROM)** * **Non-Volatile memory**: Retains contents after power is off. * **ROM**: Data written during manufacturing. * **PROM (Programmable ROM)**: Data loaded by user, irreversible process. * **EPROM (Erasable PROM)**: Can be erased and reprogrammed, uses UV light. * **EEPROM (Electrically Erasable PROM)**: Can be erased electrically. * **Flash Memory**: Similar to EEPROM, higher density, low power consumption, uses blocks.
 
-**VIII. Memory Controller** * Handles multiplexed address inputs for dynamic memory. * Inserts between the processor and the memory.
+%% VIII. Memory Controller * Handles multiplexed address inputs for dynamic memory. * Inserts between the processor and the memory. %%
 
 **IX. Cache Memory** * **Cache memory** makes main memory appear faster to the processor. * Based on "locality of reference" in programs. * **Temporal locality**: Recently executed instructions are likely to be executed again soon. * Cache stores a subset of main memory blocks. * **Mapping Function**: Determines which main memory blocks reside in the cache. * **Replacement Algorithm**: Chooses which block to replace when the cache is full.
 

@@ -1,6 +1,21 @@
 The circuits which are capable of retaining their state as long as power is applied are *static memories*
 The circuits that require periodic refresh cycles to retain their state are *dynamic memories*
 
+>[!NOTE] Memory Latency
+>**Memory latency** is defined as the time it takes to transfer a single word of data to or from the memory
+>- Essentially, latency measures the delay between a request for data and the actual availability of that data.
+>- Faster clock cycle means lesser latency since less time is taken for transferring a word of data
+>
+
+> [!NOTE] Memory Bandwidth
+> **Memory bandwidth** refers to the number of bits or bytes that can be transferred in one second.
+>    - Bandwidth measures the volume of data transferred.
+>    - Larger data bus increases bandwidth since more bits can be transferred per cycle.   
+>   
+
+- **High latency** can cause delays in processing, as the processor has to wait longer for data to arrive.
+ - **High bandwidth** allows for the quick transfer of large amounts of data, which can improve the performance of tasks that require significant data movement.
+
 ## Static RAM
 - **State Retention**: **Static RAM (SRAM)** is characterized by its ability to *retain its state as long as power is applied.* DRAM meanwhile needs *Periodic refreshing*
 - SRAM cells are a type of *flip-flop circuit implemented using MOSFETs.*
