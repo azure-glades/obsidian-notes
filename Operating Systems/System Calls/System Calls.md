@@ -1,3 +1,4 @@
+![[Pasted image 20250201203416.png]]
 - System calls are an interface to services made available by the OS for access by User programs
 - System calls are called via functions present in the **application programming  interfaces (API)** that are accessed by user programs with suitable perms
 - System calls and services hence provide an environment for application development. These services are collectively called [[System Services]]
@@ -60,3 +61,4 @@ There are 3 main OS APIs
 	◦ get file permissions
 	◦ set file permissions
 
+![[Pasted image 20250201203433.png]]

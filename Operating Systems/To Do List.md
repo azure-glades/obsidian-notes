@@ -1,7 +1,7 @@
-- [ ] memory management
-	- [ ] thrashing
-	- [ ] check syllabussy (catch up to neetu before stuff does bad)
-	- [ ] Segmentation and paging... yeah theres a lotta stuff
+- [x] memory management
+	- [x] thrashing
+	- [x] check syllabussy (catch up to neetu before stuff does bad)
+	- [x] Segmentation and paging... yeah theres a lotta stuff
  
 - [ ] Deadlocks
 - [ ] System calls

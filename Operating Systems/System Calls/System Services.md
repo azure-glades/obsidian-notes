@@ -1,6 +1,5 @@
 The features provided by APIs, implemented via system calls by the Runtime Environment that allow Applications to communicate with the OS and provide an environment for running them are called ***System services/Utillities**
 
-## User interfaces
 ## Application interfaces
 - **File management:** APIs that allow programs to create, copy, delete, list and manipulate files and directories
 - **Status Information:** Provide basic info like date-time, available memory and disk-space, cpu utillization, number of users, current users, debugging info, etc. Can be viewed in GUI also
