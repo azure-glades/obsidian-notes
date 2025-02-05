@@ -8,9 +8,13 @@
     - **Data lines** are used to transfer the actual data between the processor and the memory.
     - **Control lines** carry commands indicating whether a **Read** or **Write** operation is required, the size of the data transfer (e.g., byte or word), and timing information.
 - **Memory Address Register (MAR) and Memory Data Register (MDR)**: Data transfer between the main memory and the CPU happens through two CPU registers, the MAR and the MDR.
-    - The **MAR** holds the address of the memory location that is being accessed. If the MAR is _k_-bits, then the total addressable memory location is 2^k.
-    - The **MDR** holds the data that is being transferred to or from the memory. If the MDR is _n_-bits, then _n_ bits of data are transferred in one memory cycle -> Its the width of the bus.
+    - The **MAR** holds the address of the memory location
+	    - If the MAR is _k_-bits, then the total addressable memory location is 2^k.
+    - The **MDR** is size of data-bus (word length) . It stores the memory loaded from the location shown by MAR.
+	    - If the MDR is _n_-bits, then _n_ bits of data are transferred in one memory cycle -> Its the width of the bus.
     - These registers work in tandem with control lines, such as **Read**, **Write**, and **Memory Function Complete (MFC)**, to coordinate data transfer.
+![[Pasted image 20250205192840.png]]
+
 
 - **Key Design Goal**: A crucial goal in computer system design is to provide as large and as fast a memory as possible while staying within a given cost target.
 - **Techniques to improve memory**:
