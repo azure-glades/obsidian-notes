@@ -28,29 +28,126 @@ ADD_NUMBERS:
   - Performs addition of the values in `AX` and `BX`.
   - Returns control back to the main program using `RET`
 ## Parameter Passing
-In more complex scenarios, parameters can be passed to subroutines. This is often done by pushing values onto the stack before making the call. The subroutine then accesses these values from the stack.
-### Example with Parameters
-```assembly
-; Main Program
-START:
-    PUSH 5            ; Push first parameter onto stack
-    PUSH 10           ; Push second parameter onto stack
-    CALL ADD_NUMBERS   ; Call the subroutine
-    ...
+The exchange of information between a calling program and a subroutine is referred to as parameter passing. Here are three common methods:
+1. **Using Registers**
+   - **Efficient and straightforward**: Parameters are passed directly using CPU registers.
+   - **Example**:
+     ```assembly
+     MOV AX, 5        ; First parameter in AX
+     MOV BX, 10       ; Second parameter in BX
+     CALL ADD_NUMBERS ; Call the subroutine
+     
+     ADD_NUMBERS:
+         ADD AX, BX   ; Add the two numbers
+         RET          ; Return to the caller
+     ```
 
-; Subroutine Definition
-ADD_NUMBERS:
-    POP BX            ; Retrieve second parameter into BX
-    POP AX            ; Retrieve first parameter into AX
-    ADD AX, BX        ; Add the two numbers
-    RET                ; Return to the caller
+2. **Using Memory Locations**
+   - **Useful for global/static data**: Parameters are stored in predefined memory locations.
+   - **Example**:
+     ```assembly
+     MOV [param1], 5  ; Store first parameter in memory
+     MOV [param2], 10 ; Store second parameter in memory
+     CALL ADD_NUMBERS ; Call the subroutine
+     
+     ADD_NUMBERS:
+         MOV AX, [param1] ; Load first parameter
+         MOV BX, [param2] ; Load second parameter
+         ADD AX, BX       ; Add the two numbers
+         RET              ; Return to the caller
+     ```
+
+3. **Using the Processor Stack**
+   - **Flexible and can handle many parameters**: Parameters are pushed onto the stack and popped off within the subroutine.
+   - **Example**:
+     ```assembly
+     ; Main Program
+     START:
+         PUSH 5            ; Push first parameter onto stack
+         PUSH 10           ; Push second parameter onto stack
+         CALL ADD_NUMBERS  ; Call the subroutine
+         ...
+     
+     ; Subroutine Definition
+     ADD_NUMBERS:
+         POP BX            ; Retrieve second parameter into BX
+         POP AX            ; Retrieve first parameter into AX
+         ADD AX, BX        ; Add the two numbers
+         RET               ; Return to the caller
+     ```
+
+
+## Implementing a Stack in assembly
+The stack is implemented by storing elements in a LIFO manner between two mem locations.
+
+1. **Push:**
 ```
-In this example, parameters are pushed onto the stack before calling `ADD_NUMBERS`, which then pops them off for processing.
+push:
+	CMP #0x400, SP   ; check if stack pointer has reached the upper limit
+	BLE OverFlowError
+	SUB SP,#4   ; decrement stack pointer by 4 bytes, to next mem loc
+	MOV [SP],R0   ; move number in R0 to stack
+RET
+```
+If autodecrement is supported, that can be used instead of `SUB SP,#4`
+```
+push:
+	CMP #0x400, SP 
+	BLE OverFlowError   ; another section of code that handles exception
+	MOV -[SP],R0   ; move number in R0 to stack after pre-decrementing
+RET
+```
 
-> *See Further*
-[1] http://www.sce.carleton.ca/courses/sysc-3006/s13/Lecture%20Notes/Part11-Subroutines.pdf
-[2] https://fastercapital.com/topics/subroutines-in-assembly-language.html
-[3] http://jklp.org/profession/books/mix/c06.html
-[4] https://www.tutorialspoint.com/what-are-subroutines
-[5] https://www.geeksforgeeks.org/subroutine-in-8085/
-[6] https://www.youtube.com/watch?v=EloT9mZlouw
+1. **Pop**
+```
+pop:
+	CMP #0x800, SP   ; check if stack pointer has reached bottom limit
+	BLE UnderFlowError
+	MOV [SP],R1
+	ADD SP,#4   ; increment stack pointer by 4 bytes
+RET
+```
+If autoincrement is supported, that can be used instead of `ADD SP,#4`
+```
+push:
+	CMP #0x400, SP  
+	BLE OverFlowError  ; another section of code that handles exception
+	MOV [SP]+,R1   ; move data to R1 then post-increment
+RET
+```
+
+
+## Implementing Queue in Assembly
+
+```
+enqueue:
+	
+```
+
+
+```
+
+PUSH OPERATION..
+Compare
+#1500, SP
+Branch <= 0
+FULL ERROR
+Subtract
+#4, SP
+Move
+NEWITEM, (SP)
+; OR, autodecrement is supported
+Move
+NEWITEM, -(SP)
+POP OPERATION...
+#2000, SP
+EMPTY_ERROR
+Compare
+Branh>0
+Move
+Add
+#4, SP
+(SP), ITEM
+;OR, if autoincrement is supported
+Move (SP)+, ITEM
+```

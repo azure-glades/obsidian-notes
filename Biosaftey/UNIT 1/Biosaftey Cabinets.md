@@ -1,5 +1,7 @@
 Here's a comprehensive study guide based on the provided information about biosafety cabinets (BSCs), designed to help you ace an exam on the topic:
 
+-> HEPA : HIGH EFFICIENCY PARTICULATE AIR filter
+-> ULPA: ULTRA LOW PENETRATION AIR
 **I. Introduction to Biosafety Cabinets (BSCs)**
 - **Definition:** BSCs are enclosed, ventilated workspaces designed to contain pathogenic microorganisms during microbiological processes.
 - **Primary Purpose:** To protect laboratory personnel and the environment from pathogenic microorganisms, especially aerosols.

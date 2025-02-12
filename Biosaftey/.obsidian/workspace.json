@@ -8,20 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0920cc184aa06dac",
+            "id": "e6e527e29c2a6f4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UNIT 4/Food Preservation.md",
+                "file": "UNIT 5/clinical ethics.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "clinical ethics"
+            }
+          },
+          {
+            "id": "44723b1d478c93ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UNIT 3/Food safety storage and preservation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Food Preservation"
+              "title": "Food safety storage and preservation"
+            }
+          },
+          {
+            "id": "8cc71c93fa835b07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UNIT 2/GMO, LMO and Regulations.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GMO, LMO and Regulations"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.50260543823242
+    "width": 560.5026054382324
   },
   "right": {
     "id": "55427b1f415cc601",
@@ -191,53 +220,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "34228058dd931a9a",
+  "active": "8cc71c93fa835b07",
   "lastOpenFiles": [
-    "UNIT 4/Food Preservation Processing Methods.wav",
-    "UNIT 4/Food Preservation.md",
-    "UNIT 4/Food Packaging.md",
-    "UNIT 5/clinical ethics.md",
-    "Untitled 1.md",
-    "UNIT 2/Cartagena Protocol.md",
-    "UNIT 4",
     "UNIT 2/Committees.md",
+    "UNIT 2/Cartagena Protocol.md",
+    "UNIT 3/HACCP.md",
+    "UNIT 3/FSSAI.md",
+    "UNIT 3/Food safety storage and preservation.md",
+    "UNIT 1/Biohazards.md",
+    "UNIT 1/Biosafety Guidelines.md",
+    "UNIT 1/Biosaftey Cabinets.md",
+    "UNIT 5/clinical ethics.md",
+    "UNIT 3/Food safety.md",
+    "UNIT 5/Ethics in Healthcare and animal research.md",
+    "UNIT 4/Food Packaging.md",
+    "UNIT 4/Food Preservation.md",
+    "UNIT 4/Food Preservation Processing Methods.wav",
+    "images/Pasted image 20250206173304.png",
+    "images/Pasted image 20250206173555.png",
+    "images/Pasted image 20250206173539.png",
+    "images/Pasted image 20250206173518.png",
+    "UNIT 5/Antibiotics, Food Safety, and Food Economics.wav",
+    "UNIT 5/Clinical, Health, and Research Ethics.wav",
     "UNIT 2/GMO, LMO and Regulations.md",
+    "UNIT 3/HACCP_ Principles and Application.wav",
+    "UNIT 3/Food Preservation Processing Methods.wav",
+    "The Cartagena Protocol on Biosafety.wav",
+    "Food Preservation Processing Methods.wav",
+    "Clinical, Health, and Research Ethics.wav",
+    "Antibiotics, Food Safety, and Food Economics.wav",
+    "HACCP_ Principles and Application.wav",
+    "Untitled 1.md",
     "images/Pasted image 20250201165023.png",
     "images/Pasted image 20250201165129.png",
-    "images",
     "images/Pasted image 20250201165118.png",
     "images/Pasted image 20250201165111.png",
     "images/Pasted image 20250201165103.png",
     "images/Pasted image 20250201165028.png",
-    "UNIT 1/Biohazards.md",
-    "UNIT 1/Biosaftey Cabinets.md",
-    "UNIT 2",
-    "UNIT 5/Food safety storage and preservation.md",
-    "UNIT 1",
-    "UNIT 5",
     "Pointers.md",
     "Linked List/Dynamic Memory Allocation.md",
     "TO DO.md",
     "Linked List/Linked List.md",
     "Hashing/Hash tables.md",
-    "SYLLABUS.jpg",
     "Hashing/Probing.md",
     "Hashing/Double Hashing.md",
     "Hashing/Hashing 2.md",
     "Hashing/Open Hashing.md",
     "Type of Data structuresto.md",
-    "Tree/Type of Data structures.md",
-    "Queue/Circular Queue.md",
-    "Queue/Queue.md",
-    "Queue/Message Queuing.md",
-    "Queue/Linear Queue.md",
-    "Tree/Binary Tree",
-    "Data structures using C (Reema Thareja).pdf",
-    "all-images/Pasted image 20241219161000.png",
-    "all-images/Pasted image 20241219160945.png",
-    "all-images/Pasted image 20241219160928.png",
-    "Hashing",
-    "Untitled.canvas",
-    "Linked List"
+    "Untitled.canvas"
   ]
 }

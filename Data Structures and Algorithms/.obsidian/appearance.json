@@ -4,5 +4,6 @@
   "theme": "moonstone",
   "interfaceFontFamily": "Inter",
   "textFontFamily": "Inter",
-  "monospaceFontFamily": ""
+  "monospaceFontFamily": "",
+  "showRibbon": true
 }

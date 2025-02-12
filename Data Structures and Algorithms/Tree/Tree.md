@@ -29,6 +29,6 @@
 ### Types of Trees
 1. [[Binary Tree]]
 2. [[Trie]]
-3. [[B tree]]
+3. [[B and B+ tree]]
 
 ### [[Tree Traversal Techniques]]

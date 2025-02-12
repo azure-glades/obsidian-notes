@@ -3,7 +3,7 @@
 	- [x] check syllabussy (catch up to neetu before stuff does bad)
 	- [x] Segmentation and paging... yeah theres a lotta stuff
  
-- [ ] Deadlocks
+- [x] Deadlocks
 - [ ] System calls
 	- [ ] Forking
 		- [ ] Child process

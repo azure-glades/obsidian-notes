@@ -6,6 +6,36 @@ Okay, here is a detailed briefing document summarizing the key themes and ideas 
 **Introduction:**
 This document summarizes the core concepts of biosafety levels (BSLs) as outlined in the provided excerpt from "Biosafety and Biohazards" by Ta, Gosa, and Nathanson. The text emphasizes the critical importance of understanding and implementing appropriate safety measures in laboratories to protect personnel, the public, and the environment from biohazardous agents. The authors detail the four levels of biosafety as defined by the CDC, highlighting the escalating precautions and requirements associated with each level based on the assessed risk of the biological agents being handled.
 
+- **Biohazard Level 1** includes agents like _Escherichia coli_ and chickenpox, and requires minimal precautions, such as wearing a face mask.
+- **Biohazard Level 2** involves microorganisms that cause mild infections, such as hepatitis A, B, and C, Lyme disease, and HIV. It requires the use of gloves, facial protection, and gowns, and standard precautions when handling clinical samples.
+- **Biohazard Level 3** includes microorganisms that can be fatal to humans but for which vaccines and other treatments are available. Examples include _Mycobacterium tuberculosis_, anthrax, and malaria.
+- **Biohazard Level 4** involves dangerous viruses like Ebola and Marburg virus, requires a positive pressure personnel suit with a segregated air supply, and has no available treatments.
+
+Biological agents have unique properties:
+- They are living organisms that can evolve and change rapidly.
+- They can transmit from person to person, posing a public health risk.
+- They are not always visible to the naked eye.
+- Exposure to a single organism may be sufficient to cause disease.
+- Some can multiply at exponential rates.
+
+Biological agents include:
+- **Cell lines**: cultures of cells from plants or animals.
+- **Genetically modified organisms (GMOs)**: organisms produced through genetic manipulation.
+- **Viruses**: agents with DNA or RNA and a protein coat. Examples include the influenza virus, Covid-19, and the Zika virus.
+- **Bacteria**: prokaryotic organisms. Examples include cholera and anthrax.
+- **Fungi**: eukaryotic organisms. Examples include aspergillosis and ringworm.
+- **Protozoa**: single-celled eukaryotic organisms. Examples include malaria and amoebic dysentery.
+- **Algae**: eukaryotic organisms, not known to be infectious to humans.
+- **Parasites**: multicellular organisms with complex life cycles.
+- **Agents of transmissible spongiform encephalopathy**: protein-based agents.
+- **Naked genetic material**: DNA that can be harmful.
+
+Biological agents can have acute or chronic effects:
+- **Acute effects** occur over a short time, and symptoms can lead to elimination of the organism, chronic infection, or death.
+- **Chronic effects** last weeks, months, or even years.
+
+Some organisms produce potent toxins, and exposure to living or dead organisms may induce allergic reactions. Some viruses are also associated with the development of cancer.
+
 **Key Themes & Concepts:**
 1. **Biosafety Levels (BSL):**
 	- BSLs are a hierarchical system of safety precautions, ranging from BSL1 (lowest risk) to BSL4 (highest risk), designed to mitigate the risks of working with biohazardous agents.

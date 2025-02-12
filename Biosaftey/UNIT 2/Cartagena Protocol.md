@@ -1,7 +1,7 @@
 Okay, here's a briefing document summarizing the key themes and information from the provided "gmo1.pdf" excerpts:
 
 **BAP**: Biotechnology Action Plan: internationally recognized program addressing threatened species and habitats and is designed to protect and restore biological systems.
-
+![[The Cartagena Protocol on Biosafety.wav]]
 **Briefing Document: Overview of GMO Regulations and the Cartagena Protocol**
 
 **Introduction:**
@@ -47,7 +47,7 @@ The excerpts highlight these critical aspects of the Protocol:
 The Strategic Plan for the Protocol is framed around this vision: "Biological diversity is adequately protected from any adverse effects of living modified organisms." Its mission is "To strengthen global, regional & national action and capacity in ensuring an adequate level of protection in the field of the safe transfer, handling and use of living modified organisms…" Key strategic objectives are listed including:
 
 - **Focal Area 1:** Establishment of effective biosafety systems.
-- Includes development of National Biosafety Frameworks, Risk assessment, liability and redress, and handling/transport regulations.
+	- Includes development of National Biosafety Frameworks, Risk assessment, liability and redress, and handling/transport regulations.
 - **Focal Area 2:** Capacity building in member states, covering national biosafety frameworks, risk assessment, public awareness and training.
 - **Focal Area 3:** Compliance and review, focusing on adherence to the Protocol's requirements.
 - **Focal Area 4:** Information sharing, ensuring the BCH is an effective tool and that information exchange occurs.
