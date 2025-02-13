@@ -8,17 +8,29 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9c6668fa2c3f6ff9",
+            "id": "4c9738c1fb782c3f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "File Systems/Virtual File Systems/VFS 2.md",
+                "file": "Memory Management/Memory Management.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VFS 2"
+              "title": "Memory Management"
+            }
+          },
+          {
+            "id": "bb2e0b2d2664e071",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "SYLLABUS.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "SYLLABUS"
             }
           }
         ]
@@ -53,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "valid bit",
+                "query": "forks",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.50260543823242
+    "width": 272.5026054382324
   },
   "right": {
     "id": "967f3d7ad023c895",
@@ -87,7 +99,7 @@
       {
         "id": "7343dcb44b6b5cca",
         "type": "tabs",
-        "dimension": 54.777777777777786,
+        "dimension": 55.33333333333334,
         "children": [
           {
             "id": "39a201e0ac57fbf6",
@@ -118,7 +130,7 @@
       {
         "id": "4788e40303229332",
         "type": "tabs",
-        "dimension": 45.222222222222214,
+        "dimension": 44.66666666666666,
         "children": [
           {
             "id": "43adee8b68f9a0ac",
@@ -146,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "File Systems/Virtual File Systems/VFS 2.md",
+                "file": "Memory Management/Memory Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +168,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for VFS 2"
+              "title": "Backlinks for Memory Management"
             }
           },
           {
@@ -165,21 +177,20 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Multi-threading/Multi-threading.md",
+                "file": "Memory Management/Memory Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Multi-threading"
+              "title": "Outgoing links from Memory Management"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 314.5,
-    "collapsed": true
+    "width": 314.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,38 +202,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9c6668fa2c3f6ff9",
+  "active": "4c9738c1fb782c3f",
   "lastOpenFiles": [
-    "File Systems/Virtual File Systems/VFS 1.md",
-    "File Systems/Virtual File Systems/VFS 2.md",
-    "VFS 2.md",
-    "Foundations of Computer System Design_ Processing Unit Fundamentals.wav",
-    "Computer Memory Systems_ Architecture and Design.wav",
     "SYLLABUS.jpg",
-    "File Systems/File 1.md",
-    "Pasted image 20250212193132.png",
-    "File Systems/Virtual File Systems",
+    "Memory Management/Memory Management.md",
+    "Memory Management/Segmentation.md",
+    "Memory Management/Paging.md",
     "To Do List.md",
-    "Comp Arch ADLD/Instruction Set Architecture.md",
-    "Memory Design ADLD/Basic Processing Unit 1.md",
+    "Memory Management/Computer Memory.md",
+    "Synchronization/Solutions/Semaphore.md",
     "Memory Design ADLD/Memory Design 6.md",
-    "Comp Arch ADLD/Subroutine.md",
-    "Memory Design ADLD/Memory Design 3.md",
-    "Memory Design ADLD/Memory Design 4.md",
     "Memory Design ADLD/Memory Design 5.md",
+    "Memory Design ADLD/Memory Design 4.md",
+    "Memory Design ADLD/Memory Design 3.md",
     "Memory Design ADLD/Memory Design 2.md",
     "Memory Design ADLD/Memory Design 1.md",
-    "Memory Design ADLD/Remaining Work.md",
-    "Something interesting.md",
-    "Comp Arch ADLD/Basic Structure.md",
-    "Multi-threading/Multi-threading.md",
-    "Multi-threading/Thread vs Child Process.md",
-    "Untitled 1.md",
-    "Multi-threading/Forks.md",
-    "Process Management/Context switching.md",
-    "Process Management/Context Switching vs Blocking.md",
-    "Process Management/Dispatcher.md",
-    "Process Management/Process Swapping.md",
+    "Memory Management/Swapping.md",
+    "Memory Management/Virtual Memory/Demand Paging.md",
+    "Synchronization/Process synchronization.md",
+    "Synchronization/Deadlocks.md",
+    "Process Management/CPU Scheduling/Process Scheduling.md",
+    "Synchronization/Solutions/Mutex Locks.md",
+    "Untitled.md",
+    "Synchronization/Solutions/Synchronization Hardware.md",
+    "Synchronization/Solutions/Peterson's Solution.md",
+    "Critical-Section Problems.md",
+    "Synchronization/Producer-Consumer Problem.md",
+    "Synchronization/Process Blocking.md",
+    "Synchronization/Solutions",
+    "Process Management/CPU Scheduling/Scheduler.md",
+    "Abraham Silberschatz Operating System Concepts 10th.pdf",
+    "Process Management/CPU Scheduling",
+    "Foundations of Computer System Design_ Processing Unit Fundamentals.wav",
+    "Computer Memory Systems_ Architecture and Design.wav",
+    "all images/Pasted image 20250212193132.png",
+    "File Systems/Virtual File Systems",
     "SYLLABUS 1.jpg",
     "all images/Pasted image 20250201225143.png",
     "all images/Pasted image 20250205194900.png",
@@ -231,12 +245,9 @@
     "all images/Pasted image 20250205192840.png",
     "all images/Pasted image 20250205192821.png",
     "all images/Pasted image 20250205192815.png",
-    "Abraham Silberschatz Operating System Concepts 10th.pdf",
-    "Virtual Memory",
+    "Memory Management/Virtual Memory",
     "Memory Design ADLD",
     "File Systems",
-    "Comp Arch ADLD",
-    "File Systems/Virtual File Systems",
-    "Memory Management"
+    "Comp Arch ADLD"
   ]
 }

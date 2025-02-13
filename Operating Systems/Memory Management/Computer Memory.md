@@ -1,8 +1,5 @@
 ***Computer memory stores information for immediate use in a computer.***
 Memory is divided based on the type of storage
-
-> Definitions
-
 - **Bootstrap program**: Program that is loaded immediately when a computer turns on and is responsible for loading the OS
 ## 1. Volatile memory
 Volatile electronic memory storage media. Commonly implemented using semiconductor tech called *Dynamic RAM*.

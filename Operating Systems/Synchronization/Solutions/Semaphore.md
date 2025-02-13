@@ -19,7 +19,7 @@ Types:
 	- if `semaphore >= 1` -> process enters critical section and `semaphore = semaphore -1`
 		- The value of the semaphore indicates the number of free resources in the pool.
 
-## 1. Semaphore Usage
+## Semaphore Usage
 A semaphore is an integer data-type that can only be changed by atomic operations. It is defined in the `semaphore.h` header file using the `sem_t` data type.
 ```c
 #include <semaphore.h>

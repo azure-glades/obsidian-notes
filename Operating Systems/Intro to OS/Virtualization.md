@@ -1,0 +1,3 @@
+Virtualization enables abstraction of hardware components of a computer. Virtualization is implemented as **Virtual machines** which allows multiple operating systems to run on that same computer, that can be switched-around like a process.
+- Virtualization is a category of **Emulation**, which attempts to simulate computer hardware in software to run software specific to that hardware.
+![[Pasted image 20241206184107.png]]

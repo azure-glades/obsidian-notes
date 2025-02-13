@@ -1,3 +1,12 @@
+### For Exam
+- [ ] Read Scheduling algos from the pdf - pg 205
+- [ ] Read processes from the pdf - pg 106
+- [ ] Write the code in syncronization
+- [ ] Write fork() lab program code
+- [ ] Proly revise dining philly, readwriter, prodconsumer code
+
+
+### Later
 - [x] memory management
 	- [x] thrashing
 	- [x] check syllabussy (catch up to neetu before stuff does bad)

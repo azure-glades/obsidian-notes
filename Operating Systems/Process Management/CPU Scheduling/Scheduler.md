@@ -1,5 +1,4 @@
-## [[Scheduling algorithms]]
-A **scheduling discipline** (also called **scheduling policy** or **scheduling algorithm**) is an algorithm used for distributing resources among parties which simultaneously and asynchronously request them. Scheduling disciplines are used in [routers](https://en.wikipedia.org/wiki/Router_(computing) "Router (computing)") (to handle packet traffic) as well as in [operating systems](https://en.wikipedia.org/wiki/Operating_system "Operating system") (to share [CPU time](https://en.wikipedia.org/wiki/CPU_time "CPU time") among both [threads](https://en.wikipedia.org/wiki/Thread_(computer_science) "Thread (computer science)") and [processes](https://en.wikipedia.org/wiki/Process_(computing) "Process (computing)")), disk drives ([I/O scheduling](https://en.wikipedia.org/wiki/I/O_scheduling "I/O scheduling")), printers ([print spooler](https://en.wikipedia.org/wiki/Print_spooler "Print spooler")), most embedded systems, etc.
+
 
 - FIFO: First in First out
 - SJF: Shortest Job First -> Preemptive and non-preemptive approaches

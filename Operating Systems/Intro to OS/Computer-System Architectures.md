@@ -63,7 +63,8 @@ The type of instruction set implemented determines the CPU architecture design. 
 	Clustering can be:
 	1. **Asymmetric clustering**: where a collection of systems are active and running and perform tasks while the other set of backup systems (in *hot-standby mode*) continuously monitor the health of the active systems. 
 	2. **Symmetric clustering**: where all systems in good health are performing tasks while also monitoring each others health. Is a better use of computing resources but requires parallelization between the system tasks to ensure synchronization. This requires the software/hardware to support parallel processing
-	[[Distributed Systems]] are a collection of independent processors that are capable of communicating and sharing peripheral devices and memory storages with each other.
+
+- **[[Distributed Systems]]** are a collection of independent processors that are capable of communicating and sharing peripheral devices and memory storages with each other.
 	- Generally connected via a WiFi/Ethernet network.
 	- They function independently of each other run distinct operating systems.
 

@@ -6,9 +6,9 @@ EX: File copy, file read, read input from i/o device, write message to console, 
 
 >***System calls are treated as Software interrupts***
 > - They are generally handled via `traps/exception interrupts` but some implementations have a dedicated `syscall` instruction handler
+> See further: -> [[Interrupts]]
 
 ![[Pasted image 20241020153913.png]]
--> [[Forks]]
 ## Application Programming Interface (API)
 Set of functions, with parameters and return values that a programmer can use to access computer resources from the OS through system calls.
 There are 3 main OS APIs
@@ -20,8 +20,6 @@ There are 3 main OS APIs
 > The current environment in which an application runs. RTE contains various packages that run simultaneously with the application to satisfy dependencies, like compilers, libraries, loaders, PATH variables, system variables et.c
 >  - The RTE provides **system call interfaces**. This intercepts API function calls and translates them to system calls.
 >  - API hides the internal working, and RTE manages the internal working
-
-
 ## Types of system calls
 6 major categories:
 - process control

@@ -38,4 +38,3 @@
 	- Run continuously with minimal user-inputs. Meeting deadlines for tasks is fundamental for embedded system, and hence they always run *real-time operating systems*
 	- Often have a set of challenges (like limited memory, computing power, resources)
 	- Often run their own OS to handle device specific hardware. Some may run lightweight linux distributions
-	- 

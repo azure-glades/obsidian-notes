@@ -1,2 +1,0 @@
-[[Synchronization Hardware]]
-[[Processes]]

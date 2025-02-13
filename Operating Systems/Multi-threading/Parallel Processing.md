@@ -1,1 +1,0 @@
-A technique of speeding up computing tasks by dividing the tasks into threads that run concurrently across multiple processing units. Uses [[Multi-threading]]

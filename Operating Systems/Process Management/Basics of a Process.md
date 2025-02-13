@@ -1,9 +1,16 @@
 ***Program in execution is a process***
 
->**[[Context switching]]**: Quickly switching between different processe
->Information of a process is stored in *process control block*. This enables context switching
+>**Context switching**: Quickly switching between different process. Information of a process is stored in *process control block* before being switched out.
 
 > Processes are either *I/O-bound or CPU-bound* depending on what it spends more time performing
+
+
+-> Processes can create child processes or create threads : [[Operations on Processes]]
+-> Processes can create and manage threads of execution : [[Threads of Execution]]
+-> Processes compete for access to the CPU : [[Process Scheduling]]
+
+## Parts of a Process
+Text section, data section, heap section, stack section. See pg 106
 ## Process Control Block
 - **Process control block** is stored in memory (RAM). It is a store of the current process state to enable context-switching
 	- Stores 
@@ -15,11 +22,12 @@
 		- *List of open files*: Stores the different files in memory that are currently opened and being run
 		- *CPU Register storage*: Process instructions are always register oriented. Runtime changes in registers are continuously stored in memory.
 		- *Heap and Stack memory*
-	- Actively updated in run-time. Tracks the progress of a process.
-	- ![[Pasted image 20241008102034.png]]
+	- Actively updated in run-time. Tracks the progress of a process.![[Pasted image 20241008102034.png]]
 
-## Process States
+## Process State
+***The state of a process is the current activity of that process.***
 - The way a process changes in its lifetime
+	 - **New:** The process is being created.
 	- **Ready**: Process is waiting to be assigned to the processor
 		- Process is waiting in *process queue (Ready-state queue)*, waiting for the *Scheduler* to assign it to the CPU
 	- **Running:** Process is sent to the CPU and is being executed currently.
@@ -33,21 +41,6 @@
 			- Can be implemented manually by including a *delay()* or *wait()* inside the process instructions.
 			- Waiting for its child processes to finish execution
 		- Process can go from Waiting to Running or Ready depending on the Scheduler.
-	- **Terminated/Dead:** The process has finished execution. Termination/Killing is where resources are forcefully pre-empted from the process and is removed from CPU and Job queue
-	 - **New:** The process is being created.
-	 - ![[Pasted image 20241008101209.png]]
+	- **Terminated/Dead:** The process has finished execution. Termination/Killing is where resources are forcefully pre-empted from the process and is removed from CPU and Job queue![[Pasted image 20241008101209.png]]
 
-- **Queuing Diagram:**
-![[Pasted image 20241004110418.png]]
-## Parent and Child processes
-- **Child Process**: A replica of the parent process. Child processes are made by `fork()`
-	- Child processes share memory and resources of the parent process.
-	- The code/instructions will be the same for parent and child, until new instructions are assigned to the child by the parent.
-	- Parent processes are in *waiting state* until all child processes die/terminate.
-		- Parent processes can kill all child processes in-order to terminate.
-			- *Cascading termination:* Killing children individually
-			- *Default termination:* All children are killed together
-	- Child cannot ask for more resources (they are killed if more resources are requested)
-
->(8mk) Explain Process, Process control block, and Process state, Queuing diagram.
 

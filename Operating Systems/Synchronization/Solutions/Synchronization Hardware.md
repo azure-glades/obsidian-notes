@@ -1,9 +1,10 @@
-	Solutions for the critical section problem that is implemented through hardware, and not software
+Solutions for the critical section problem that is implemented through hardware, and not software
 - Needed because software solutions need not work on all computer architectures
 
 Consider an example problem where 2 threads are accessing a shared variable `x = 0` and starts with `bool flag = false`
 ```thread 1
-while(!flag) //keep looping;
+while(flag != true)
+	//busy looping;
 print x;
 ```
 ```thread 2
@@ -32,7 +33,7 @@ memory_barrier();
 flag = true;
 ```
  The `memory_barrier()` prevents re-ordering of operations and ensures they are run in sequence. Also updates the value of x to all the processors.
- > Memory barriers are considered low-level operations only used when writing kernels
+ > Memory barriers are considered low-level operations only used when writing kernel modules
 
 ## 2. Hardware Instructions
 Special hardware instructions/functions that are used in modifying and manipulating memory addresses  *atomically*, via
@@ -96,7 +97,7 @@ while (true) {
 	waiting[i] = true; //informs process i wants to enter critical section
 	key = 1; //indicates the lock is not acquired yet
 	
-	while (waiting[i] && key == 1) //waiting to acquire lock
+	while (waiting[i] && key == 1) //busy waiting to acquire lock
 		key = compare and swap(&lock,0,1);
 	
 	waiting[i] = false; //process i has got control of lock
@@ -125,11 +126,11 @@ Basic data types can be defined as atomic variables, which causes any modificati
 - Often implemented as a special atomic data type, using CAS operations
 Example: `increment(&sync)` on an atomic data type `sync`
 ```c
-void increment(atomic int *v)
+void increment(atomic_t *v)
 {
 	int temp;
 	do {
 		temp = *v;
-	} while (temp != compare and swap(v, temp, temp+1));
+	} while (temp != compare_and_swap(v, temp, temp+1));
 }
 ```

@@ -7,8 +7,10 @@ Scheduling decisions occur when:
 - Switches from running to ready
 - Switches from waiting to ready
 - Process is terminated
-[[Deadlocks]]
- 
+This task of scheduling is handled by the [[Scheduler]]
+
+## Scheduling Queues
+**Queuing Diagram:** ![[Pasted image 20241004110418.png]]
 ## Scheduling criteria
 Criteria that the scheduling algorithm tries to improve/maximize by scheduling appropriate tasks
 - **Throughput**: Amount of output by input. Number of tasks being run, involving context switching. 
@@ -18,10 +20,11 @@ Criteria that the scheduling algorithm tries to improve/maximize by scheduling a
 - **Turnaround time**: Time elapsed for a process to go from ready-state to dead-state (Lifetime of a process/time taken to complete a process) (Includes CPU time and I/O time and interrupts and time spent while it was context-switched)
 
 ## Scheduling Algorithm
-A set of instructions that a scheduler follows to decide the order in which tasks enter the CPU
-- Burst time: time taken for each process execution is called cpu burst-time for that process
-- Waiting time: the time when the process entered cpu - time it arrived to ready queue
-- Turnaround time: the when the process completed execution - time it arrived to ready queue
+A set of instructions that a scheduler follows to decide the order in which tasks enter the CPU is the *scheduling discipline/scheduling algorithm/scheduling policy*
+- *Burst time*: time taken for each process execution is called cpu burst-time for that process
+- *Waiting time*: the time when the process entered cpu - time it arrived to ready queue
+- *Turnaround time*: the when the process completed execution - time it arrived to ready queue
+
 ### 1. First Come First Served (FCFS)
 The processes are sent to the cpu based on when they arrive. The length of each process and priority is not considered.
 Example:
@@ -96,10 +99,10 @@ tum
 Two types of priority assignment: *Fixed priority* and *Variable priority*
 
 > [!info]- **Starvation**
-> When priorities do not get CPU time due to their low priority level (they keep getting preempted by others)
+> When processes do not get CPU time due to their low priority level (they keep getting preempted by others)
 
 > [!info]- **Ageing:** 
-> When processes accumulate more priority. Ensures processes execute without high waiting time
+> The increase in the priority of a process with its increase in waiting time is called *ageing*. It is a dynamic priority allocation method to prevent process starvation. 
 
 - Processes are scheduled based on priority levels. Processes with equal priority are chosen based on arrival time.
 	- Fixed priority is when the priority of a process remains constant
@@ -110,6 +113,5 @@ Two types of priority assignment: *Fixed priority* and *Variable priority*
 ### 5. Earliest Deadline First Scheduling
 A type of PBPS where the priority is given to processes with earlier deadlines
 ## [[Real-Time Scheduling]]
-A set of scheduling algorithms used in real time operating systems. The goal here is to maximize ease of use. Prioritizes short response time and context switching to prevent the system from hanging.
-- essential in systems where timing is critical, such as embedded systems in medical devices, industrial automation, and automotive control systems.
-- 
+A set of scheduling algorithms used in real time operating systems. The goal here is to meet deadlines. Prioritizes short response time and context switching to prevent the system from hanging.
+- essential in systems where timing is critical, such as embedded systems in medical devices, industrial automation, and automotive control systems like ABS.
