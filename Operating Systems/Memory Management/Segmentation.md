@@ -16,7 +16,7 @@ A logical address space is a collection of segments
 | Memory Allocation      | Non-contiguous allocation             | Allocated as whole units            |
 | Fragmentation          | External fragmentation possible       | Internal fragmentation possible      |
 | Complexity             | More complex address translation      | Simpler address translation          |
-- Segmentation avoids internal fragmentation but cannot prevent external fragmentation (which is the exact opposite of paging, which avoids external fragmentation but cannot prevent internal fragmentation)
+***Segmentation avoids internal fragmentation but cannot prevent external fragmentation (which is the exact opposite of paging, which avoids external fragmentation but cannot prevent internal fragmentation)***
 
 ## Segment Table
 All segments of memory are stored in a *segment table*.
@@ -25,7 +25,6 @@ All segments of memory are stored in a *segment table*.
 ![[Pasted image 20250201225634.png]]
 
 ## Advantages of Segmentation
-
 - **Logical Grouping**: Segmentation facilitates logical grouping of related data and functions, making it easier for programmers to understand and manage memory usage
 - **Protection and Sharing**: Each segment can have different protection attributes (e.g., read-only or read-write), allowing for better isolation between processes. Additionally, segments can be shared among processes without duplicating data in memory
 - **Reduced Internal Fragmentation**: Since segments can be of varying sizes, segmentation minimizes internal fragmentation compared to fixed-size pages, where unused space within pages can lead to wasted memory.

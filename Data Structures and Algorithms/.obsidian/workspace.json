@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "67c505d2bb029e41",
+            "id": "5a4016ae46819103",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tree/Binary Tree/Priority Queue.md",
-                "mode": "preview",
+                "file": "Algorithmic Analysis.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Priority Queue"
+              "title": "Algorithmic Analysis"
             }
           }
         ]
@@ -95,14 +95,16 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "22cb914c212d855b",
+            "id": "698b700b239cab74",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -134,10 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linked List/Circular doubly linked list.md"
+                "file": "Algorithmic Analysis.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Circular doubly linked list"
+              "title": "Outline of Algorithmic Analysis"
             }
           },
           {
@@ -146,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tree/Binary Tree/Heap.md",
+                "file": "Algorithmic Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Heap"
+              "title": "Backlinks for Algorithmic Analysis"
             }
           },
           {
@@ -165,21 +170,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linked List/Linked List.md",
+                "file": "Algorithmic Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Linked List"
+              "title": "Outgoing links from Algorithmic Analysis"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 295.5,
-    "collapsed": true
+    "width": 344.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,54 +194,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "67c505d2bb029e41",
+  "active": "5a4016ae46819103",
   "lastOpenFiles": [
-    "Tree/Binary Tree/Heap.md",
-    "Tree/Binary Tree/Priority Queue.md",
-    "Queue/Circular Queue.md",
-    "Stack/Infix-Prefix-Postfix.md",
-    "Stack/Infix to Prefix.md",
-    "Stack/Infix to Postfix.md",
-    "Recursion/Binary Search.md",
-    "Recursion/Recursion.md",
-    "Recursion/Tower of Hanoi.md",
-    "Recursion/Factorial Function.md",
-    "Recursion/Fibonacci Function.md",
-    "Linked List/Dynamic Memory Allocation.md",
-    "Linked List/Linear linked list.md",
-    "Linked List/Linked List.md",
-    "Linked List/Sparse Matrix.md",
-    "Pointers.md",
-    "Hashing/Hash tables.md",
-    "Hashing/Hashing 2.md",
-    "Hashing/Double Hashing.md",
-    "Puzzles.md",
-    "Tree/Binary Tree/Threaded Binary Tree.md",
-    "SYLLABUS.jpg",
-    "Tree/B and B+ tree.md",
-    "Tree/Trie.md",
-    "Tree/Tree.md",
-    "Tree/Binary Tree/Splay Tree.md",
-    "Tree/Binary Tree/AVL Tree.md",
-    "Data structures using C (Reema Thareja).pdf",
+    "Algorithms.md",
+    "ananylevitin-algorithms.pdf",
+    "Algorithmic Analysis.md",
+    "Sorting/Quicksort.md",
+    "Sorting/Sorting Algorithms.md",
+    "Action Plan for DSA.md",
+    "Sorting/Mergesort.md",
+    "DSA/DSA.md",
+    "Sorting/Quick Sort.md",
+    "Sorting/Merge Sort.md",
+    "DSA/Tree/Type of Data structures.md",
+    "all-images/Pasted image 20250306211050.png",
+    "Sorting/Insertion sort.md",
+    "Introduction.to.Algorithms.4th.Leiserson.Stein.Rivest.Cormen.pdf",
+    "DSA/Pointers.md",
+    "DSA/Recursion/Tower of Hanoi.md",
+    "DSA/Recursion/Fibonacci Function.md",
+    "DSA/Recursion/Recursion.md",
+    "DSA/Recursion/Binary Search.md",
+    "DSA/Data structures using C (Reema Thareja).pdf",
+    "all-images/Pasted image 20250305101658.png",
+    "all-images/Pasted image 20250305120418.png",
+    "DAA",
+    "Sorting",
+    "all-images/Pasted image 20250305120550.png",
+    "images",
+    "TO DO.md",
+    "DSA/SYLLABUS.jpg",
     "IS233AI.pdf",
-    "Tree/Binary Tree",
+    "DSA",
+    "DSA/Puzzles.md",
+    "DSA/Tree/Binary Tree/Priority Queue.md",
+    "DSA/Tree/Binary Tree/Heap.md",
+    "DSA/Queue/Circular Queue.md",
+    "DSA/Stack/Infix-Prefix-Postfix.md",
+    "DSA/Stack/Infix to Prefix.md",
+    "DSA/Stack/Infix to Postfix.md",
+    "DSA/Recursion/Factorial Function.md",
+    "DSA/Tree/Binary Tree",
     "all-images/Pasted image 20241219161000.png",
     "all-images/Pasted image 20241219160945.png",
     "all-images/Pasted image 20241219160928.png",
     "all-images/Pasted image 20241219131904.png",
     "all-images/Pasted image 20241219131324.png",
-    "all-images/Pasted image 20241219130629.png",
-    "all-images/Pasted image 20241219130612.png",
-    "all-images/Pasted image 20241219114842.png",
-    "Hashing",
-    "Untitled.canvas",
-    "Linked List",
-    "Tree",
-    "all-images/Pasted image 20241028115944.png",
-    "Recursion",
-    "Queue",
-    "Stack",
-    "all-images"
+    "DSA/Hashing",
+    "Untitled.canvas"
   ]
 }

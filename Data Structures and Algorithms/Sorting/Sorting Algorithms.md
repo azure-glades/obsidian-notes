@@ -1,0 +1,3 @@
+[[Mergesort]]
+[[Quicksort]]
+[[Insertion sort]]

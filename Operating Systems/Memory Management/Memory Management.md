@@ -1,7 +1,5 @@
--> [[Page Table Structure]]
 -> [[Swapping]]
 -> [[Virtual memory]]
--> [[Thrashing]]
 
 > Understand what happens behind the abstraction of memory allocation and deallocation.
 > What goes behind the abstraction when we allocate memory, deallocate memory, how RAM is managed

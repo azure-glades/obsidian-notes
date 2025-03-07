@@ -1,4 +1,4 @@
->[!note] Overallocation
+>[!note] **Overallocation**
 >The assignment of more memory to processes than is physically available on a machine. This can occur in environments such as virtual machines, where multiple instances may not utilize their allocated memory fully at any given time. 
 >- For example, if 4 processes each have 10 pages assigned but use only 5 pages. Here a total of 20 pages are wasted pages which could be assigned to other processes and increase cpu utilization.
 >- Hence, 4 more processes (total 8) can be loaded and allocated 10 pages each while in reality they only use 5 pages. Here, the computer's memory of 40 pages is fully utilized, by *overallocating* 80 pages of memory
@@ -6,7 +6,7 @@
 
 *Definition:*
 - **Page replacement** is a memory management scheme that enables an operating system to manage the allocation of pages in memory when a page fault occurs—i.e., when a program tries to access a page that is not currently in physical memory. When this happens, the operating system must decide which page to remove to make space for the new one. The goal is to minimize page faults and optimize performance.
-
+****
 - *Basic page replacement:*  The sequence of steps during page replacement:
 	- When a page fault occurs, the required page is located.
 		- If there is a free frame, memory is allocated
@@ -27,7 +27,7 @@ A **reference string** is a sequence of memory addresses that a process access
 >[!note] Belady's Anomaly
 > 1. **Page Faults**: A page fault occurs when a program attempts to access a page that is not currently loaded in physical memory. The operating system must then load the required page from disk, which can be time-consuming.
 > 2. **Expected Behavior**: Generally, it is assumed that as the number of available frames increases, the number of page faults should decrease because there is more space to hold pages that are frequently accessed.
-> 3. **Paradoxical Result**: However, Belady's anomaly shows that under certain conditions and with specific algorithms (like FIFO), increasing the number of frames can actually lead to more page faults. This happens because the FIFO algorithm may evict pages that would have been beneficial to keep in memory, thus leading to more frequent page faults.
+> 3. **Paradoxical Result**: However, ***Belady's anomaly*** shows that under certain conditions and with specific algorithms (like FIFO), increasing the number of frames can actually lead to more page faults. This happens because the FIFO algorithm may evict pages that would have been beneficial to keep in memory, thus leading to more frequent page faults.
 
 There are several algorithms for page replacement, each with its own strategy:
 ### 1. First-In-First-Out (FIFO)

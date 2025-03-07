@@ -1,9 +1,11 @@
 {
-  "accentColor": "#26619c",
+  "accentColor": "#003153",
   "cssTheme": "AnuPpuccin",
-  "theme": "moonstone",
-  "interfaceFontFamily": "Inter",
-  "textFontFamily": "Inter",
-  "monospaceFontFamily": "",
-  "showRibbon": true
+  "theme": "obsidian",
+  "interfaceFontFamily": "Calibri",
+  "textFontFamily": "Bodoni 72",
+  "monospaceFontFamily": "DejaVu Sans Mono",
+  "showRibbon": true,
+  "baseFontSize": 16,
+  "nativeMenus": false
 }

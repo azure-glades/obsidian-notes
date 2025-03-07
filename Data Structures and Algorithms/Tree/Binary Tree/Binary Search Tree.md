@@ -1,2 +1,0 @@
-[[AVL Tree]]
-[[Splay Tree]]
