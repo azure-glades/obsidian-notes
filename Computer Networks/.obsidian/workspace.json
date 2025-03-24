@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "92abdad23a7a6ecc",
+        "id": "9ea595a92432a9d1",
         "type": "tabs",
         "children": [
           {
-            "id": "8c26001f484ac136",
+            "id": "19a4bb5850017427",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UNIT 1/Networks and Communication.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Networks and Communication"
+              "title": "New tab"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.50260543823242,
-    "collapsed": true
+    "width": 407.5026054382324
   },
   "right": {
     "id": "e4867333660853a3",
@@ -196,17 +191,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c26001f484ac136",
+  "active": "19a4bb5850017427",
   "lastOpenFiles": [
+    "Data-Communications-and-Network.pdf",
+    "UNIT 1/Networks and Communication.md",
     "Pasted image 20250324124124.png",
     "Pasted image 20250324124112.png",
     "reorganization/CN 1.md",
-    "UNIT 1/Networks and Communication.md",
     "Computer Networks.md",
     "UNIT 1",
     "Notes Structure.md",
     "reorganization/HDLC.md",
-    "reorganization/Data-Communications-and-Network-5e.pdf",
     "reorganization/Data Link Layer.md",
     "reorganization/CSMA.md",
     "images/Pasted image 20250319093456.png",
@@ -219,7 +214,6 @@
     "images/Pasted image 20250312095549.png",
     "images/Pasted image 20250318104714.png",
     "images/Pasted image 20250318104629.png",
-    "images/Pasted image 20250318104334.png",
     "Andrew S. Tanenbaum - Computer Networks.pdf",
     "Untitled.canvas",
     "CN 2.md",
