@@ -18,3 +18,6 @@ Registers:
 R13 - Can be used as a stack pointer
 R14 - Link register
 R15 - Program counter
+
+### 12.05.2025
+Write datasheets for lab and submit before starting pogams

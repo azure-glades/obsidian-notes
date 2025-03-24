@@ -1,8 +1,8 @@
 {
   "baseFontSize": 16,
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Border",
   "accentColor": "#400080",
-  "theme": "obsidian",
+  "theme": "moonstone",
   "interfaceFontFamily": "Calibri",
   "textFontFamily": "Bodoni 72"
 }

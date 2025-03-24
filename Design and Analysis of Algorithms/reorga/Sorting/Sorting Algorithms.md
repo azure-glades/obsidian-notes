@@ -1,0 +1,7 @@
+[[Heap sort]]
+[[Merge sort]]
+[[Quick sort]]
+[[Insertion sort]]
+[[Selection sort]]
+[[Insertion sort]]
+[[Bubble sort]]

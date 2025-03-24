@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3462a0dd06eb2681",
+        "id": "92abdad23a7a6ecc",
         "type": "tabs",
         "children": [
           {
-            "id": "f9ea5394be5ee55f",
+            "id": "8c26001f484ac136",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CN 2.md",
+                "file": "UNIT 1/Networks and Communication.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CN 2"
-            }
-          },
-          {
-            "id": "550b18e06cd5de81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CN 3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CN 3"
+              "title": "Networks and Communication"
             }
           }
         ]
@@ -92,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.50260543823242
+    "width": 221.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "e4867333660853a3",
@@ -196,7 +183,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,13 +196,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f9ea5394be5ee55f",
+  "active": "8c26001f484ac136",
   "lastOpenFiles": [
-    "CN 3.md",
-    "CN 2.md",
-    "CN 1.md",
+    "Pasted image 20250324124124.png",
+    "Pasted image 20250324124112.png",
+    "reorganization/CN 1.md",
+    "UNIT 1/Networks and Communication.md",
+    "Computer Networks.md",
+    "UNIT 1",
+    "Notes Structure.md",
+    "reorganization/HDLC.md",
+    "reorganization/Data-Communications-and-Network-5e.pdf",
+    "reorganization/Data Link Layer.md",
+    "reorganization/CSMA.md",
+    "images/Pasted image 20250319093456.png",
+    "reorganization",
+    "reorganization/Physical Layer.md",
     "SYLLABUS.png",
-    "Data-Communications-and-Network-5e.pdf",
+    "images/Pasted image 20250320130525.png",
+    "images/Pasted image 20250319094929.png",
+    "images/Pasted image 20250319094201.png",
+    "images/Pasted image 20250312095549.png",
+    "images/Pasted image 20250318104714.png",
+    "images/Pasted image 20250318104629.png",
+    "images/Pasted image 20250318104334.png",
+    "Andrew S. Tanenbaum - Computer Networks.pdf",
+    "Untitled.canvas",
+    "CN 2.md",
+    "CN 3.md",
     "images",
     "Note 1.md"
   ]

@@ -1,0 +1,1 @@
+There are multiple different problem solving techniques which gives rise to many different algorithms for solving problems. There are many ways to solve the same problem and hence there are many algorithmic problem solving techniques
