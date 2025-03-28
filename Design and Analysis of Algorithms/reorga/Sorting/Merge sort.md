@@ -16,7 +16,7 @@ FUNCTION merge(a, low, mid, high)
 	
 	WHILE (i <= mid)
 		b[k++] = a[i++]
-	WHILE (i <= mid)
+	WHILE (j <= mid)
 		b[k++] = a[j++]
 	
 	FOR (i = low; i<n; i++)

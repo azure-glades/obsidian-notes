@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bbea632680c7537f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Intro to Algorithms/Types of Algorithms.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Types of Algorithms"
-            }
-          },
-          {
             "id": "9dbd783f035df9a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro to Algorithms/Recursive Functions/Recursion.md",
+                "file": "Complexity Analysis/Efficiency Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Recursion"
+              "title": "Efficiency Analysis"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,22 +199,23 @@
   "active": "9dbd783f035df9a8",
   "lastOpenFiles": [
     "Note Structure.md",
-    "Intro to Algorithms/Recursive Functions/Recursion.md",
-    "[[Efficiency.md",
+    "syllabus.png",
     "Intro to Algorithms/Types of Algorithms.md",
-    "Complexity Analysis/Efficiency Analysis.md",
     "Intro to Algorithms/Algorithms.md",
-    "Intro to Algorithms",
-    "reorga/DAA 3.md",
-    "Intro to Algorithms/Recursive Functions",
-    "reorga/DAA 2.md",
     "reorga/DAA 1.md",
+    "reorga/DAA 3.md",
+    "reorga/DAA 2.md",
+    "reorga/Sorting/Quick sort.md",
+    "Complexity Analysis/Efficiency Analysis.md",
+    "Intro to Algorithms/Recursive Functions/Recursion.md",
+    "reorga/Sorting/Merge sort.md",
+    "[[Efficiency.md",
+    "Intro to Algorithms",
+    "Intro to Algorithms/Recursive Functions",
     "UHV.md",
     "Complexity Analysis/Examples/Decimal to Binary.md",
     "Complexity Analysis/Examples/Distinct Elements in Array.md",
     "Complexity Analysis/Examples/Matrix Multiplication.md",
-    "reorga/Sorting/Quick sort.md",
-    "reorga/Sorting/Merge sort.md",
     "Complexity Analysis/Examples",
     "Complexity Analysis",
     "Complexity Analysis/Examples/Selection sort.md",
@@ -245,7 +231,6 @@
     "textbook-Introduction.to.Algorithms.4th.Leiserson.Stein.Rivest.Cormen.pdf",
     "Complexity Analysis",
     "Complexity Analysis.md",
-    "reorganization/Recursion.md",
     "reorga/GRS-BARI DAA",
     "Brute Force",
     "Dynamic Programming",
@@ -258,7 +243,6 @@
     "all-images/Pasted image 20250305120418.png",
     "all-images/Pasted image 20250305120550.png",
     "DSA/SYLLABUS.jpg",
-    "all-images/Pasted image 20241219161000.png",
     "Untitled.canvas"
   ]
 }

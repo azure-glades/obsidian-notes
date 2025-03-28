@@ -1,3 +1,26 @@
+
+
+
+Algorithm
+- Characteristics and properties of algo
+- Efficiency analysis and techinques of comparision
+	- Efficiency classes
+	- Asymptotic notation
+	- Analysis of recursive and non recursive algos
+		- Recursion trees
+		- Masters theorem
+		- Substitution method
+- Brute force
+	- Selection sort
+	- Bubble sort
+- Divide and conquer
+	- Merge sort
+	- Quick sort
+	- Long integer multiplication
+	- Straasens matrix multiplication
+- Decrease and conquer
+
+---
 Algorithm
 - Properties
 - Prime factor algos

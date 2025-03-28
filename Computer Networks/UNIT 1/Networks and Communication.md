@@ -10,7 +10,7 @@ A data communication network has 5 components
 2. Sender
 3. Receiver
 4. Transmission medium
-5. Protocol: A set of rules that govern data communication. It is an agreement between communicating devices.
+5. [[Protocol Suite]]: A set of rules that govern data communication. It is an agreement between communicating devices.
 Data can be text (unicode, ASCII), numbers, images (encoded in RGB or YCM), audio or video
 
 ## Data Flow
@@ -20,7 +20,7 @@ Communication between devices varies based on task and type of device.
 3. **Full-duplex:** Both devices can send and receive simultaneously. Ex: Telephone
 ![[Pasted image 20250324124124.png]]
 
-## Networks
+## Network structure
 ***A network is the interconnection of a set of devices capable of communication.*** Normal devices are called **hosts** while routers, switches and modems are called **connecting devices.**
 Network criteria tells quality of network
 1. **Performance:** The capability of a network to send and receive packets, the volume of packets it can handle, etc.
@@ -47,6 +47,7 @@ Network criteria tells quality of network
 		- Easy to identify a broken link and fix it. Makes it more robust
 		- High privacy since each device has its own isolated link that cannot be accessed. Compromised links can also be avoided by rerouting
 	- *Disadvantage:* High amount of cabling and i/o ports make it expensive and sometimes physically not possible. 
+![[Pasted image 20250324191605.png]]
 2. **Star topology:** All devices connect to a *central hub* through a p2p link
 	- Each device requires 1 port (connected only to the hub).  
 	- The hub/switch needs `n` ports (one per device).  
@@ -59,6 +60,7 @@ Network criteria tells quality of network
 		- ==Hub/switch is a single point of failure== —if it fails, the whole network goes down.  
 		- Higher cabling cost than bus (each device needs a separate cable to the hub).  
 		- Performance depends on the hub/switch capacity (can become a bottleneck).  
+![[Pasted image 20250324191623.png]]
 3. **Bus topology:** All devices are connected to a single central cable (the *bus* or *backbone*). hence they have multi-point communication with all devices.
 	- Each device connects to the bus using a *tap/drop line* which connects to the core.
 	- Only one device can transmit data at a time (requires collision detection or token passing).
@@ -68,8 +70,46 @@ Network criteria tells quality of network
 		- Easy to install
 		- Backbone can be laid on the shortest path to all devices and the tap can be small
 	- *Disadvantage:*
-		- ==Single point of failure==—if the backbone breaks, the entire network fails because of reflection at the breakpoint make. this prevents devices on the same side from also communicating
+		- ==Backbone is single point of failure==—if the backbone breaks, the entire network fails because of reflection at the breakpoint make. this prevents devices on the same side from also communicating
 		- Adding more devices is hard. Backbone may need to be relaid
 		- Adding more taps causes *signal reflection* which drops quality
 		- There’s a limit to the length of the bus since signal strength drops over long distances
+![[Pasted image 20250324191635.png]]
 4. **Ring topology:** Each device has a dedicated p2p communication with the devices. Signals move in 1 direction in a link from neighbour to neighbour until it reaches its destination
+	- *Unidirectional traffic* so each device has 1 sender neighbour and 1 receiver neighbour
+	- Each device has a repeater to boost signal strength
+	- `n` repeater-device links and 1 ring
+	- *Advantage:*
+		- Easy to install and add/remove new devices
+		- Easy to isolate faults since it is possible to know between what two devices a fault sits.
+	- *Disadvantage:*
+		- ==Ring is a single point of failure== which can bring down the network. Mitigated with dual-ring topology
+![[Pasted image 20250324191649.png]]
+## Network types
+Distinguished based on size
+### LAN
+Private network restricted to a company or a campus with its own set of rules and a common firewall. Usually bus or star topology with a common central switch that connects to all devices and to the internet. Most LANs are connected to other LANs and WANs
+![[Pasted image 20250324191926.png]]
+
+### WAN
+WAN connects larger geographical areas and includes many LANs within it
+1. **Point to point WAN:** 2 communicating devices of WANs(router/switch) are connect by a p2p link allowing the 2 WANs to share data
+![[Pasted image 20250324192733.png]]
+2. **Switched WAN:** Several p2p WANs connected by switches
+![[Pasted image 20250324192722.png]]
+3. **Internetwork:** When multiple LANs and WANs are connected they’re called an Internetwork since it allows for inter-network communication (i.e between different types of networks). Ex: Multiple offices in a company (with their own LAN, and sometimes regional clusters with WANs) can be set-up to have a network completely isolated from the world wide web. This is a private internet network where computers from the world wide web cannot access this internetwork.
+
+| WAN                                                                                       | LAN                                                                 |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Wider geographical area                                                                   | Small area like a campus or company                                 |
+| Run by ISPs which give service to people and companies                                    | Managed by the organization                                         |
+| WAN interconnects hosts and also connecting devices (like *switches, modems and routers*) | LAN interconnects host devices within a campus/company              |
+| Has to adhere to privacy laws and legislation                                             | Companies have complete control on the usage and rules within a LAN |
+
+## Switching
+A switch forwards data from one network to another network. ISPs manage switches. The forwarding of data between networks is called switching.
+1. **Circuit switching:** When a dedicated p2p link (called a *circuit*) is available between 2 networks but access is controlled by a switch. The switch hence turns the link on/off allowing signals to be sent/received and does not store/read the signal. 
+	- Communication is directly between the host devices
+2. **Packet switching:** No direct link exists between the devices of network. Instead they communicate with the router/switch which has to send the data itself to the other network.
+	- The router/switch stores/buffers the packets and forwards them to routers/switches.
+	- More common since it enables full use of network capacity.
