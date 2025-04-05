@@ -13,7 +13,7 @@ TCP-IP and OSI model
 		- DLC services and protocols
 			- HDLC
 			- PPP
-		- MAC
+	- MAC
 			- Random access - ALOHA
 			- CSMA/CD and CSMA/CA
 

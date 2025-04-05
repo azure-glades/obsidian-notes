@@ -27,6 +27,6 @@ void towerofhanoi(int n, char src, char aux, char dest)
 	towerofhanoi(n-1, src, dest, aux);
 	printf("\nMove %d from %c to %c\n", n, src, dest);
 	count++;
-	towerofhanoi(n-1, aux, src, dest);
+	towerofhanoi(n-1, aux, src, dest);`
 }
 ```

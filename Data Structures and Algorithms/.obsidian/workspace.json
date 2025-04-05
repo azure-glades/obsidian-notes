@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursion/Tower of Hanoi.md",
+                "file": "13.03.2025.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tower of Hanoi"
+              "title": "13.03.2025"
             }
           }
         ]
@@ -198,13 +198,14 @@
   },
   "active": "04ecf68403336396",
   "lastOpenFiles": [
+    "Recursion/Tower of Hanoi.md",
+    "Mathematical Analysis/Asymptotic Notation.md",
+    "Mathematical Analysis/DAA 19.03.2025.md",
     "Recursion/Fibonacci Function.md",
     "Recursion/Factorial Function.md",
     "Recursion/Recursion.md",
     "Recursion/Binary Search.md",
     "TO DO.md",
-    "Mathematical Analysis/DAA 19.03.2025.md",
-    "Mathematical Analysis/Asymptotic Notation.md",
     "Mathematical Analysis",
     "13.03.2025.md",
     "Pointers.md",
@@ -228,7 +229,6 @@
     "Problems/Sorting/Heap sort.md",
     "Tree/Red Black Tree.md",
     "Tree/Tree.md",
-    "Tree/Binary Tree/Threaded Binary Tree.md",
     "textbook-ananylevitin-algorithms.pdf",
     "all-images/Pasted image 20250315145332.png",
     "all-images/Pasted image 20250315150234.png",

@@ -19,7 +19,7 @@ FUNCTION  partition(arr, low, high)
 		WHILE arr[j] >= pivot
 		IF i<j
 			swap(arr[i], arr[j])
-	swap(arr[l],arr[j])
+	swap(arr[low],arr[j])
 RETURN j
 
 FUNCTION quickSort(arr, low, high)

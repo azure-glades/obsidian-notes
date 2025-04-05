@@ -22,4 +22,4 @@ which are usually [[Divide and Conquer]] algorithms.
 Here $f(n)$ is called the driving function, and $\alpha \ge 1$ and $\beta\gt1$  
 > The function $T(n)$ gets split into 
 ## Recursion Tree
-
+l
