@@ -1,9 +1,10 @@
-#sorting
-- Quick sort is a divide-and-conquer strategy
-- Best case: $O(n\log n)$. When pivot selected is always the middle element
-- Average case: $O(1.9*n\log n)$
-- Worst case: $O(n^2)$ . When the list is already sorted
-``` algorithm
+Quick sort is a comparison-based #sorting algorithm that employs the #divide-and-conquer technique. It works by selecting a pivot element, partitioning the array around it, and recursively sorting the subarrays on either side
+- Time complexity
+	- Best case: $O(n\log n)$. When pivot selected is always the middle element
+	- Average case: $O(1.9*n\log n)$
+	- Worst case: $O(n^2)$. When the list is already sorted
+- Space complexity: $O(\log n)$
+``` al
 FUNCTION  partition(arr, low, high)
 // partitions the array to prepare for sorting
 // Input: arr - array to sort
@@ -33,7 +34,7 @@ FUNCTION quickSort(arr, low, high)
 RETURN arr
 ```
 
-
+In java
 ```java
 class Solution {
     // Function to sort an array using quick sort algorithm.

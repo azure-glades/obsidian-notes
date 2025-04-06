@@ -9,12 +9,14 @@
 >Geometric problems
 >Numerical problems
 
-> *Common strategies*
-> Divide and Conquer
+> *Types of Algorithms*
+> [[Divide and Conquer]]
+> [[Decrease and Conquer]]
+> [[Greedy Algorithms]]
 > Dynamic Programming
 
 >*See further*
->[[Complexity Analysis]]
+>[[Efficiency Analysis]]
 ## Properties of algorithm
 An algorithm is a sequence of unambiguous instructions for solving a problem. Key properties include:
 1. **Input**: Valid inputs are specified. This ensures that the algorithm can process the data correctly.
@@ -29,7 +31,7 @@ An algorithm is a sequence of unambiguous instructions for solving a problem. Ke
 3. **Network usage** → Data transfer done  to complete the task
 4. **Power consumption** → Important for embedded system
 5. **CPU Register usage** → Important when making kernel-level algorithms
-Performance of algorithms is described using [[DAA 2]]
+Performance of algorithms is described using asymptotic notation
 ## Fundamentals of algorithmic problem solving
 ![[Pasted image 20250306211050.png]]
 

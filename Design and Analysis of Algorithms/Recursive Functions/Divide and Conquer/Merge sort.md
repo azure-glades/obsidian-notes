@@ -1,6 +1,8 @@
-#sorting
+Merge sort is a stable, comparison-based #sorting algorithm that uses the #divide-and-conquer technique. It recursively divides the input array into two halves until each subarray contains a single element, then merges these subarrays in sorted order to produce the final sorted array. 
+- Its time complexity is$$O(n \log n)$$ *in all cases (best, average, and worst)* making it highly efficient for large datasets.
+- It requires additional space for merging, resulting in a space complexity of $O(n)$ Merge sort is particularly suitable for linked lists and scenarios where stability in sorting is required
 Best, Average and Worst case: $O(n\log n)$
-```algorithm
+```al
 FUNCTION merge(a, low, mid, high)
 //merges unsorted into sorted arrays
 //Input: a - array, low - lower index
@@ -35,7 +37,35 @@ FUNCTION mergeSort(a, low, high)
 RETURN
 ```
 
+merge sort in c
+```c
+void mergesort(int *a, int start, int end){
+	if(start < end){
+		int mid = (start+end)/2;
+		mergesort(a, start, mid);
+		mergesort(a, mid+1, end);
+	}
+	merge(a, start, end);
+}
 
+void merge(int *a, int start, int end){
+	if(start >= end){
+		return;
+	}
+	int i,j;
+	for(i = start; i < end; i++){
+		for(j = i; j < end; j++){
+			if(a[j] > a[j+1]){
+				int tmp = a[j];
+				a[j] = a[j+1];
+				a[j+1] = tmp;
+			}
+			iter++;
+		}
+	}
+	return a;	
+}
+```
 here is merge sort in java
 ```java
 void MergeSortAlgo{

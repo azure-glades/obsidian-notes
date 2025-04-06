@@ -45,5 +45,10 @@ PPP uses a **character-oriented (byte-oriented)** frame structure
 # Transition phases
 The function of PPP can be expressed as transition phase diagram
 ![[Pasted image 20250402200209.png]]
-
 # Multiplexing
+PPP uses a set of supporting protocols to establish and authenticate nodes and carry data. It uses
+1. **Link Control Protocol:** The Link Control Protocol (LCP) is responsible for establishing, maintaining, configuring, and terminating links. It also provides negotiation mechanisms to set options between the two endpoints. Both endpoints of the link must reach an agreement about the options before the link can be established.
+2. **Authentication Protocols:** Authentication means validating the identity of a user who needs to access a set of resources. 2 protocols deal with this
+	1. *Password authentication protocol - PAP*
+	2. *Challenge handshake authentication protocol - CHAP*
+3. **Network control protocols:** There are many different network protocols for dealing with each network packet type, like IPCP, Xerox CP, etc.

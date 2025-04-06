@@ -11,17 +11,44 @@
             "id": "f51d5855c86c1bac",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "syllabus.png"
+              },
+              "icon": "lucide-image",
+              "title": "syllabus"
+            }
+          },
+          {
+            "id": "df789ae7bb1c3bb2",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro to Algorithms/Recursive Functions/Recursion.md",
+                "file": "Recursive Functions/Akra-Bazzi Recurrences.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Recursion"
+              "title": "Akra-Bazzi Recurrences"
+            }
+          },
+          {
+            "id": "0a4aa437a4137967",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recursive Functions/Akra-Bazzi Recurrences.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Akra-Bazzi Recurrences"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -196,46 +223,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f51d5855c86c1bac",
+  "active": "0a4aa437a4137967",
   "lastOpenFiles": [
-    "Complexity Analysis/Efficiency Analysis.md",
-    "Intro to Algorithms/Algorithms.md",
-    "Strassen's Multiplication Algorithm.md",
-    "Complexity Analysis/Examples/Matrix Multiplication.md",
-    "Complexity Analysis/Examples/Selection sort.md",
-    "Intro to Algorithms/Recursive Functions/Recursion.md",
-    "reorga/Sorting/Quick sort.md",
-    "reorga/Sorting/Merge sort.md",
-    "reorga/Sorting/Sorting Algorithms.md",
-    "Intro to Algorithms/Types of Algorithms.md",
-    "reorga/DAA 2.md",
-    "reorga/DAA 1.md",
+    "Recursive Functions/Divide and Conquer/Divide and Conquer.md",
+    "Recursive Functions/Recursion.md",
+    "Recursive Functions/Akra-Bazzi Recurrences.md",
+    "Recursive Functions/Divide and Conquer/Strassen's Multiplication Algorithm.md",
+    "Recursive Functions/Divide and Conquer/Quick sort.md",
+    "Recursive Functions/Divide and Conquer/Karatsuba Multiplication.md",
+    "Algorithms.md",
+    "Action Plan for DSA.md",
+    "UHV.md",
+    "Note Structure.md",
+    "Recursive Functions/Divide and Conquer/Merge sort.md",
+    "Recursive Functions/Divide and Conquer/Heap sort.md",
     "syllabus.png",
+    "Complexity Analysis/Examples/Matrix Multiplication.md",
+    "Intro to Algorithms/Types of Algorithms.md",
+    "Complexity Analysis/Efficiency Analysis.md",
+    "Complexity Analysis/Sorting Algorithms.md",
+    "reorga/DAA 3.md",
+    "GRS-BARI DAA/Greedy Algorithms.md",
+    "Recursive Functions/Divide and Conquer",
+    "reorga/DAA 1.md",
+    "reorga/DAA 2.md",
+    "Complexity Analysis/Examples/Selection sort.md",
     "Complexity Analysis/Examples/Insertion sort.md",
     "Complexity Analysis/Examples/Distinct Elements in Array.md",
     "Complexity Analysis/Examples/Decimal to Binary.md",
     "Complexity Analysis/Examples/Bubble sort.md",
-    "reorga/DAA 3.md",
     "all-images/Pasted image 20241016200259.png",
-    "Note Structure.md",
     "[[Efficiency.md",
     "Intro to Algorithms",
-    "Intro to Algorithms/Recursive Functions",
-    "UHV.md",
+    "Recursive Functions",
     "Complexity Analysis/Examples",
     "Complexity Analysis",
-    "reorga/Sorting/Heap sort.md",
-    "reorga/Action Plan for DSA.md",
-    "TO DO.md",
     "reorga",
-    "reorga/GRS-BARI DAA/Greedy Algorithms.md",
-    "reorga/GRS-BARI DAA/Divide and Conquer.md",
     "textbook-Introduction.to.Algorithms.4th.Leiserson.Stein.Rivest.Cormen.pdf",
     "Complexity Analysis",
-    "Complexity Analysis.md",
-    "reorga/GRS-BARI DAA",
+    "GRS-BARI DAA",
     "Brute Force",
-    "Dynamic Programming",
     "all-images/Pasted image 20250315145332.png",
     "all-images/Pasted image 20250315150234.png",
     "all-images/Pasted image 20250315145718.png",

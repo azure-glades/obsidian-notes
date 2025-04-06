@@ -1,4 +1,15 @@
+%%Explain what is divide and conquer and what it is used for%%
 
+> Examples:
+> [[Merge sort]]
+> [[Quick sort]]
+> [[Heap sort]]
+> [[Strassen's Multiplication Algorithm]]
+> [[Karatsuba Multiplication]]
+> Fibonnaci numbers (normal recurrence, not divide-conquer)
+> Chip testing problem (pg 122)
+> Monge Arrays
+> 
 ## Common matrix multiplication
 - General matrix multiplication for $C = A*B$
 $$C_{ij} = \sum_{k=1}^{n}A_{ik}*B_{kj}$$

@@ -115,7 +115,7 @@ A switch forwards data from one network to another network. ISPs manage switches
 2. **Message switching:** A switching technique where the data is divided into distinct messages of specific length and each message finds its own link/way to the destination
 	- Done in physical layer but it is rarely ever used
 	- Messages are pieced together at the end using the order number.
-3. **Packet switching:** Switching protocol implemented at the network layer is called packet-switching. There are two type of switching techniques, discussed in [[Network Layer]]
+3. **Packet switching:** Switching protocol implemented at the network layer is called packet-switching. There are two type of switching techniques, discussed in Network Layer
 	- The two techniques emulate their counterparts in data-link layer, called Virtual circuit switching and Datagram packet switching
 
 
