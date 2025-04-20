@@ -1,14 +1,28 @@
 %%Explain what is divide and conquer and what it is used for%%
+ A problem-solving strategy that involves breaking a complex problem into smaller, more manageable subproblems, solving each subproblem independently (often recursively), and then combining their solutions to address the original problem.
+- **Divide**: Break the problem into smaller parts.
+- **Conquer**: Solve each part recursively or directly.
+- **Combine**: Merge solutions of subproblems.
+
+When dividing into subproblems, if 2 or more subproblems are made, it is divide and conquer. 
+If only a single subproblem , then it is common referred as [[Decrease and Conquer]].
+Advantage:
+- Simplifies complex problems.
+- Efficient memory usage.
+- Suitable for parallel processing.
 
 > Examples:
-> [[Merge sort]]
+> [[Merge sort]] - Found by John von Neumann
 > [[Quick sort]]
 > [[Heap sort]]
+> Radix sort
 > [[Strassen's Multiplication Algorithm]]
 > [[Karatsuba Multiplication]]
 > Fibonnaci numbers (normal recurrence, not divide-conquer)
 > Chip testing problem (pg 122)
 > Monge Arrays
+> Cooley-Tuckey FFT
+> [[Barnes-Hut Algorithm]]
 > 
 ## Common matrix multiplication
 - General matrix multiplication for $C = A*B$

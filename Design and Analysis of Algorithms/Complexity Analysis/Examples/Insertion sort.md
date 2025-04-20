@@ -1,16 +1,17 @@
 #sorting
-
 Best case : $O(n)$ when array is sorted
 Worst and Average case: $O(n^2)$
 
 ```algorithm
 FUNCTION insertionSort(arr, size)
-	FOR (i: 1 -> size-1)
-		j = i
-		WHILE (j > 0 AND arr[j-1]>arr[j])
-			swap(arr[j],arr[j-1])
+	FOR i = 1 TO size-1
+		key = arr[i]
+		j = i-1
+		WHILE (j >= 0 AND arr[j] > key)
+			arr[j+1] = arr[j]
 			j = j-1
 		END WHILE
+		arr[j+1] = key
 	END FOR
 RETURN
 ```

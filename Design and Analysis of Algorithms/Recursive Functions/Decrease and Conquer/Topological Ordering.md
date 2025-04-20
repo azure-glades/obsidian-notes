@@ -1,0 +1,1 @@
+2 methods: reverse pop order of DFS and Vertex deletion method

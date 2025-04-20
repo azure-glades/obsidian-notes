@@ -1,7 +1,14 @@
 ***The data link control (DLC) deals with procedures for communication between two adjacent nodes no matter whether the link is dedicated or broadcast***
+
+The DLC sublayer takes the network protocol data, which is typically an IPv4 or IPv6 packet, and adds Layer 2 control information to help deliver the packet to the destination node.
+→ [[Data Link Layer Protocols]]
 # DLC Services
 The procedure for communication between adjacent nodes (p2p or broadcast node). It is responsible for *framing, flow and error control*
 ## Framing
+All frames have
+- Header
+- Data
+- Trailer
 Bits from the physical layer are packed into sequences of bits called *frames*. A single frame encodes a sequence of consecutive bits encoding information.
 - Framing also adds the source and destination address to the frame. It is a type of *encapsulation*
 Frames can be *fixed length frames* or *variable length frames*.
@@ -20,6 +27,16 @@ Variable length frames can be encoded as characters or numbers
 
 >[!note]+ Bit stuffing
 >Adding one extra `0` whenever 5 consecutive `1`s  appear. Does this regardless of whether the next (i.e 6th bit) is a `0` or `1`. Extra bit is removed later on
+
+Generic frame structure:![[Pasted image 20250414112026.png]]
+Frame fields include the following:
+- **Frame start and stop indicator flags** - Used to identify the beginning and end limits of the frame.
+- **Addressing** - Indicates the source and destination nodes on the media.
+- **Type** - Identifies the Layer 3 protocol in the data field.
+- **Control** - Identifies special flow control services such as quality of service (QoS). QoS gives forwarding priority to certain types of messages. For example, voice over IP (VoIP) frames normally receive priority because they are sensitive to delay.
+- **Data** - Contains the frame payload (i.e., packet header, segment header, and the data).
+- **Error Detection** - Included after the data to form the trailer.
+
 ## Flow control
 Flow control ensures a balance between production and consumption rates to prevent data loss or inefficiency. If data is produced faster than it can be consumed, the consumer may discard excess items due to being overwhelmed. This data loss is prevented by controlling the sender's transmission rate
 - The sending data-link layer pushes frames to the receiving data-link layer, which must process and deliver them to its network layer.
@@ -28,37 +45,8 @@ Flow control ensures a balance between production and consumption rates to preve
 - Flow control signals are exchanged between producer and consumer when the buffer is full or has vacancies.
 Example: If each data-link layer uses a single memory slot as a buffer, communication becomes simpler. The receiver signals the sender when the slot is empty, allowing transmission of the next frame.
 ## Error Control
-- *Cyclic redundancy check* (CHR), a checksum to identify corrupted packets from network layer
-- checksum is added to frame header by the sender
-Error control is handled in data link layer because almost all error is generated during physical transmission
+A transmitting node creates a logical summary of the contents of the frame, known as *the cyclic redundancy check (CRC) value*. This value is placed in the *frame check sequence (FCS)* field to represent the contents of the frame. This is an error detection mechanism
 - Corrupted frame is silently discarded (in LAN and ethernet)
 - An acknowledgement is sent whenever a complete frame is received. Else it is silently discarded and we wait the sender to resend the frame
 ---
-# Data Link Layer Protocols
-- Protocol that manages flow, error and congestion control.
--  **Connectionless protocol:** No connection between the frames. Each frame is sent independently
-- **Connection oriented** Logical connection exists between frames and are sent in order. Common in p2p protocols
-	- 4 protocols exist: simple, stop-and-wait, go-back-N, and selective-repeat
-> Ex: [[HDLC]], [[PPP]]
 
-FSMs are used to explain the working of protocols
-## **Simple protocol** 
-Does not implement error control or flow control. Just sends packets between nodes. Assumed that the receiver always gets perfect packets and never gets overloaded
-![[Pasted image 20250328155612.png]]![[Pasted image 20250318104334.png]]
-
-## **Stop-and-wait protocol** 
-Implements error and flow control. The sender sends a packet and waits for acknowledgement from receiver before sending the next one![[Pasted image 20250318104629.png]]
-![[Pasted image 20250318104714.png]]
-- Sender has 2 states:
-	- *ready state:* waiting for packet from network layer. When it gets a packet, it frames and copies the packet, starts the timer and sends the frame
-	- *blocking state:* 
-		- sender resends frame if timer expires
-		- resends frame if ACK is corrupted
-		- stops timer, deletes copy and moves to ready state if ACK is error-free
-- Receiver has 1 state: Always in ready state
-	- If error free frame arrives, it sends an ACK back to the sender
-	- If corrupted frame arrives, it silently discards it. 
-
->[!note]+ Piggybacking
-> A concept involved in duplex (2-way) communication.
-> When both Alice and Bob are communicating, Alice bundles her ACK for Bob’s message with her message, and hence Bob receives the acknowledgement for his previous message along with the new reply from Alice. This saves bandwidth and latency

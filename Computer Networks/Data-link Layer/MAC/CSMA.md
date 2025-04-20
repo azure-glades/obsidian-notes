@@ -13,6 +13,11 @@ Way of checking if medium is free called persistence methods:
 - non persistence
 - p persistence
 
+# CSMA/CD
 CSMA/CD → uses a backoff mechanism when collision is detected![[Pasted image 20250402181858.png]]
 
+
+
+# CSMA/CA
+![[Pasted image 20250414111413.png]]
 CSMA/CA → uses a probablitity technique to minimize/avoid collision (cannot prevent collision) ![[Pasted image 20250402182041.png]]

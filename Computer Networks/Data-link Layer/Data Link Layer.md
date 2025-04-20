@@ -5,14 +5,15 @@ In the **TCP/IP model**, the **link layer** (also called the network access l
 3. **Addressing**: Uses hardware (MAC) addresses to identify devices on the network.
 4. **Error Detection**: Identifies errors in transmitted frames but does not always correct them.
 5. **Media Access Control (MAC)**: Manages how devices share access to the physical medium to avoid collisions.
+Called **Layer 2** in the **OSI model**
 ![[Pasted image 20250312093623.png]]
 > how are data link address layers identified? how does a router/switch know which device to send the frames to?
 
 Data link layer manages 3 different types of links, i.e point-to-point links, multi-point links and broadcast links
 
-Data link layer has 2 sublayers:
-- [[DLC Sublayer]] → Upper layer
-- [[MAC Sublayer]] → Lower layer
+Data link layer has 2 sublayers: (Follows IEEE 802.2 standards)
+- [[DLC Sublayer]] → Upper sublayer → Called LLC (Logical Link Control) in OSI model
+- [[MAC Sublayer]] → Lower sublayer
 broadcast links have both DLC and MAC![[Pasted image 20250312095549.png]]
 
 IP address stores the destination address of a datagram (network packet) → another addressing mechanism needs to be used » this is *link address/physical address/MAC address*
@@ -47,6 +48,11 @@ While primarily managed at higher layers (e.g., transport layer), the data link 
 - Access Control: Prevents collisions in shared media (e.g., Ethernet CSMA/CD)
 - Flow Control Overlap: By limiting transmission rates, it reduces local congestion
 - Cross-Layer Techniques: In wireless networks, protocols like CL-APCC predict congestion by analyzing node memory and network traffic
+
+>[!important] Router
+> A Router is a network layer device that is also involved in data-link layer
+> - It performs Decapsulation of a frame into a packet (to consult the routing table of Layer 3) and then re-encapsulates the packet into a frame to send it through Layer 2
+> - This is a Layer 2 (DLL) service
 
 # Addressing
 When an network datagram is transfered between links (as frames) we only know the IP address of the receiving node. Each router gets the IP address of the next router by consulting the forwarding table and the last router is called *destination host*.
