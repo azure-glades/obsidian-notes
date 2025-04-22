@@ -1,3 +1,4 @@
+#sorting
 ```al
 FUNCTION heapify(heap, size, index)
 // to max heapify the tree

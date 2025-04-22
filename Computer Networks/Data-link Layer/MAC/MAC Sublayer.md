@@ -1,17 +1,20 @@
 ***The MAC (Media Access Control) sublayer is responsible for managing access to the physical transmission medium and facilitating communication between devices in a network.***
-# Services
-- Determines which device can access the shared transmission medium at any given time.  
-- Prevents collisions in shared network topologies using methods like ALOHA and [[CSMA]].
-- Detects collisions in shared media and initiates retransmission when required.  
-	- Uses techniques such as backoff algorithms to resolve collisions. 
-- Supports multiple logical connections over a single physical medium by managing frame addressing and delivery.  
-- Uses *MAC addresses* to uniquely identify devices on a network, enabling unicast, multicast, or broadcast communication.
-	- Provides abstraction of physical layer complexities by interfacing through a media-independent interface.  
-	- Ensures compatibility between different physical layer implementations.  
-	- Maps higher-layer logical addresses to physical MAC addresses for accurate data delivery within a local network.
 
-# Media Access
-There are many ways in which access to media can be handed over to stations. When stations compete for access to the medium, it is called *Contention*
-1. Random access: Any station that wants to transmit can access and transmit. The biggest issue is collisions when multiple stations transmit together and the data gets corrupted
-2. Controlled access: The stations have to communicate with each other and decide who gets authority to transmit when. Usually done when there is an overseer (primary) station to manage access
-- Channelization: When the available bandwidth of a link is shared in time,frequency and code allowing the stations to transmit across different times/frequencies without interfering
+The MAC sublayer controls the NIC and other hardware that is responsible for sending and receiving data on the wired or wireless LAN/MAN medium.
+# Services
+- The MAC sublayer provides data encapsulation:
+	- **Frame delimiting** - The framing process provides important delimiters to identify fields within a frame. These delimiting bits provide synchronization between the transmitting and receiving nodes.
+	- **Addressing** - Provides source and destination addressing for transporting the Layer 2 frame between devices on the same shared medium.
+	- **Error detection** - Includes a trailer used to detect transmission errors.
+- The MAC sublayer also provides media access control through [[CSMA]], allowing multiple devices to communicate over a shared (half-duplex) medium. Full-duplex communications do not require access control.
+
+
+# Access Control Methods
+A *multiaccess network* is a network that can have two or more end devices attempting to access the network simultaneously (Ex: Ethernet LAN/WAN)
+1. **Contention-based access:** In contention-based multiaccess networks, all nodes are operating in half-duplex, competing for the use of the medium (only 1 device can send at a time). Uses [[CSMA]]
+	- CSMA/CD (Collision detection) → bus ethernet LAN
+	- CSMA/CA (Collision Avoidance) → Wireless LAN
+2. **Controlled access:** Each node has its own time to use the medium. These deterministic types of legacy networks are inefficient because a device must wait its turn to access the medium.
+	- Legacy Token Ring
+	- Legacy ARCNET
+> These are no longer used because networks are now full-duplex
