@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Layer/Network Layer.md",
+                "file": "Network Layer/Addressing/IPv4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Network Layer"
+              "title": "IPv4"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.50260543823242,
-    "collapsed": true
+    "width": 201.50260543823242
   },
   "right": {
     "id": "e4867333660853a3",
@@ -214,9 +213,13 @@
   },
   "active": "17b6defdc730ea77",
   "lastOpenFiles": [
+    "Network Layer/Addressing/IPv4.md~",
+    "Network Layer/Network Layer.md",
+    "Pasted image 20250414112026.png",
+    "Pasted image 20250414111413.png",
+    "Data Link Layer Protocols.md",
     "Pasted image 20250422112418.png",
     "Network Layer/Routing/Unicast Routing.md",
-    "Network Layer/Network Layer.md",
     "Network Layer/Addressing/IPv4.md",
     "SYLLABUS.png",
     "Network Layer/Addressing/IPv6.md",
@@ -243,9 +246,6 @@
     "Data-link Layer/DLC",
     "Computer Networks.md",
     "all-images/Pasted image 20250405122022.png",
-    "all-images/Pasted image 20250405120907.png",
-    "all-images/Pasted image 20250405104017.png",
-    "all-images/Pasted image 20250402200209.png",
     "IoT sample q.md",
     "Network Layer",
     "Data-link Layer",
@@ -259,7 +259,6 @@
     "reorganization/CN 1.md",
     "Untitled.canvas",
     "CN 2.md",
-    "CN 3.md",
-    "Note 1.md"
+    "CN 3.md"
   ]
 }

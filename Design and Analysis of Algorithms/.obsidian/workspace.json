@@ -225,12 +225,21 @@
       "command-palette:Open command palette": false
     }
   },
+<<<<<<< HEAD
   "active": "d4ac7ff89c2ab41b",
   "lastOpenFiles": [
     "Recursive Functions/Decrease and Conquer/Topological Ordering.md",
     "Recursive Functions/Decrease and Conquer/Depth First Search.md",
     "Recursive Functions/Decrease and Conquer/Decrease and Conquer.md",
     "Recursive Functions/Decrease and Conquer/Breadth First Search.md",
+=======
+  "active": "a60286a020204db0",
+  "lastOpenFiles": [
+    "Recursive Functions/Decrease and Conquer/Depth First Search.md",
+    "Recursive Functions/Decrease and Conquer/Breadth First Search.md",
+    "Recursive Functions/Decrease and Conquer/Topological Ordering.md",
+    "Recursive Functions/Decrease and Conquer/Decrease and Conquer.md",
+>>>>>>> 2f987bd8578ebabae60f91f00808208fde2c9e73
     "Barnes-Hut Algorithm.md",
     "Recursive Functions/Divide and Conquer/Divide and Conquer.md",
     "syllabus.png",
