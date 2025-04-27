@@ -22,21 +22,18 @@
             }
           },
           {
-            "id": "17b6defdc730ea77",
+            "id": "7f4e2212df181fe1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Network Layer/Addressing/IPv4.md",
-                "mode": "source",
-                "source": false
+                "file": "SYLLABUS.png"
               },
-              "icon": "lucide-file",
-              "title": "IPv4"
+              "icon": "lucide-image",
+              "title": "SYLLABUS"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,17 +208,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "17b6defdc730ea77",
+  "active": "03d2eb6390adaabe",
   "lastOpenFiles": [
-    "Network Layer/Addressing/IPv4.md~",
+    "SYLLABUS.png",
+    "Network Layer/Routing/Unicast Routing.md",
+    "Pasted image 20250425222920.png",
+    "Network Layer/Routing/Multicast Routing.md",
+    "Network Layer/Routing/Broadcast Routing.md",
     "Network Layer/Network Layer.md",
+    "Network Layer/Addressing/IPv4.md",
+    "Network Layer/Addressing/IPv4.md~",
     "Pasted image 20250414112026.png",
     "Pasted image 20250414111413.png",
     "Data Link Layer Protocols.md",
     "Pasted image 20250422112418.png",
-    "Network Layer/Routing/Unicast Routing.md",
-    "Network Layer/Addressing/IPv4.md",
-    "SYLLABUS.png",
     "Network Layer/Addressing/IPv6.md",
     "Protocol Suite.md",
     "Data-link Layer/Data Link Layer Protocols.md",
@@ -245,7 +245,6 @@
     "Data-link Layer/MAC",
     "Data-link Layer/DLC",
     "Computer Networks.md",
-    "all-images/Pasted image 20250405122022.png",
     "IoT sample q.md",
     "Network Layer",
     "Data-link Layer",
@@ -255,10 +254,7 @@
     "Notes Structure.md",
     "UNIT 2",
     "UNIT 1/Encapsulation and Decapsulation.md",
-    "Andrew S. Tanenbaum - Computer Networks.pdf",
     "reorganization/CN 1.md",
-    "Untitled.canvas",
-    "CN 2.md",
-    "CN 3.md"
+    "Untitled.canvas"
   ]
 }

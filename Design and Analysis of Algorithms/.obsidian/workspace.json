@@ -1,70 +1,41 @@
 {
   "main": {
-    "id": "66a34f073e3e9460",
+    "id": "7d064336ca35f019",
     "type": "split",
     "children": [
       {
-        "id": "53ec8459e4923d1c",
+        "id": "2b57e435c4bdc4ef",
         "type": "tabs",
         "children": [
           {
-            "id": "a60286a020204db0",
+            "id": "499632332a6ac897",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursive Functions/Decrease and Conquer/Breadth First Search.md",
+                "file": "Barnes-Hut Algorithm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Breadth First Search"
-            }
-          },
-          {
-            "id": "d4ac7ff89c2ab41b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Recursive Functions/Decrease and Conquer/Breadth First Search.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Breadth First Search"
-            }
-          },
-          {
-            "id": "5cef01ccebf0fb2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Recursive Functions/Decrease and Conquer/Depth First Search.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Depth First Search"
+              "title": "Barnes-Hut Algorithm"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "0ddcac7270189a93",
+    "id": "039dc51ffc5a2d22",
     "type": "split",
     "children": [
       {
-        "id": "4d24f23be58a3ff0",
+        "id": "3dc1d7999cf092b8",
         "type": "tabs",
         "children": [
           {
-            "id": "34228058dd931a9a",
+            "id": "b37b384de32c2dfa",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -77,12 +48,12 @@
             }
           },
           {
-            "id": "1f758b4e6d37f461",
+            "id": "b2042f762a2b7694",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#graph-traversal-algorithm",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +65,7 @@
             }
           },
           {
-            "id": "9994431559c0fba7",
+            "id": "5573bb81fa70d433",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -107,18 +78,51 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.50260543823242
+    "width": 200
   },
   "right": {
-    "id": "55427b1f415cc601",
+    "id": "4b66df9cd334acaa",
     "type": "split",
     "children": [
       {
-        "id": "747960f6dd381f16",
+        "id": "02367de4cd3758f8",
         "type": "tabs",
         "children": [
           {
-            "id": "9d303c3a8a47e4f8",
+            "id": "128439a0365abbeb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Barnes-Hut Algorithm.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Barnes-Hut Algorithm"
+            }
+          },
+          {
+            "id": "47723b077fb956b2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Barnes-Hut Algorithm.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Barnes-Hut Algorithm"
+            }
+          },
+          {
+            "id": "db0c07751fa1a2ba",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,155 +137,47 @@
             }
           },
           {
-            "id": "698b700b239cab74",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "31038bd3a7497fda",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b2fe37be3864945d",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "39ca9d74ab46aa49",
+            "id": "a3b7dc3764a9f640",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sorting/Sorting Algorithms.md",
+                "file": "Barnes-Hut Algorithm.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sorting Algorithms"
+              "title": "Outline of Barnes-Hut Algorithm"
             }
           },
           {
-            "id": "5cc7c2080a49a959",
+            "id": "b8d21483a31451af",
             "type": "leaf",
             "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Algorithmic Analysis.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Algorithmic Analysis"
-            }
-          },
-          {
-            "id": "acb4833a626680a7",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Algorithmic Analysis.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Algorithmic Analysis"
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 344.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-<<<<<<< HEAD
-  "active": "d4ac7ff89c2ab41b",
-  "lastOpenFiles": [
-    "Recursive Functions/Decrease and Conquer/Topological Ordering.md",
-    "Recursive Functions/Decrease and Conquer/Depth First Search.md",
-    "Recursive Functions/Decrease and Conquer/Decrease and Conquer.md",
-    "Recursive Functions/Decrease and Conquer/Breadth First Search.md",
-=======
-  "active": "a60286a020204db0",
-  "lastOpenFiles": [
-    "Recursive Functions/Decrease and Conquer/Depth First Search.md",
-    "Recursive Functions/Decrease and Conquer/Breadth First Search.md",
-    "Recursive Functions/Decrease and Conquer/Topological Ordering.md",
-    "Recursive Functions/Decrease and Conquer/Decrease and Conquer.md",
->>>>>>> 2f987bd8578ebabae60f91f00808208fde2c9e73
-    "Barnes-Hut Algorithm.md",
-    "Recursive Functions/Divide and Conquer/Divide and Conquer.md",
-    "syllabus.png",
-    "Complexity Analysis/Examples/Insertion sort.md",
-    "Recursive Functions/Divide and Conquer/Heap sort.md",
-    "Recursive Functions/Divide and Conquer/Karatsuba Multiplication.md",
-    "Untitled",
-    "Recursive Functions/Decrease and Conquer",
-    "GRS-BARI DAA/Greedy Algorithms.md",
-    "Recursive Functions/Akra-Bazzi Recurrences.md",
-    "Algorithms.md",
-    "Recursive Functions/Recursion.md",
-    "Recursive Functions/Divide and Conquer/Strassen's Multiplication Algorithm.md",
-    "Recursive Functions/Divide and Conquer/Quick sort.md",
-    "Action Plan for DSA.md",
-    "UHV.md",
-    "Note Structure.md",
-    "Recursive Functions/Divide and Conquer/Merge sort.md",
-    "Complexity Analysis/Examples/Matrix Multiplication.md",
-    "Intro to Algorithms/Types of Algorithms.md",
-    "Complexity Analysis/Efficiency Analysis.md",
-    "Complexity Analysis/Sorting Algorithms.md",
-    "reorga/DAA 3.md",
-    "Recursive Functions/Divide and Conquer",
-    "reorga/DAA 1.md",
-    "reorga/DAA 2.md",
-    "all-images/Pasted image 20241016200259.png",
-    "Intro to Algorithms",
-    "Recursive Functions",
-    "Complexity Analysis/Examples",
-    "Complexity Analysis",
-    "reorga",
-    "textbook-Introduction.to.Algorithms.4th.Leiserson.Stein.Rivest.Cormen.pdf",
-    "Complexity Analysis",
-    "all-images/Pasted image 20250315145332.png",
-    "all-images/Pasted image 20250315150234.png",
-    "all-images/Pasted image 20250315145718.png",
-    "all-images/Pasted image 20250315145657.png",
-    "all-images/Pasted image 20250306211050.png",
-    "all-images/Pasted image 20250305101658.png",
-    "all-images/Pasted image 20250305120418.png",
-    "all-images/Pasted image 20250305120550.png",
-    "Untitled.canvas"
-  ]
+  "active": "499632332a6ac897",
+  "lastOpenFiles": []
 }

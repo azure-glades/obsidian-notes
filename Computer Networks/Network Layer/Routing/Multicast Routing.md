@@ -1,0 +1,1 @@
+- There are groups of computers within the network and data is sent to all computers within these groups

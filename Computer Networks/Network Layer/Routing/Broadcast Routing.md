@@ -1,0 +1,2 @@
+- Messages are sent to every computer on the network
+- Broadcast routing is breadth first traversal of a graph (hop count routing)

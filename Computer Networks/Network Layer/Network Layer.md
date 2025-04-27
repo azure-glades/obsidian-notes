@@ -12,7 +12,7 @@ Routers cannot change addresses or decapsulate the packet unless it is for fragm
 
 ## 2. Routing and Forwarding
 1. **Routing:** Responsible for finding an efficient route to send the packet from source to destination. Uses many routing algos/protocols that are run before transmission, to accomplish this. Routing creates the decision tables/routing tables for a router.
-	- Depending on the type of connection, there is [[Unicast Routing]] and [[Multicast Routing]]
+	- Depending on the type of connection, there is [[Unicast Routing]] and [[Multicast Routing]] and [[Broadcast Routing]]
 2. **Forwarding:** Forwarding is the decision done by each router to send the packet. This forwarding is done by consulting the decision table/routing table.![[Pasted image 20250408102742.png]]
 ## 3. Other services
 1. **Error control**
