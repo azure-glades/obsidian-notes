@@ -3,6 +3,9 @@
 - Networks are represented as graphs, and hence routing algorithms are generally graph traversal techniques
 - **Cost** is the total energy required to send a packet along the route/link. More cost → worse the route. Routing is a *minimization problem* to minimize the cost.
 	- The **distance metric** is commonly used as a cost metric. Distance can be Euclidean distance, Hamming distance etc.
+- Many strategies can be used for routing packets.
+	- It is possible to find the optimal path when the links of the system can be described (using Djikstra’s algorithm)
+	- Routers can also just forward the packet to every router and hope it reaches the right one, other routers just delete it (flood-filling algorithm)
 
 > Algorithms:
 > - Dijkstra’s algorithm
@@ -17,7 +20,8 @@ A decentralized routing protocol where routers determine optimal paths based on 
 	- Next hop/neighbour to reach target router
 	- ![[Pasted image 20250425222920.png]]
 - The Bellman-Ford Equation is used to find the least-cost distance
-- Each router informs its neighbours on what it knows about the internet and updates it based on that knowledge
+Routers then share their distance-vector table with their neighbours and update it on comparison. This process repeats multiple times until all routes *converge* to the best paths in the network.
+- DV converges slowly whenever a link gets broken
 
 Steps:
 1. Each router draws up a distance vector table by considering its neighbours. The initial distance vector hence only describes its neighbours
@@ -31,209 +35,40 @@ Steps:
 > - Split Horizon
 > - Poison Reverse
 ## Link-State Routing
-A routing technique where every router knows the state of every edge in the network and uses that information to find the shortest route. The edge state is stored in a matrix called the *link state database*. There is only 1 LSDB for the whole internetwork.
-- The LSDB is created by *flooding* where each node sends a *link-state packet* to every node. The LS packet retrieves information on the identity of the node and the cost to reach it. Once each LS packet arrives an LSDB is created
-- If any link breaks, the information is sent out to all other nodes and LSDBs are updated quickly.
-- Each router is responsible for informing others about the state of the links around it
-- Dijikstra’s algorithm is used for finding the best route by consulting the routing table.
+A routing technique where every router knows the complete topology of the network, and uses that information to find the shortest route. The edge state is stored in a matrix called the *link state database*. There is only 1 LSDB for the whole internetwork.
+- Router booted → identifies neighbours (*HELLO packet*)
+- Link costs are set (based on bandwidth, time taken (*ECHO packet*))
+- *Link-state packets* are sent with a sequence number and age to all routers by *flooding*. The LS packet retrieves information on the identity of the node and the cost to reach it. Once each LS packet arrives an LSDB is created
+	- To prevent over-flooding, packets have a sequence-number/age. It helps to identify repeated packets (if the sequence number is bigger than the one it recieved, it means it has been broadcasted already and there is no need to resend it)
+- New LS packets need to be sent whenever a link breaks or a router fails to update the table
+Optimal path is calculated from the LSDB using Djikstra’s routing algorithm
 
+|Feature|Distance Vector Routing|Link State Routing|
+|---|---|---|
+|Algorithm Used|Bellman-Ford|Dijkstra’s Algorithm|
+|Knowledge Scope|Routers share info with immediate neighbors (local view)|Routers share info with all routers (global view)|
+|Information Shared|Entire routing table|Link states (status/cost of directly connected links)|
+|Bandwidth Usage|Lower (smaller, periodic updates)|Higher (flooding of link state packets)|
+|CPU & Memory Usage|Lower|Higher|
+|Convergence Speed|Slower, moderate|Faster|
+|Looping Issues|Prone to persistent routing loops|Only transient loops, less prone|
+|Path Selection Metric|Least number of hops|Least cost (can consider bandwidth, delay, etc.)|
+|Scalability|Suited for smaller networks|Better for larger, complex networks|
+|Example Protocols|RIP, IGRP|OSPF, IS-IS|
+## Hierarchical Routing
+Routing algorithm that clumps routers into clusters/zones to shorten the size of routing tables to make routing algorithms run faster
+- Router stores the path to other routers within a group and path to other groups.
+- Multiple zones and clusters are also made when network is huge
+![[Pasted image 20250502103845.png]]
+>[!important]+ Calculating hierarchy
+> Optimal level for N routers → ln(N)
+> Minimal size of routing table → try to have equal number of zones, groups, routers in a group
+> Ex: 3-level hierarchy for N = 4800. ideally → 16\*16\*16 = 4800. By trial and error, ideal match is 15-16-20 (cluster, region, routers in region)
 ## Path-Vector Routing
 Path-vector routing is used to give greater control because it allows the source to detemine the route by imposing a policy that the packet has to follow when traversing. Path-vector routing is used in routing between ISPs.
 - Each router generates a spanning tree which it consults to determine a path
-
-## Least Cost Routing
-
-## Hierarchical Routing
 # Routing Protocols
 - RIP (routing info protocol)
 - OSPF (open shortest path first
 
-
 ---
-## Shortest Path Routing
-
-**Definition:**
-
-- Briefly define what shortest path routing is.
-    
-
-**Key Concepts:**
-
-- Graph representation of networks
-    
-- Cost metrics (distance, time, hops, etc.)
-    
-
-**Algorithms:**
-
-- Dijkstra’s algorithm: steps and example
-    
-- Bellman-Ford algorithm: steps and example
-    
-
-**Advantages and Disadvantages:**
-
-- List pros and cons
-    
-
-**Use Cases:**
-
-- Where and why it is used
-    
-
-## Flood-Fill Routing
-
-**Definition:**
-
-- What is flood-fill routing?
-    
-
-**How It Works:**
-
-- Packet propagation mechanism
-    
-- Handling of duplicate packets
-    
-
-**Advantages and Disadvantages:**
-
-- List pros and cons
-    
-
-**Applications:**
-
-- Scenarios where flood-fill is used
-    
-
-## Distance-Vector Routing
-
-**Definition:**
-
-- What is distance-vector routing?
-    
-
-**How It Works:**
-
-- Routing table structure
-    
-- Periodic updates
-    
-- Bellman-Ford algorithm usage
-    
-
-**Key Features:**
-
-- Route advertisement
-    
-- Count-to-infinity problem
-    
-
-**Advantages and Disadvantages:**
-
-- List pros and cons
-    
-
-**Examples:**
-
-- RIP (Routing Information Protocol)
-    
-
-## Link-State Routing
-
-**Definition:**
-
-- What is link-state routing?
-    
-
-**How It Works:**
-
-- Link-state advertisements (LSAs)
-    
-- Building the network topology
-    
-- Shortest path computation
-    
-
-**Key Features:**
-
-- Convergence
-    
-- Scalability
-    
-
-**Advantages and Disadvantages:**
-
-- List pros and cons
-    
-
-**Examples:**
-
-- OSPF (Open Shortest Path First)
-    
-- IS-IS (Intermediate System to Intermediate System)
-    
-
-## Least Cost Routing
-
-**Definition:**
-
-- What is least cost routing?
-    
-
-**Cost Metrics:**
-
-- Types of costs (bandwidth, delay, monetary, etc.)
-    
-
-**Algorithms Used:**
-
-- Mention algorithms (can refer to shortest path, etc.)
-    
-
-**Advantages and Disadvantages:**
-
-- List pros and cons
-    
-
-**Applications:**
-
-- VoIP, telephony, etc.
-    
-
-## Path-Vector Routing
-
-**Definition:**
-
-- What is path-vector routing?
-    
-
-**How It Works:**
-
-- Path information in routing updates
-    
-- Loop prevention
-    
-
-**Key Features:**
-
-- Policy-based routing
-    
-- Scalability
-    
-
-**Advantages and Disadvantages:**
-
-- List pros and cons
-    
-
-**Examples:**
-
-- BGP (Border Gateway Protocol)
-    
-
-You can fill in each section with definitions, diagrams, algorithm steps, examples, and pros/cons as you study each topic.
-
----
-
-Answer from Perplexity: pplx.ai/share
-

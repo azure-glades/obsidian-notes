@@ -22,7 +22,7 @@ Advantage:
 > Chip testing problem (pg 122)
 > Monge Arrays
 > Cooley-Tuckey FFT
-> [[Barnes-Hut Algorithm]]
+> [[Barnes-Hut Algorithm (DAA LAB EL)]]
 > 
 ## Common matrix multiplication
 - General matrix multiplication for $C = A*B$
