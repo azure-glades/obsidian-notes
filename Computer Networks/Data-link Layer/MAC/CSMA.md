@@ -19,5 +19,5 @@ CSMA/CD → uses a backoff mechanism when collision is detected![[Pasted image 2
 
 
 # CSMA/CA
-![[Pasted image 20250414111413.png]]
+![[Pasted image 20250414111413 1.png]]
 CSMA/CA → uses a probablitity technique to minimize/avoid collision (cannot prevent collision) ![[Pasted image 20250402182041.png]]

@@ -28,7 +28,7 @@ Variable length frames can be encoded as characters or numbers
 >[!note]+ Bit stuffing
 >Adding one extra `0` whenever 5 consecutive `1`s  appear. Does this regardless of whether the next (i.e 6th bit) is a `0` or `1`. Extra bit is removed later on
 
-Generic frame structure:![[Pasted image 20250414112026.png]]
+Generic frame structure:![[Pasted image 20250414112026 1.png]]
 Frame fields include the following:
 - **Frame start and stop indicator flags** - Used to identify the beginning and end limits of the frame.
 - **Addressing** - Indicates the source and destination nodes on the media.

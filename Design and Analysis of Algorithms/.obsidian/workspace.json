@@ -8,7 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "23103da43d029799",
+            "id": "40cb95c531329bbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recursive Functions/Decrease and Conquer/Depth First Search.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Depth First Search"
+            }
+          },
+          {
+            "id": "0d7b80b4da228246",
             "type": "leaf",
             "state": {
               "type": "image",
@@ -18,23 +32,8 @@
               "icon": "lucide-image",
               "title": "syllabus"
             }
-          },
-          {
-            "id": "68420d2b55b0018e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "String Matching/Horspool Algorithm.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Horspool Algorithm"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,15 +190,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "68420d2b55b0018e",
+  "active": "40cb95c531329bbb",
   "lastOpenFiles": [
-    "syllabus.png",
-    "String Matching/Horspool Algorithm.md",
-    "String Matching/Naive String Matching.md",
-    "Recursive Functions/Divide and Conquer/Heap sort.md",
+    "Recursive Functions/Decrease and Conquer/Breadth First Search.md",
+    "Recursive Functions/Decrease and Conquer/Decrease and Conquer.md",
     "Recursive Functions/Decrease and Conquer/Topological Ordering.md",
     "Recursive Functions/Decrease and Conquer/Depth First Search.md",
-    "Recursive Functions/Decrease and Conquer/Breadth First Search.md",
+    "Recursive Functions/Transform and Conquer/Heap sort.md",
+    "Recursive Functions/Transform and Conquer/Distribution Sort.md",
+    "Recursive Functions/Transform and Conquer/Counting Sort.md",
+    "syllabus.png",
+    "String Matching/Boyer-Moore Algorithm.md",
+    "Recursive Functions/Transform and Conquer",
+    "String Matching/Horspool Algorithm.md",
+    "Untitled 1.md",
+    "String Matching/Naive String Matching.md",
     "Recursive Functions/Divide and Conquer/Strassen's Multiplication Algorithm.md",
     "Recursive Functions/Divide and Conquer/Quick sort.md",
     "Recursive Functions/Divide and Conquer/Karatsuba Multiplication.md",

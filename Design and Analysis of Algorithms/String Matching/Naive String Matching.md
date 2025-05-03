@@ -60,3 +60,72 @@ FUNCTION NAIVE_SEARCH(text, pattern)
 | Space          | O(1)[3](https://www.scaler.in/naive-string-matching-algorithm/)[5](https://www.tutorialspoint.com/data_structures_algorithms/naive_pattern_searching_algorithm.htm)                 | O(m)          | O(1)       | O(m + alphabet size)     |
 
 While inefficient for large-scale applications, the naive algorithm remains valuable for understanding fundamental pattern matching concepts and serves as a baseline for comparing optimized approaches[1](https://blog.heycoach.in/naive-string-matching-algorithm/)[4](https://www.upgrad.com/blog/naive-string-matching-algorithm-in-python/)[5](https://www.tutorialspoint.com/data_structures_algorithms/naive_pattern_searching_algorithm.htm).
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+// Function to perform naive string matching
+void naiveStringMatch(char *text, char *pattern) {
+    int textLength = strlen(text);
+    int patternLength = strlen(pattern);
+    int found = 0;
+    int steps = 0; // Counter to keep track of the number of steps
+
+    // Loop through the text and check for matches
+    for (int i = 0; i <= textLength - patternLength; i++) {
+        int j;
+
+        // Check if the pattern matches at this position
+        for (j = 0; j < patternLength; j++) {
+            steps++; // Increment step counter for each comparison
+            if (text[i + j] != pattern[j]) {
+                break;
+            }
+        }
+
+        // If the pattern matches, print the starting index
+        if (j == patternLength) {
+            printf("Pattern found at index %d\n", i);
+            found = 1;
+        }
+    }
+
+    // If no match is found
+    if (!found) {
+        printf("Pattern not found in the text.\n");
+    }
+
+    // Print the number of steps it took to match
+    printf("Number of steps: %d\n", steps);
+}
+
+int main() {
+    char text[100], pattern[50];
+
+    // Input the text
+    printf("Enter the text: ");
+    fgets(text, sizeof(text), stdin);
+
+    // Remove trailing newline character if present
+    size_t len = strlen(text);
+    if (len > 0 && text[len - 1] == '\n') {
+        text[len - 1] = '\0';
+    }
+
+    // Input the pattern
+    printf("Enter the pattern to search: ");
+    fgets(pattern, sizeof(pattern), stdin);
+
+    // Remove trailing newline character if present
+    len = strlen(pattern);
+    if (len > 0 && pattern[len - 1] == '\n') {
+        pattern[len - 1] = '\0';
+    }
+
+    // Call the naive string match function
+    naiveStringMatch(text, pattern);
+
+    return 0;
+}
+```
