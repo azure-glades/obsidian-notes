@@ -1,7 +1,7 @@
 Store and forward packet switching → how a packet travels from one router to the other
 Network layer abstracts the underlying complexity of routers, topology and type of network.
 - Network layer is the post-office that takes in letters with addresses and sends them. The sender does not see the vans and trucks that carry letters (data link and physical layer) because they happen behind the post-office doors
-Most commonly used address in TCP/[IP] → [[IPv4]]
+Most commonly used address in TCP/[IP] → [[Network Layer/Addressing/IPv4]]
 # Network layer services
 Network layer acts as an abstraction layer that hides and provides interconnectivity between diverse network topologies and structures. It’s responsible for sending packets to the destination using logical addresses, routing the packets and ensuring they reach, error and flow control and to manage traffic and secure transmission.
 ## 1. Packetization

@@ -12,8 +12,10 @@
 > *Types of Algorithms*
 > [[Divide and Conquer]]
 > [[Decrease and Conquer]]
+> [[Greedy Technique]]
+> [[Dynamic Programming]]
 > [[Greedy Algorithms]]
-> Dynamic Programming
+> String matching algorithms : [[Naive String Matching]],[[Horspool Algorithm]] and [[Boyer-Moore Algorithm]]
 
 >*See further*
 >[[Efficiency Analysis]]

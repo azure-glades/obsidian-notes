@@ -16,7 +16,7 @@ Advantage:
 > [[Quick sort]]
 > [[Heap sort]]
 > Radix sort
-> [[Strassen's Multiplication Algorithm]]
+> [[Strassen's Matrix Multiplication Algorithm]]
 > [[Karatsuba Multiplication]]
 > Fibonnaci numbers (normal recurrence, not divide-conquer)
 > Chip testing problem (pg 122)

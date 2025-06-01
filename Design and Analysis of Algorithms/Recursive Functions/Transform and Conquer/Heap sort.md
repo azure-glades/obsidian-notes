@@ -1,4 +1,5 @@
 #sorting
+Recursive
 ```al
 FUNCTION heapify(heap, size, index)
 // to max heapify the tree
@@ -31,4 +32,42 @@ FUNCTION heapSort(heap, size)
 		n = n-1
 		heapify(heap, n, 1)  // heap[1] is root
 RETURN
+```
+
+Iterative
+```al
+FUNCTION heapify(heap, n, i)
+//INPUT: heap of size n, at current node i
+	largest = i
+	left = 2*i
+	right = 2*i + 1
+	WHILE (TRUE)
+		largest = i
+		IF(heap[left] > heap[largest] AND left < n)
+			largest = left
+		IF(heap[right] > heap[largest] AND right < n)
+			largest = right
+		IF(largest != i)
+			tmp = heap[i]
+			heap[i] = heap[largest]
+			heap[largest] = tmp
+			// set values for next iteration
+			i = largest
+			left = 2*i
+			right = 2*i+1
+		ELSE
+			BREAK
+	END WHILE
+RETURN heap
+
+FUNCTION heapSort(heap, n)
+//INPUT: heap of size n
+	FOR(i >= 0, i: n/2 -> 0)
+		heapify(heap, n, i)
+	FOR(i>0, i:n -> 0)
+		tmp = heap[0]
+		heap[0] - heap[i]
+		sorted[n-i] = tmp
+		heapify(heap,i,0)
+RETURN sorted
 ```

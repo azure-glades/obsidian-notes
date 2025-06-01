@@ -1,3 +1,9 @@
+Go through DFS, BFS, topological sort, heapsort
+Watch grs/abdul bari on these topics
+
+Dynamic programming → abdul bari. Knapsack problem. start tackling some prob
+
+---
 Great idea! The **80/20 rule (Pareto Principle)** in programming means focusing on the **core concepts** that will help you solve the majority of problems without getting lost in rare edge cases.
 
 Here’s a structured list of **high-impact topics** that will let you tackle **80% of programming problems** efficiently:

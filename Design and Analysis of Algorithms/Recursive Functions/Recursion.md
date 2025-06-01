@@ -15,6 +15,8 @@ Recursion is usually slower than iterations because of repeated function calls n
 The advantage with recursion is how easy it is to develop and solve problems in recursion. The logic required is minimal.
 
 There are multiple ways to analyse the efficiency of recursive functions {see also [[Efficiency Analysis]]}
+
+> See also [[Akra-Bazzi Recurrences]]
 ##  Backward Substitution Method
 Steps
 1. **Expand the recurrence**: Substitute each term with its recursive definition.

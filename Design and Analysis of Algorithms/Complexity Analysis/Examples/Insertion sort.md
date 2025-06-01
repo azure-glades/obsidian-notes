@@ -2,18 +2,25 @@
 Best case : $O(n)$ when array is sorted
 Worst and Average case: $O(n^2)$
 
-```algorithm
+```al
+//iterative
 FUNCTION insertionSort(arr, size)
-	FOR i = 1 TO size-1
-		key = arr[i]
-		j = i-1
-		WHILE (j >= 0 AND arr[j] > key)
-			arr[j+1] = arr[j]
-			j = j-1
+	FOR (i<size, i:0 -> size)
+		j = i
+		WHILE (j>0 && arr[j-1] > arr[j])
+			tmp = arr[j-1]
+			arr[j-1] = arr[j]
+			arr[j] = tmp
+			j--
 		END WHILE
-		arr[j+1] = key
 	END FOR
-RETURN
+RETURN arr
+```
+
+```al
+//recursive
+FUNC insertionSort(arr, size)
+	
 ```
 
 ```java

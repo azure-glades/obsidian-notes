@@ -10,7 +10,8 @@
 ## Steps of the Algorithm
 1. Initialize the Count Array
 	- Create a `count` array of the same size as the input array.
-	- Initialize all elements of the `count` array to `0`.
+	- Initialize         arr[0] = arr[i];
+all elements of the `count` array to `0`.
 2. Count Comparisons
 	- For each element in the array, compare it with every other element.
 	- If another element is smaller, increment the `count` for the current element.

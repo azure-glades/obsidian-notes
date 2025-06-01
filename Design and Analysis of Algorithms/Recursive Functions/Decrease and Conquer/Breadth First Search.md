@@ -1,5 +1,27 @@
 #graph-traversal-algorithm 
 BFS is level-order on binary tree
+The running time of BFS is $\text{O}(V + E)$ 
+BFS produces the bredth-first forest
+
+```al
+FUNC BFS(G, r)
+//INPUT: Graph G = {E, V}, r is the starting node
+	static count = 1
+	visited[r] = count
+	count++
+	queue.enqueue(r)
+	WHILE (queue != EMPTY)
+		v = queue.dequeue()
+		FOR (w, w is a neighbour of v)
+			IF(visited[w] == 0)
+				visited[w] == count
+				count++
+				queue.enqueue(w)
+			END IF
+		END FOR
+	END WHILE
+RETURN visited
+```
 
 Here is BFS in Java using a queue
 ```java

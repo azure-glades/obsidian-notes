@@ -1,64 +1,38 @@
 {
   "main": {
-    "id": "7d064336ca35f019",
+    "id": "484981f1f8fe1495",
     "type": "split",
     "children": [
       {
-        "id": "d1e3c547b47b307b",
+        "id": "133a3c86f34c9206",
         "type": "tabs",
         "children": [
           {
-            "id": "68463265b14cc2fb",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "syllabus.png"
-              },
-              "icon": "lucide-image",
-              "title": "syllabus"
-            }
-          },
-          {
-            "id": "e269677b0a0d86a7",
+            "id": "e0513e8244057a07",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backtracking/Sum of Subsets.md",
+                "file": "UART QUICKREF.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sum of Subsets"
+              "title": "UART QUICKREF"
             }
           },
           {
-            "id": "3a1e6286777c2d67",
+            "id": "26222f7fac00c83f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backtracking/Sum of Subsets.md",
+                "file": "SPI QUICKREF.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sum of Subsets"
-            }
-          },
-          {
-            "id": "4715a6f22e7f876d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backtracking/N Queens.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "N Queens"
+              "title": "SPI QUICKREF"
             }
           }
         ],
@@ -68,15 +42,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "039dc51ffc5a2d22",
+    "id": "1047011e12800be7",
     "type": "split",
     "children": [
       {
-        "id": "3dc1d7999cf092b8",
+        "id": "fbe75742d87c983d",
         "type": "tabs",
         "children": [
           {
-            "id": "b37b384de32c2dfa",
+            "id": "8eadd869d1199ef5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -89,7 +63,7 @@
             }
           },
           {
-            "id": "b2042f762a2b7694",
+            "id": "512265b18d79e4e3",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -106,7 +80,7 @@
             }
           },
           {
-            "id": "5573bb81fa70d433",
+            "id": "deed97df9924ac94",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -119,23 +93,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "4b66df9cd334acaa",
+    "id": "99ee056542cd963e",
     "type": "split",
     "children": [
       {
-        "id": "02367de4cd3758f8",
+        "id": "2d2cae39ab4cf2bf",
         "type": "tabs",
         "children": [
           {
-            "id": "128439a0365abbeb",
+            "id": "ca607d2687b37382",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Barnes-Hut Algorithm.md",
+                "file": "SPI QUICKREF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,25 +119,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Barnes-Hut Algorithm"
+              "title": "Backlinks for SPI QUICKREF"
             }
           },
           {
-            "id": "47723b077fb956b2",
+            "id": "11d49a11aef44186",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Barnes-Hut Algorithm.md",
+                "file": "SPI QUICKREF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Barnes-Hut Algorithm"
+              "title": "Outgoing links from SPI QUICKREF"
             }
           },
           {
-            "id": "db0c07751fa1a2ba",
+            "id": "2f9a1fca74a179e1",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -178,28 +152,18 @@
             }
           },
           {
-            "id": "a3b7dc3764a9f640",
+            "id": "dc999ee5067337ca",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Barnes-Hut Algorithm.md",
+                "file": "SPI QUICKREF.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Barnes-Hut Algorithm"
-            }
-          },
-          {
-            "id": "b8d21483a31451af",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "title": "Outline of SPI QUICKREF"
             }
           }
         ]
@@ -219,40 +183,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e269677b0a0d86a7",
+  "active": "26222f7fac00c83f",
   "lastOpenFiles": [
-    "Backtracking/N Queens.md",
-    "Branch-and-bound/Travelling Salesman Problem.md",
-    "syllabus.png",
-    "Backtracking/Sum of Subsets.md",
-    "Greedy Algorithms/Prim's Algorithm.md",
-    "Greedy Algorithms/Minimum Spanning Tree.md",
-    "Greedy Algorithms/Huffman Encoding.md",
-    "Greedy Algorithms/Greedy Algorithms.md",
-    "Greedy Algorithms/Dijkstra's Algorithm.md",
-    "Branch-and-bound",
-    "Backtracking",
-    "Greedy Algorithms/Kruskal's Algorithm.md",
-    "String Matching/Naive String Matching.md",
-    "Algorithms.md",
-    "String Matching/Boyer-Moore Algorithm.md",
-    "Dynamic Programming/Floyd-Warshall Algorithm.md",
-    "Dynamic Programming/Dynamic Programming.md",
-    "Dynamic Programming/Bellman-Ford Algorithm.md",
-    "Dynamic Programming/Rod Cutting Problem.md",
-    "Dynamic Programming/Knapsack problem.md",
-    "Dynamic Programming/Warshall's Algorithm.md",
-    "Dynamic Programming/Binomial Coefficient.md",
-    "Decision Trees.md",
-    "String Matching/Horspool Algorithm.md",
-    "GRS-BARI DAA/Greedy Technique.md",
-    "Recursive Functions/Recursion.md",
-    "Recursive Functions/Akra-Bazzi Recurrences.md",
-    "Greedy Algorithms",
-    "Recursive Functions/Divide and Conquer/Divide and Conquer.md",
-    "Dynamic Programming",
-    "Presorting",
-    "Recursive Functions/Transform and Conquer",
-    "String Matching"
+    "I2C QUICKREF.md",
+    "SPI QUICKREF.md",
+    "UART QUICKREF.md"
   ]
 }

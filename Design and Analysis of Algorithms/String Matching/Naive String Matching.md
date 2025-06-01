@@ -1,7 +1,6 @@
 The naive string matching algorithm is a straightforward method for finding all occurrences of a pattern within a text. While simple to implement, it has notable efficiency limitations.
 ## Definition
 A brute-force algorithm that checks **every possible position** in the text to find matches for the pattern. It compares characters sequentially without optimization[1](https://blog.heycoach.in/naive-string-matching-algorithm/)[3](https://www.scaler.in/naive-string-matching-algorithm/)[5](https://www.tutorialspoint.com/data_structures_algorithms/naive_pattern_searching_algorithm.htm).
->*See further:* [[Horspool Algorithm]]
 ## Premise
 - **Core Idea**: Slide the pattern over the text one character at a time, checking for matches at each position[1](https://blog.heycoach.in/naive-string-matching-algorithm/)[5](https://www.tutorialspoint.com/data_structures_algorithms/naive_pattern_searching_algorithm.htm)
 - **Use Cases**: Suitable for small texts/patterns, educational purposes, or scenarios prioritizing simplicity over speed[1](https://blog.heycoach.in/naive-string-matching-algorithm/)[4](https://www.upgrad.com/blog/naive-string-matching-algorithm-in-python/)
