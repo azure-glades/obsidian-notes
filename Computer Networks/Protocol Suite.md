@@ -22,7 +22,7 @@ TCP/IP suite is the most common and popular protocol suite used in the world wid
 4. [[Transport Layer]]: Responsible for giving services to the application layer through an established logical connection. Multiple protocols exist in transport layer and hence the application can use whichever protocol that meets its requirement
 	- Packets in transport layer are *segments* or *user datagram*
 	- TCP is present in this layer and established a logical connection, manages error correction and traffic/flow control. There are other protocols like UDP and SCTP also.
-5. [[Application Layer]]: Responsible for process-to-process communication between applications by providing an *end-to-end* connection. Abstracts the other layers under it and acts as an API for programs to use for communication.
+5. [[App layer]]: Responsible for process-to-process communication between applications by providing an *end-to-end* connection. Abstracts the other layers under it and acts as an API for programs to use for communication.
 	- Packets in application layer are *messages*
 	- Multiple protocols exist in wide use, like HTTP, WWW, SMTP, FTP SSH, TELNET, USENET and IRC. Other system protocols also exist, like SNMP and DNS
 ![[Pasted image 20250326103012.png]]

@@ -95,3 +95,22 @@ int main() {
     return 0;
 }
 ```
+
+
+# Memory Functions
+Used to calculate and store relevant values in memory
+- Generally recursive
+- Use top-down and bottom-up approach
+
+```al
+FUNC knapsack_memoryFn(i, j)
+//INPUT: i is the object considered, j is the weight limit
+//OUTPUT: optimal solution
+	IF (V[i][j] == -1 ) //spot is unfilled/not calculated
+		IF ( Weight[i] > j)  // item wt is greater than current limit
+			V[i][j] = knapsack_memoryFn(i-1,j)
+		ELSE
+			V[i][j] = MAX( V[i-1][j] , V[i-1][j - Weight[i]] + Val[i] )
+	END-IF
+RETURN V[i][j]
+```

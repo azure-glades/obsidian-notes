@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "09aaa356f88b86d2",
+        "id": "68a8ed71ac20c693",
         "type": "tabs",
         "children": [
           {
-            "id": "b837132a1b660d10",
+            "id": "813582512cf60912",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Subnetting.md",
+                "file": "CCNA/App layer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Subnetting"
-            }
-          },
-          {
-            "id": "9d98e3e9ee3ef5a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CCNA/IPv4.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IPv4"
+              "title": "App layer"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "subnett",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.50260543823242,
-    "collapsed": true
+    "width": 201.50260543823242
   },
   "right": {
     "id": "e4867333660853a3",
@@ -212,30 +196,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9d98e3e9ee3ef5a6",
+  "active": "813582512cf60912",
   "lastOpenFiles": [
-    "Pasted image 20250531181333.png",
-    "Subnetting.md",
+    "Pasted image 20250601174144.png",
+    "Pasted image 20250601172544.png",
+    "Pasted image 20250601172125.png",
+    "Pasted image 20250601172012.png",
+    "Pasted image 20250601171529.png",
+    "all-images/Pasted image 20250531181333.png",
+    "CCNA/App layer.md",
+    "CCNA/Subnetting.md",
+    "CCNA/TCP and UDP.md",
+    "all-images/Pasted image 20250601154221.png",
+    "all-images/Pasted image 20250601154213.png",
+    "all-images/Pasted image 20250601152413.png",
+    "all-images/Pasted image 20250601152314.png",
+    "all-images/Pasted image 20250601151117.png",
+    "Network Layer/Routing/Unicast Routing.md",
+    "Network Layer/Routing/Broadcast Routing.md",
+    "Network Layer/Addressing/IPv4.md",
     "CCNA/IPv4.md",
     "CCNA",
     "Network Layer/Network Layer.md",
-    "Network Layer/Routing/Unicast Routing.md",
     "Network Layer/Routing/Multicast Routing.md",
     "IOT-IBM-MEET/note 1.md",
-    "SYLLABUS.png",
-    "Network Layer/Routing/Broadcast Routing.md",
     "Traffic Shaping.md",
-    "Network Layer/Addressing/IPv4.md",
     "Data Link Layer Protocols.md",
-    "all-images/Pasted image 20250521094516.png",
-    "all-images/Pasted image 20250524123318.png",
-    "all-images/Pasted image 20250524123212.png",
-    "all-images/Pasted image 20250524123047.png",
-    "all-images/Pasted image 20250524122950.png",
-    "all-images/Pasted image 20250524122446.png",
-    "all-images/Pasted image 20250524122031.png",
-    "all-images/Pasted image 20250524121851.png",
-    "all-images/Pasted image 20250524121655.png",
     "Physical Layer/Physical Layer.md",
     "IOT-IBM-MEET",
     "Integrated services.md",
@@ -255,8 +241,6 @@
     "Network Layer/Addressing",
     "Network Layer/Routing",
     "Routing.md",
-    "Data-link Layer/Address Resolution Protocol.md",
-    "Data-link Layer/DLC/HDLC.md",
     "Data-link Layer/MAC",
     "Data-link Layer/DLC",
     "Network Layer",
