@@ -12,6 +12,14 @@ To solve the **N-Queens problem**, we aim to place N queens on an N×N ches
 3. **Recursion**: If safe, place the queen and recursively attempt to place queens in subsequent rows.
 4. **Backtrack**: If no valid position exists in a row, backtrack to the previous row and adjust the queen’s position.
 
+```al
+FUNC nQueens(k, n)
+//INPUT: k is current queen, and n is no of queens
+//OUTPUT: all possible configs
+	FOR(i<n, i: 0 -> n)
+		IF(place(k,i))
+			
+```
 ## Time complexity
 Worst case : $O(n!)$
 - Can be optimised with pruning techniques to avoid repeated checks, but it does not get better than exponential growth

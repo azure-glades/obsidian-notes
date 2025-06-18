@@ -12,8 +12,9 @@ Ex:
 > [[Bellman-Ford Algorithm]]
 > [[Floyd-Warshall Algorithm]]
 > [[Johnson’s Algorithm]] - For sparse matrices
+> [[Kadane’s Algorithm]]
 > *Problems:*
-> [[Knapsack problem]]
+> [[Dynamic Programming/Knapsack problem]] and [[Fractional Knapsack Problem]]
 > [[Rod Cutting Problem]]
 > *Techniques:*
 > [[Binomial Coefficient]]

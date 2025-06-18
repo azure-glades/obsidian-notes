@@ -1,4 +1,4 @@
-The **Distribution Sorting Algorithm** is a non-comparison-based sorting technique that sorts elements by counting the frequency of each distinct element and then reconstructing the sorted array. It is particularly efficient for sorting integers or categorical data with a small range of values.
+The **Distribution Sorting Algorithm** is a non-comparison-based #sorting sorting technique that sorts elements by counting the frequency of each distinct element and then reconstructing the sorted array. It is particularly efficient for sorting integers or categorical data with a small range of values.
 ## Premise
 - The algorithm relies on the assumption that the data to be sorted comes from a small, finite range of integers.
 - It avoids the need for comparisons by leveraging a **counting array** to store the frequency of each element.

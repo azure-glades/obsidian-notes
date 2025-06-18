@@ -15,9 +15,13 @@ Advantage:
 > [[Merge sort]] - Found by John von Neumann
 > [[Quick sort]]
 > [[Heap sort]]
-> Radix sort
+> [[Radix Sort]]
+> [[Counting Sort]]
+> [[Distribution Sort]]
+> Famous algorithms
 > [[Strassen's Matrix Multiplication Algorithm]]
 > [[Karatsuba Multiplication]]
+> [[Marching Cubes Algorithm]]
 > Fibonnaci numbers (normal recurrence, not divide-conquer)
 > Chip testing problem (pg 122)
 > Monge Arrays

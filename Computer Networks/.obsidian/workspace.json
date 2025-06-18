@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "68a8ed71ac20c693",
+        "id": "321c65ae1d4d76ca",
         "type": "tabs",
         "children": [
           {
-            "id": "813582512cf60912",
+            "id": "459125bb05aa886a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "CCNA/App layer.md",
-                "mode": "source",
-                "source": false
+                "file": "SYLLABUS.png"
               },
-              "icon": "lucide-file",
-              "title": "App layer"
+              "icon": "lucide-image",
+              "title": "SYLLABUS"
             }
           }
         ]
@@ -53,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "subnett",
+                "query": "protocol",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.50260543823242
+    "width": 282.5
   },
   "right": {
     "id": "e4867333660853a3",
@@ -151,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Network Layer/Network Layer.md",
+                "file": "SYLLABUS.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +159,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Network Layer"
+              "title": "Backlinks for SYLLABUS"
             }
           },
           {
@@ -183,8 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200.5,
-    "collapsed": true
+    "width": 443.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,54 +193,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "813582512cf60912",
+  "active": "459125bb05aa886a",
   "lastOpenFiles": [
-    "Pasted image 20250601174144.png",
-    "Pasted image 20250601172544.png",
-    "Pasted image 20250601172125.png",
-    "Pasted image 20250601172012.png",
-    "Pasted image 20250601171529.png",
-    "all-images/Pasted image 20250531181333.png",
-    "CCNA/App layer.md",
-    "CCNA/Subnetting.md",
-    "CCNA/TCP and UDP.md",
-    "all-images/Pasted image 20250601154221.png",
-    "all-images/Pasted image 20250601154213.png",
-    "all-images/Pasted image 20250601152413.png",
-    "all-images/Pasted image 20250601152314.png",
-    "all-images/Pasted image 20250601151117.png",
-    "Network Layer/Routing/Unicast Routing.md",
-    "Network Layer/Routing/Broadcast Routing.md",
-    "Network Layer/Addressing/IPv4.md",
-    "CCNA/IPv4.md",
-    "CCNA",
-    "Network Layer/Network Layer.md",
-    "Network Layer/Routing/Multicast Routing.md",
-    "IOT-IBM-MEET/note 1.md",
-    "Traffic Shaping.md",
-    "Data Link Layer Protocols.md",
-    "Physical Layer/Physical Layer.md",
-    "IOT-IBM-MEET",
-    "Integrated services.md",
-    "Network Layer/Congestion Control/Congestion Control AI.md",
-    "Network Layer/Congestion Control/cong control struct.md",
-    "Network Layer/Congestion Control/Cong Control 2.md",
-    "Network Layer/Congestion Control",
-    "Network Layer/Congestion Control",
-    "Network Layer/Addressing/IPv4.md~",
-    "Network Layer/Addressing/IPv6.md",
-    "Protocol Suite.md",
-    "Data-link Layer/Data Link Layer Protocols.md",
-    "Data-link Layer/DLC/DLC Sublayer.md",
-    "Data-link Layer/MAC/CSMA.md",
-    "Data-link Layer/MAC/MAC Sublayer.md",
-    "Data-link Layer/Data Link Layer.md",
-    "Network Layer/Addressing",
-    "Network Layer/Routing",
-    "Routing.md",
-    "Data-link Layer/MAC",
-    "Data-link Layer/DLC",
+    "Transport Layer/Congestion/Traffic Shaping.md",
+    "SYLLABUS.png",
+    "Pasted image 20250616101450.png",
+    "Transport Layer/Congestion/Traffic Throttling.md",
+    "Transport Layer/Congestion/Quality of Service.md",
+    "Transport Layer/Congestion/Jitter Control.md",
+    "Transport Layer/Congestion/Integrated vs Differentiated Services.md",
+    "Transport Layer/Congestion/Congestion Prevention.md",
+    "Transport Layer/Congestion/Congestion Control in VNS and Datagram Subnets.md",
+    "Transport Layer/Congestion/Congestion Control.md",
+    "Transport Layer/Congestion/Admission Control.md",
+    "Transport Layer/Congestion/Network Provisioning.md",
+    "Transport Layer/Congestion/Traffic Aware Routing.md",
+    "Transport Layer/Congestion/Load Shedding.md",
+    "Pasted image 20250616095445.png",
+    "Application Layer/HTTP - HyperText Transfer Protocol.md",
+    "Archive/Traffic Shaping.md",
+    "Archive/Protocol Suite.md",
+    "Archive/Integrated services.md",
+    "Archive/Data Link Layer Protocols.md",
+    "Archive/Physical Layer/Physical Layer.md",
+    "Application Layer/Telnet.md",
+    "Application Layer/WWW - World Wide Web.md",
+    "Application Layer",
+    "Transport Layer/UDP - User Datagram Protocol.md",
+    "Network Layer/Internet Protocol/IP - Internet Protocol.md",
+    "Network Layer/Internet Protocol/IPv4 and IPv6 Addresses.md",
+    "Transport Layer/Transport Control Protocol/TCP - Transport Control Protocol.md",
+    "Transport Layer/Transport Control Protocol",
+    "Network Layer/Internet Protocol/OSPF -Interior Gateway Routing Protocol.md",
+    "Network Layer/Internet Protocol",
+    "Transport Layer/Internetworking",
+    "Transport Layer/Congestion",
+    "Transport Layer",
+    "Network Layer/Routing Algorithms",
+    "Network Layer/Packet Switching",
     "Network Layer",
+    "Archive",
+    "all-images/Pasted image 20250601171529.png",
+    "all-images/Pasted image 20250608210214.png",
+    "all-images/Pasted image 20250608205041.png",
+    "all-images/Pasted image 20250608142846.png",
+    "all-images/Pasted image 20250608142739.png",
+    "all-images/Pasted image 20250601174144.png",
+    "all-images/Pasted image 20250601172544.png",
     "Untitled.canvas"
   ]
 }

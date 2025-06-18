@@ -5,14 +5,15 @@ An encoding algorithm. Uses frequency of occurance of characters and re-represen
 - The efficiency of compression depends heavily on the codes chosen
 - The codes cannot be prefixes of other codes
 
-Codes are represented as binary trees (decision tree). An efficient encoding system is always a full binary tree. The huffman encoding tree is a full binary tree
+Codes are represented as *binary trees ([[Decision Trees]] )*. An efficient encoding system is always a full binary tree. The huffman encoding tree is a full binary tree
 - Leaf nodes are the characters (with their freq)
 - Internal nodes store the sum of frequencies of their child nodes
 - Each node is hence a decision, with 0 → right child, 1 → left child. The tree is traversed when encoding and decoding
 
-Huffman’s algorithm is a [[Greedy Algorithms]] that constructs an optimal prefix-free code
-- Algorithm always chooses the first 2 minimum freq elements (choice is greedy)
+*The size of the code assigned to a character is based on frequency. It gives the most optimal assignment. The codes are never prefixes*
 
+Huffman’s algorithm is a [[Greedy Algorithms]] that constructs an optimal prefix-free code using a tree. It constructs the tree based on the frequency of occurance of each element
+- Algorithm always chooses the first 2 minimum freq elements (choice is greedy)
 1. Add characters and frequencies to a min-priority queue
 2. Pop the first two elements, and join them into a full binary tree (parent node is sum of freq of child nodes)
 3. Push the new node into the min-priority queue

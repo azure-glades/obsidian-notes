@@ -4,5 +4,5 @@ Considers that problems have to solve 1 step at a time, and by taking the best/g
 Ex:
 > Algorithms to create [[Minimum Spanning Tree]]
 > [[Dijkstra's Algorithm]]
-> [[Prim's Algorithm]]
-> [[Kruskal's Algorithm]]
+> [[Huffman Encoding]]
+> [[Fractional Knapsack Problem]]

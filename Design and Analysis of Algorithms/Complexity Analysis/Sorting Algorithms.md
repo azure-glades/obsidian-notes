@@ -1,7 +1,11 @@
-[[Heap sort]]
-[[Merge sort]]
-[[Quick sort]]
-[[Insertion sort]]
-[[Selection sort]]
-[[Insertion sort]]
-[[Bubble sort]]
+- [[Heap sort]]: Uses a binary heap data structure to repeatedly extract the maximum (or minimum) element and sort the array efficiently[3](https://www.shiksha.com/online-courses/articles/types-of-sorting-algorithm-blogId-148505).
+- [[Merge sort]]: Divides the array into halves, recursively sorts them, and then merges the sorted halves to produce the final sorted array[3](https://www.shiksha.com/online-courses/articles/types-of-sorting-algorithm-blogId-148505).
+- [[Quick sort]]: Selects a pivot element, partitions the array around the pivot, and recursively sorts the partitions using a divide-and-conquer approach[3](https://www.shiksha.com/online-courses/articles/types-of-sorting-algorithm-blogId-148505).
+- [[Insertion sort]]: Builds the sorted array one element at a time by inserting each new element into its appropriate position among the previously sorted elements[3](https://www.shiksha.com/online-courses/articles/types-of-sorting-algorithm-blogId-148505).
+- [[Selection sort]]: Repeatedly selects the smallest (or largest) element from the unsorted portion and moves it to the end of the sorted portion[3](https://www.shiksha.com/online-courses/articles/types-of-sorting-algorithm-blogId-148505).
+- [[Insertion sort]]: Builds the sorted array one item at a time, similar to sorting playing cards in your hand[3](https://www.shiksha.com/online-courses/articles/types-of-sorting-algorithm-blogId-148505).
+- [[Bubble sort]]: Repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order, "bubbling" larger elements to the end[3](https://www.shiksha.com/online-courses/articles/types-of-sorting-algorithm-blogId-148505).
+- [[Counting Sort]]: Counts the occurrences of each unique element and uses this information to place elements directly into their sorted position; works best for integers in a known range[5](https://www.codeproject.com/Articles/5308420/Comparison-of-Sorting-Algorithms).
+- [[Distribution Sort]]: Distributes elements into buckets or groups based on certain characteristics and then sorts each group individually (e.g., bucket sort).
+- [[Radix Sort]]: Sorts numbers by processing individual digits from least significant to most significant (or vice versa), often using a stable sub-sorting algorithm like counting sort[5](https://www.codeproject.com/Articles/5308420/Comparison-of-Sorting-Algorithms)
+

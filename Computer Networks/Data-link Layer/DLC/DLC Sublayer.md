@@ -1,7 +1,7 @@
 ***The data link control (DLC) deals with procedures for communication between two adjacent nodes no matter whether the link is dedicated or broadcast***
 
 The DLC sublayer takes the network protocol data, which is typically an IPv4 or IPv6 packet, and adds Layer 2 control information to help deliver the packet to the destination node.
-→ [[Data Link Layer Protocols]]
+→ [[Archive/Data Link Layer Protocols]]
 # DLC Services
 The procedure for communication between adjacent nodes (p2p or broadcast node). It is responsible for *framing, flow and error control*
 ## Framing

@@ -20,6 +20,23 @@ Backtracking systematically explores all possible subsets by building them incre
 > State space tree
 > - Each node represents a decision: include or exclude the current element.
 > - The tree explores all possible combinations (subsets).
+
+```al
+FUNC sumOfSubsets(runningSum, cur, backSum)
+//INPUT: S is the main set, cur is current element, backSum is for backtracking, runningSum is compared
+// OUTPUT: return subset that meets target
+	x[k] = 1;
+	IF( S[k] + runningSum == target)
+		print(x)
+	ELSE IF( S[k] + S[k+1] + runningSum <= target)
+		sumOfSubsets(S[k] + runningSum, k+1, backSum - S[k])
+	//
+	IF(runningSum + backSum-S[k] > target)AND(runningSum + S[k+1] <= target)
+		x[k] = 0     //exclude element
+		sumOfSubsets(runningSum, k+1, backSum - W[k])
+RETURN
+```
+
 ### Time Complexity
 - **Worst-case:** $O(2^n)$
 - **Pruning:** If the sum exceeds, that branch is abandoned early, which can improve practical performance.

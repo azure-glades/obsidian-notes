@@ -1,4 +1,4 @@
-**Comparison Counting Sort** is a simple sorting algorithm that sorts an array by counting the number of elements smaller than each element. The position of each element in the sorted array is determined by this count.
+**Comparison Counting Sort** is a simple #sorting sorting algorithm that sorts an array by counting the number of elements smaller than each element. The position of each element in the sorted array is determined by this count.
 ## Premise
 - The algorithm compares each element with every other element in the array to calculate its rank (number of elements smaller than it).
 - The rank is used to place each element in the correct position in the sorted array.

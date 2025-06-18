@@ -1,5 +1,7 @@
-**Floyd-Warshall algorithm** computes the shortest paths between all pairs of vertices in a weighted graph, handling both positive and negative edge weights (but no negative cycles). 
+**Floyd’s Algorithm** computes the shortest paths between all pairs of vertices in a weighted graph, handling both positive and negative edge weights (but no negative cycles). 
 - *All Pairs shortest path algorithm*
+
+**Warshall’s algorithm** describes whether other nodes are reachable from a given node (if there is no path (hops are allowed) from a to b, then it is set as 0)
 ## Problem Definition
 For $G = \{E, V\}$, find the shortest distance $d(i,j)$ between *every pair* of vertices $(i,j)$ in the graph. Output is a $n*n$ matrix where entry (i,j) is the shortest distance from i to j
 
@@ -20,9 +22,7 @@ FUNC floydsMinDistances(G)
 	END-FOR
 RETURN G
 ```
-## Complexity Analysis
-- Time complexity = $O(n^3)$  → There are 3 loops
-- Space Complexity = $O(n^2)$ → n x n matrix
+
 
 > Warshall’s algorithm described whether other nodes are reachable from a given node (if there is no path (hops are allowed) from a to b, then it is set as 0)
 
@@ -40,3 +40,6 @@ FUNC warshallsReachabillity(G)
 RETURN G
 ```
 
+## Complexity Analysis
+- Time complexity = $O(n^3)$  → There are 3 loops
+- Space Complexity = $O(n^2)$ → n x n matrix

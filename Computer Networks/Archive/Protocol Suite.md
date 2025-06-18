@@ -14,7 +14,7 @@ TCP/IP suite is the most common and popular protocol suite used in the world wid
 	- Communication is link-to-link or between routers/switches
 	- Packets in physical layer are *frames*
 	- Data link layer performs *encapsulation* on datagrams and *decapsulation* on bits.
-3. [[Network Layer]]: Responsible for creating and managing a stable connection between the source and destination computer. Communication is host-to-host
+3. [[Archive/Network Layer/Network Layer]]: Responsible for creating and managing a stable connection between the source and destination computer. Communication is host-to-host
 	- Routers are network layer devices because they do not need the info in application and transport layer
 	- Packets in network layer are *datagrams*
 	- IP is present in this layer along with routing protocols and auxillary protocols (like ICMP, IGMP, DHCP and ARP)

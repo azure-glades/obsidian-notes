@@ -12,7 +12,7 @@
 > - Bellman-Ford algorithm
 
 # Routing Algorithms
-## Distance -Vector Routing
+## [[Distance Vector Routing]]
 A decentralized routing protocol where routers determine optimal paths based on distance metrics (e.g., hops, latency) and share this information with neighbouring nodes.
 - Each router maintains a *distance-vector table* which has
 	- Target router
@@ -34,7 +34,7 @@ Steps:
 > Some solutions have been proposed:
 > - Split Horizon
 > - Poison Reverse
-## Link-State Routing
+## [[Link State Routing]]
 A routing technique where every router knows the complete topology of the network, and uses that information to find the shortest route. The edge state is stored in a matrix called the *link state database*. There is only 1 LSDB for the whole internetwork.
 - Router booted → identifies neighbours (*HELLO packet*)
 - Link costs are set (based on bandwidth, time taken (*ECHO packet*))
@@ -55,7 +55,7 @@ Optimal path is calculated from the LSDB using Djikstra’s routing algorithm
 |Path Selection Metric|Least number of hops|Least cost (can consider bandwidth, delay, etc.)|
 |Scalability|Suited for smaller networks|Better for larger, complex networks|
 |Example Protocols|RIP, IGRP|OSPF, IS-IS|
-## Hierarchical Routing
+## [[Hierarchical Routing]]
 Routing algorithm that clumps routers into clusters/zones to shorten the size of routing tables to make routing algorithms run faster
 - Router stores the path to other routers within a group and path to other groups.
 - Multiple zones and clusters are also made when network is huge
@@ -64,7 +64,7 @@ Routing algorithm that clumps routers into clusters/zones to shorten the size of
 > Optimal level for N routers → ln(N)
 > Minimal size of routing table → try to have equal number of zones, groups, routers in a group
 > Ex: 3-level hierarchy for N = 4800. ideally → 16\*16\*16 = 4800. By trial and error, ideal match is 15-16-20 (cluster, region, routers in region)
-## Path-Vector Routing
+## [[Shortest Path Routing]]
 Path-vector routing is used to give greater control because it allows the source to detemine the route by imposing a policy that the packet has to follow when traversing. Path-vector routing is used in routing between ISPs.
 - Each router generates a spanning tree which it consults to determine a path
 # Routing Protocols

@@ -20,3 +20,4 @@ To subnet the Class C IP address 200.1.2.0 into 4 subnets:
 - **Default gateways**: First usable IP in each subnet (e.g., 200.1.2.1 for Subnet 1)
 
 The subnetting leaves 6 bits for host addresses, creating 4 subnets with 62 usable IPs each. Each subnet's first and last IPs are reserved for network/broadcast purposes, while the first usable IP typically serves as the default gateway.
+l
