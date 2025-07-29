@@ -22,8 +22,8 @@ FUNCTION merge(a, low, mid, high)
 		b[k++] = a[j++]
 	
 	FOR (i = low; i<n; i++)
-		a[i++] = b[i++]
-RETURN b
+		a[i] = b[i]
+RETURN
 
 FUNCTION mergeSort(a, low, high)
 //sorts array using merge sort
@@ -39,6 +39,7 @@ RETURN
 
 merge sort in c
 ```c
+int b[64];
 void mergesort(int *a, int start, int end){
 	if(start < end){
 		int mid = (start+end)/2;
@@ -52,18 +53,25 @@ void merge(int *a, int start, int end){
 	if(start >= end){
 		return;
 	}
-	int i,j;
-	for(i = start; i < end; i++){
-		for(j = i; j < end; j++){
-			if(a[j] > a[j+1]){
-				int tmp = a[j];
-				a[j] = a[j+1];
-				a[j+1] = tmp;
-			}
-			iter++;
-		}
+	int i,j,k,mid;
+	k = 0;
+	i = start;
+	j = mid = (start+end)/2;
+	while(i <= mid && j < end){
+		if(a[i] < a[j])
+			b[k++] = a[i++];
+		else
+			b[k++] = a[j++];
 	}
-	return a;	
+	
+	while( i <= mid)
+		b[k++] = a[i++];
+		
+	while( j < high)
+		b[k++] = a[j++];
+		
+	for(i = start; i < end; i++)
+		a[i] = b[i-start];
 }
 ```
 here is merge sort in java

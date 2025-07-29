@@ -61,5 +61,7 @@
   "Editor@@inline-code-normal@@light": "#3A3A3A",
   "Editor@@h2-divider-on": false,
   "Editor@@h2-color-select": "h2-color-default",
-  "Editor@@h2-accent-color@@light": "#003355"
+  "Editor@@h2-accent-color@@light": "#003355",
+  "anuppuccin-theme-settings@@anp-cursor": "pointer",
+  "anuppuccin-theme-settings@@anp-alt-tab-style": "anp-default-tab"
 }

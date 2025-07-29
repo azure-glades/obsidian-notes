@@ -12,6 +12,7 @@
 > *Types of Algorithms*
 > [[Divide and Conquer]]
 > [[Decrease and Conquer]]
+> [[Transform and Conquer]]
 > [[Dynamic Programming]]
 > [[Greedy Algorithms]]
 > String matching algorithms : [[Naive String Matching]],[[Horspool Algorithm]] and [[Boyer-Moore Algorithm]]
@@ -20,6 +21,7 @@
 
 >*See further*
 >[[Efficiency Analysis]]
+>[[P and NP Problems]]
 ## Properties of algorithm
 An algorithm is a sequence of unambiguous instructions for solving a problem. Key properties include:
 1. **Input**: Valid inputs are specified. This ensures that the algorithm can process the data correctly.

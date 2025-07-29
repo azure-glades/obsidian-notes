@@ -1,6 +1,5 @@
 #graph-traversal-algorithm
 Kruskal's algorithm constructs an [[Minimum Spanning Tree]] by iteratively adding the smallest available edge that does not form a cycle in the current MST. It was developed by Joseph Kruskal in 1956 and operates on the principle of sorting edges by weight.
-
 ## Key Premise
 - Uses a **greedy approach**: Always selects the smallest-weight edge that does not create a cycle.
 - Relies on **Union-Find (Disjoint Set Union)** data structure to efficiently detect cycles.

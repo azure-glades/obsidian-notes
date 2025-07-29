@@ -16,7 +16,7 @@ FUNCTION  partition(arr, low, high)
 			i++
 		WHILE arr[i] <= pivot
 		DO
-			j++
+			j--
 		WHILE arr[j] >= pivot
 		IF i<j
 			swap(arr[i], arr[j])

@@ -57,7 +57,7 @@ While primarily managed at higher layers (e.g., transport layer), the data link 
 # Addressing
 When an network datagram is transfered between links (as frames) we only know the IP address of the receiving node. Each router gets the IP address of the next router by consulting the forwarding table and the last router is called *destination host*.
 
-But for transfer of frames, we need the *link-layer address* and hence we require a way to convert the IP addess (from network layer) to link-layer address. This is done by [[Address Resolution Protocol]].
+But for transfer of frames, we need the *link-layer address* and hence we require a way to convert the IP addess (from network layer) to link-layer address. This is done by [[ARP - Address Resolution Protocol]].
 
 In the data link layer, unicast, multicast, and broadcast addresses are used to manage how data is transmitted across a network. 
 1. *Unicast Address*

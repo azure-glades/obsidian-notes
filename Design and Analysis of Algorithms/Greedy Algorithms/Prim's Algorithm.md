@@ -18,25 +18,6 @@ Prim's algorithm constructs an [[Minimum Spanning Tree]] by iteratively adding t
 - *Priority queue (min-heap)* efficiently selects the minimum-weight edge.
 - Arrays to track edge weights and parent vertices.
 
-```al
-ALGO primsMinSpanningTree(G)
-// INPUT: Graph G = {V, E} of n nodes
-// OUTPUT: Spanning Tree T = {V, E'}
-	E' = {}
-	PriorityQueue Ep = {}
-	i = 0
-	FOR(i<n, i:0 -> n)
-		FOR(j<n, j: 0 -> n)
-			IF(E[i][j] != 0)
-				Ep.INSERT(E[i][j])  // insert edge to priority queue
-			END-IF
-		END-FOR
-		MinEdge = Ep.POP()
-		E' = E' + {MinEdge}
-
-// ALGO IS INCOMPLETE --> FINISH IT
-```
-
 ## Time Complexity
 
 | Implementation                  | Time Complexity | Best Use Case    |

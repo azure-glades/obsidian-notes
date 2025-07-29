@@ -13,19 +13,40 @@ To solve the **N-Queens problem**, we aim to place N queens on an N×N ches
 4. **Backtrack**: If no valid position exists in a row, backtrack to the previous row and adjust the queen’s position.
 
 ```al
-FUNC nQueens(k, n)
-//INPUT: k is current queen, and n is no of queens
+pos[n]
+
+FUNC nQueens(row, n)
+//INPUT: row is row of current queen, and n is no of rows/cols
 //OUTPUT: all possible configs
-	FOR(i<n, i: 0 -> n)
-		IF(place(k,i))
-			
+	IF (k == n)
+		PRINT solution
+		RETURN
+	FOR (col<n; col: 0->n)
+		IF (isSafe(row, col))
+			pos[row] = col
+			nqueen(row+1)
+		END-IF
+	END-FOR
+RETURN
+
+FUNC isSafe(row, col)
+//INPUT: checking for queen at row,col
+//OUTPUT: whether it is safe or not
+	FOR(r<row; r:0->row)
+		c = pos[r]
+		IF (c == col OR abs(col - c) == abs(row - r))
+			RETURN 0
+		END-IF
+	END-FOR
+RETURN 1
+
+>> Call nQueens(row:0 -> n, n)
 ```
 ## Time complexity
 Worst case : $O(n!)$
 - Can be optimised with pruning techniques to avoid repeated checks, but it does not get better than exponential growth
 
 ## Algorithm
-
 - The loop goes through all previously placed queens (`i = 1` to `p - 1`).
 - For each previous queen:
     1. **Same column check:**  
@@ -39,51 +60,68 @@ Worst case : $O(n!)$
 ---
 ```c
 #include <stdio.h>
+#include <math.h>
 #include <stdlib.h>
 
-int place(int p, int x[]) {
-    int i;
-    for (i = 1; i <= (p - 1); i++) {
-        if ((x[i] == x[p]) || (abs(x[i] - x[p]) == abs(i - p)))
+#define MAX_N 20
+
+int n, solution_count = 0;
+int pos[MAX_N]; // pos[i] = stores col no of queen in ith row
+
+// Check if it's safe to place a queen at (row, col)
+int isSafe(int row, int col) {
+    for (int r = 0; r < row; i++) {
+        int c = pos[r];
+        if (c == col || abs(col - c) == abs(row - r))
             return 0;
     }
     return 1;
 }
 
-int main() {
-    int i, j, k, n, count = 1, x[1500], flag = 0;
-    printf("Enter the number of queens: ");
-    scanf("%d", &n);
-
-    k = 1;
-    x[k] = 0;    // x[1] column no, k is row number
-    while (k) {
-        x[k] = x[k] + 1;
-        while (x[k] <= n && !place(k, x))
-            x[k] = x[k] + 1;
-        if (x[k] <= n) {
-            if (k == n) { // nth queen
-                printf("Solution %d\n", count++);
-                flag = 1;
-                for (i = 1; i <= n; i++) {
-                    for (j = 1; j < x[i]; j++)
-                        printf("* ");
+void printSoln(){
+	 // Found a solution, print it
+        printf("Solution %d:\n", ++solution_count);
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (pos[i] == j)
                     printf("Q ");
-                    for (j = x[i] + 1; j <= n; j++)
-                        printf("* ");
-                    printf("\n");
-                }
-            } else {
-                k += 1;
-                x[k] = 0;
+                else
+                    printf("* ");
             }
-        } else {
-            k = k - 1;
+            printf("\n");
+        }
+        printf("\n");
+        
+}
+
+// Recursive function to solve N-Queens
+void nqueen(int row) {
+    if (row == n) {
+       printSoln();
+       return;
+    }
+    // Try placing queen in each column
+    for (int c = 0; c < n; c++) {
+        if (isSafe(row, c)) {
+            pos[row] = c; // Place queen
+            nqueen(row + 1); // Recurse to next row
+            // No need to 'remove' queen, as col[row] will be overwritten
         }
     }
-    if (flag == 0)
-        printf("No solution!!\n");
+}
 
+int main() {
+    printf("Enter the number of queens: ");
+    scanf("%d", &n);
+    if (n < 1 || n > MAX_N) {
+        printf("Please enter n between 1 and %d\n", MAX_N);
+        return 1;
+    }
+    solve(0);
+    if (solution_count == 0)
+        printf("No solution!\n");
+    else
+        printf("Total solutions: %d\n", solution_count);
     return 0;
 }
 ```

@@ -1,3 +1,5 @@
+[[Branch and Bound Approach]]
+[[Backtracking Algorithms]]
 
 | Backtracking           | Branch and Bound       |
 | ---------------------- | ---------------------- |

@@ -4,22 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "321c65ae1d4d76ca",
+        "id": "96228486c65d5de2",
         "type": "tabs",
         "children": [
           {
-            "id": "459125bb05aa886a",
+            "id": "e27a2324931b3020",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "SYLLABUS.png"
+                "file": "Transport Layer/Transport Control Protocol/TCP - Transmission Control Protocol.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "SYLLABUS"
+              "icon": "lucide-file",
+              "title": "TCP - Transmission Control Protocol"
+            }
+          },
+          {
+            "id": "8bf32c2137c1356c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Network Layer/Internet Protocol/IPv6.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IPv6"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -51,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "protocol",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.5
+    "width": 354.5
   },
   "right": {
     "id": "e4867333660853a3",
@@ -134,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "reorganization/CSMA.md",
+                "file": "Application Layer/FTP - File Transfer Protocol.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CSMA"
+              "title": "Outline of FTP - File Transfer Protocol"
             }
           },
           {
@@ -149,7 +166,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SYLLABUS.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SYLLABUS"
+              "title": "Backlinks"
             }
           },
           {
@@ -168,12 +184,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CN 1.md",
+                "file": "Application Layer/FTP - File Transfer Protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from CN 1"
+              "title": "Outgoing links from FTP - File Transfer Protocol"
             }
           }
         ],
@@ -181,7 +197,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 443.5
+    "width": 443.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,53 +210,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "459125bb05aa886a",
+  "active": "8bf32c2137c1356c",
   "lastOpenFiles": [
-    "Transport Layer/Congestion/Traffic Shaping.md",
-    "SYLLABUS.png",
-    "Pasted image 20250616101450.png",
-    "Transport Layer/Congestion/Traffic Throttling.md",
-    "Transport Layer/Congestion/Quality of Service.md",
-    "Transport Layer/Congestion/Jitter Control.md",
-    "Transport Layer/Congestion/Integrated vs Differentiated Services.md",
-    "Transport Layer/Congestion/Congestion Prevention.md",
-    "Transport Layer/Congestion/Congestion Control in VNS and Datagram Subnets.md",
-    "Transport Layer/Congestion/Congestion Control.md",
-    "Transport Layer/Congestion/Admission Control.md",
-    "Transport Layer/Congestion/Network Provisioning.md",
-    "Transport Layer/Congestion/Traffic Aware Routing.md",
-    "Transport Layer/Congestion/Load Shedding.md",
-    "Pasted image 20250616095445.png",
-    "Application Layer/HTTP - HyperText Transfer Protocol.md",
-    "Archive/Traffic Shaping.md",
-    "Archive/Protocol Suite.md",
-    "Archive/Integrated services.md",
-    "Archive/Data Link Layer Protocols.md",
-    "Archive/Physical Layer/Physical Layer.md",
-    "Application Layer/Telnet.md",
-    "Application Layer/WWW - World Wide Web.md",
-    "Application Layer",
+    "Network Layer/Internet Protocol/IPv4.md",
+    "Transport Layer/Transport Control Protocol/TCP - Transmission Control Protocol.md",
+    "Network Layer/Internet Protocol/IPv6.md",
+    "Data-link Layer/MAC/CSMA.md",
+    "Data-link Layer/MAC/MAC Sublayer.md",
+    "Data-link Layer/DLC/PPP.md",
+    "Data-link Layer/DLC/HDLC.md",
+    "Transport Layer/Transport Layer.md",
+    "Network Layer/Routing Algorithms/Distance Vector Routing.md",
+    "Network Layer/Hierarchical Routing.md",
+    "Differentiated Services.md",
+    "Network Layer/Internet Protocol/IP Addresses.md",
+    "Network Layer/Subnets.md",
+    "Integrated services.md",
+    "Network Layer/Routing Protocols/OSPF -Interior Gateway Routing Protocol.md",
+    "Network Layer/Routing Protocols/BGP - Exterior Gateway Routing Protocol.md",
+    "Network Layer/Routing Protocols/RIP - Routing Information Protocol.md",
+    "Network Layer/Unicast Routing.md",
     "Transport Layer/UDP - User Datagram Protocol.md",
-    "Network Layer/Internet Protocol/IP - Internet Protocol.md",
-    "Network Layer/Internet Protocol/IPv4 and IPv6 Addresses.md",
-    "Transport Layer/Transport Control Protocol/TCP - Transport Control Protocol.md",
+    "CCNA/IPv4.md",
+    "Internet Control Protocols/NAT - Network Address Translation.md",
+    "Internet Control Protocols/ICMP - Internet Control Message Protocol.md",
+    "Internet Control Protocols/DHCP - Dynamic Host Control Protocol.md",
+    "Network Layer/Multicast Routing.md",
+    "Network Layer/Broadcast Routing.md",
+    "Network Layer/Network Layer.md",
+    "all-images/Pasted image 20250620121549.png",
+    "all-images/Pasted image 20250712175517.png",
+    "all-images/Pasted image 20250712175548.png",
+    "all-images/Pasted image 20250712175544.png",
+    "all-images/Pasted image 20250712175528.png",
+    "SYLLABUS.png",
+    "Audio/Network Layer_ Design & Routing Algorithms.wav",
+    "Audio/Congestion Control and Quality of Service.wav",
+    "Audio/Internetworking_ Connecting Diverse Networks.wav",
+    "all-images/Pasted image 20250620105555.png",
+    "all-images/Pasted image 20250620112059.png",
+    "all-images/Pasted image 20250620112049.png",
+    "all-images/Pasted image 20250620112030.png",
+    "Network Layer/Routing Protocols",
+    "Internet Control Protocols",
+    "Audio",
+    "Untitled Folder",
+    "Application Layer",
     "Transport Layer/Transport Control Protocol",
-    "Network Layer/Internet Protocol/OSPF -Interior Gateway Routing Protocol.md",
     "Network Layer/Internet Protocol",
-    "Transport Layer/Internetworking",
-    "Transport Layer/Congestion",
-    "Transport Layer",
-    "Network Layer/Routing Algorithms",
-    "Network Layer/Packet Switching",
-    "Network Layer",
-    "Archive",
-    "all-images/Pasted image 20250601171529.png",
-    "all-images/Pasted image 20250608210214.png",
-    "all-images/Pasted image 20250608205041.png",
-    "all-images/Pasted image 20250608142846.png",
-    "all-images/Pasted image 20250608142739.png",
-    "all-images/Pasted image 20250601174144.png",
-    "all-images/Pasted image 20250601172544.png",
     "Untitled.canvas"
   ]
 }

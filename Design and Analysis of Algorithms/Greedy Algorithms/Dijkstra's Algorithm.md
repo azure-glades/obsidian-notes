@@ -25,5 +25,5 @@ FUNC dijkstraShortestPath(G, s)
 		END-FOR
 	END-WHILE
 RETURN soln, dist
-
 ```
+

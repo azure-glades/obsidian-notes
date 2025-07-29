@@ -4,39 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "133a3c86f34c9206",
+        "id": "24e67c5b1eef1791",
         "type": "tabs",
         "children": [
           {
-            "id": "e0513e8244057a07",
+            "id": "876dc21e8fdb6837",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UART QUICKREF.md",
+                "file": "PWM QUICKREF.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UART QUICKREF"
+              "title": "PWM QUICKREF"
             }
           },
           {
-            "id": "26222f7fac00c83f",
+            "id": "a64f424f60986050",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SPI QUICKREF.md",
+                "file": "VIC QUICKREF.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SPI QUICKREF"
+              "title": "VIC QUICKREF"
+            }
+          },
+          {
+            "id": "277cd729b726a001",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TIME QUICKREF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TIME QUICKREF"
+            }
+          },
+          {
+            "id": "7e83805c3cd704f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TIMER QUICKREF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TIMER QUICKREF"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -183,10 +211,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "26222f7fac00c83f",
+  "active": "7e83805c3cd704f7",
   "lastOpenFiles": [
-    "I2C QUICKREF.md",
+    "PWM QUICKREF.md",
+    "Pasted image 20250622123239.png",
+    "Unit 5.md",
+    "TIMER QUICKREF.md",
+    "VIC QUICKREF.md",
     "SPI QUICKREF.md",
-    "UART QUICKREF.md"
+    "UART QUICKREF.md",
+    "I2C QUICKREF.md"
   ]
 }

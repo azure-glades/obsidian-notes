@@ -1,7 +1,9 @@
-A knapsack is a sack that can store a set capacity/weight of items
+	A knapsack is a sack that can store a set capacity/weight of items
 each item has its weight and value
 problem is put items in the knapsack such that the total value is maximum staying under the knapsack capacity
 It is an optimization problem, where we maximize the value function with the knapsack capacity as contraint
+
+Knapsack problem can be solved with [[Dynamic Programming]] or with [[Greedy Algorithms]]. There are many variations of this problem, like [[Fractional Knapsack Problem]]
 
 > *0/1 knapsack problem*
 > A thief robbing a store wants to take the most valuable load that can be carried in a knapsack with a max capacity of $W$ kgs of loot. The thief can choose to take any set of n items in the store. Each item $i$ is worth $v_i$ dollars and weighs $w_i$ kgs. Which items should the thief take? 
