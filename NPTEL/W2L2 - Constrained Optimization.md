@@ -151,4 +151,4 @@
 - **Distinction from Interior Point:** Interior point methods aim to stay within the feasible region from the start, while exterior point methods start outside and try to converge into the feasible region.
     
 
----
+[[W2L3 - Heuristic Techniques]]
