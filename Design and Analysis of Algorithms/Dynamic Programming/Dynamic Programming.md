@@ -1,11 +1,18 @@
 Dynamic programming solves problems by combining the solutions to subproblems. Programming refers to tabulation of the solutions.
 Divide-and-conquer solves problems by dividing into distinct non-overlapping subproblems. Dynamic programming works even when subproblems overlap by storing the solutions in a table. It then consults the table to arrive at the optimal solution.
+
+> Dynamic Programming = Recursion + Memoization. 
+
+[DP - MIT](https://youtu.be/r4-cftqTcdI?feature=shared) Legit video, SRTBOT
+
 Dynamic programming is commonly applied to *optimization problems*
 Steps:
 1. Characterize the structure of optimal solution
 2. recursively define optimal solution
 3. compute optimal solution (bottom up)
 4. construct optimal solution from computed info
+
+> DP is technically a DFS through a reverse subproblem Graph (think about it)
 
 Ex:
 > *Algorithms:*
@@ -39,9 +46,9 @@ Fibonacci problem can be done using dynamic programming → memoization and tabu
   ```python
   memo = {}
   def fib(n):
-      if n in memo: return memo[n]
-      if n <= 1: return n
-      memo[n] = fib(n-1) + fib(n-2)
+      if n in memo: return memo[n] # check if it is stored
+      if n <= 1: return n          # base case
+      memo[n] = fib(n-1) + fib(n-2) # recursive case and store
       return memo[n]
   ```
 

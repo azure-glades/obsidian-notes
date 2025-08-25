@@ -1,107 +1,56 @@
-### Game Theory: Simultaneous Move Games with Incomplete Information
+### Game Theory: Incomplete Information and Bayesian Games
 
-This lecture introduces **simultaneous move games with incomplete information**, also known as **Bayesian games**. It builds on previous discussions of Nash equilibrium by exploring scenarios where players do not have full knowledge of all other players' payoffs or types.
-
----
-
-### 1. Revisit: The Complete Information Game
-
-The lecture begins with a simple, simultaneous move game to re-establish concepts from previous lectures.
-
-* **Scenario:** A boy (Player 1) and a girl (Player 2) want to go on a date but cannot communicate.
-* **Actions:** Both players can choose to go to a **Cricket match (C)** or a **Movie (M)**.
-* **Payoff Matrix (Complete Information):** The payoffs are known to both players.
-
-| | Girl (C) | Girl (M) |
-|---|---|---|
-| Boy (C) | (10, 5) | (0, 0) |
-| Boy (M) | (0, 0) | (5, 10) |
-
-* **Nash Equilibria (NE):**
-    * **Pure Strategy NE:** This game has two pure strategy NE: **(C, C)** and **(M, M)**.
-    * **Mixed Strategy NE:** A mixed strategy NE also exists where the boy plays C with probability 2/3 and the girl plays C with probability 1/3.
+This lecture explores **simultaneous move games with incomplete information**, also known as **Bayesian games**. It builds on the core concepts of Nash Equilibrium by introducing uncertainty about other players' payoffs, strategies, and "types."
 
 ---
 
-### 2. Introducing Incomplete Information (Bayesian Games)
+### 1. Games with Complete Information: A Review
 
-* **Definition:** "A setting where one player does not have all information about the set of actions of all other players and the payoffs of all other players."
-* **The Scenario:** The boy is interested, but he does not know if the girl is **interested (I)** or **uninterested (U)**.
-* **Player Types:** The girl has two possible "types": Interested and Uninterested.
-* **Beliefs:** The boy has a **belief** about the girl's type, represented by a probability distribution.
-    * Boy believes the girl is **Interested** with probability **1/2**.
-    * Boy believes the girl is **Uninterested** with probability **1/2**.
-    * This belief is **common knowledge**.
+The lecture starts with a familiar example of a two-player dating game with complete information, where all payoffs are common knowledge.
 
-#### Payoff Matrices Under Incomplete Information
+* **Scenario:** A boy and a girl must choose between going to a **Cricket match (C)** or a **Movie (M)** without communicating.
+* **Payoff Matrix:** The first payoff is for the boy, the second for the girl
 
-The payoff matrix for the game now depends on the girl's type, which the boy doesn't know.
+|        | Girl (C) | Girl (M) |
+| ------ | -------- | -------- |
+| Boy(C) | 10,5     | 0,0      |
+| Boy(M) | 0,0      | 5,10     |
 
-* **If the girl is Interested (I):** This is the same payoff matrix as the complete information game.
-
-| | Girl (C) | Girl (M) |
-|---|---|---|
-| Boy (C) | (10, 5) | (0, 0) |
-| Boy (M) | (0, 0) | (5, 10) |
-
-* **If the girl is Uninterested (U):** The girl wants to avoid the boy, so her payoffs change.
-
-| | Girl (C) | Girl (M) |
-|---|---|---|
-| Boy (C) | (10, 0) | (0, 10) |
-| Boy (M) | (0, 5) | (5, 0) |
-
-* **Key Insight:** The boy is still interested in meeting the girl. So if they meet (C, C or M, M), he gets a positive payoff (10 or 5). However, if they miss each other, he gets 0. The girl's payoffs are now the opposite: she gets a positive payoff when they miss each other and 0 when they meet.
+* **Nash Equilibria:** The game has two pure strategy Nash Equilibria: **(C, C)** and **(M, M)**. Both players are better off if they coordinate, but the payoffs differ depending on the location.
+* **Mixed Strategy Nash Equilibrium:** The lecture also recalls that a mixed strategy Nash Equilibrium exists where the boy and girl randomize their choices with specific probabilities to make the other player indifferent.
 
 ---
 
-### 3. Finding the Bayes Nash Equilibrium
+### 2. Introducing Incomplete Information
 
-Since the boy doesn't know the girl's type, he must make his decision based on his expected payoff, using his beliefs about her type. The girl's strategy, however, can be conditional on her type.
+* **Definition of Incomplete Information:** A game where at least one player does not know some key information about another player, such as their payoff function or what is most important to them.
+* **The Boy-Girl Game with Incomplete Information:**
+    * **New Scenario:** The boy is interested in meeting, but he is **uncertain about the girl's type**.
+    * **Girl's Types:** The girl can be either **Interested (I)** or **Uninterested (U)** in meeting the boy.
+    * **Payoffs by Type:**
+        * **If Interested (I):** Her payoffs are as before (she prefers to be with the boy).
+        * **If Uninterested (U):** Her payoffs are now reversed; she gets a positive payoff only if they **do not meet**, as she wants to avoid the boy. The boy's payoffs remain the same, as he is always interested in meeting her.
 
-* **Bayes Nash Equilibrium (BNE):** "A set of strategies, one for each type of each player, such that no type of any player has any incentive to change his or her strategy given the beliefs which are there about other players..."
+---
 
-#### The Boy's Expected Payoff
+### 3. Key Concepts in Bayesian Games
 
-The boy's decision depends on his expected payoff, which is calculated based on his belief that the girl is Interested (1/2) or Uninterested (1/2).
+* **Type:** A player's "type" encapsulates all of their private information that is relevant to the game, primarily their payoff function. In this game, the girl's type is either 'I' or 'U'.
+* **Belief:** Since the boy doesn't know the girl's type, he forms a **belief**, which is a probability distribution over the set of her possible types.
+    * In the lecture's example, the boy's belief is that the girl is **Interested with probability 1/2** and **Uninterested with probability 1/2**.
+* **Common Knowledge of Beliefs:** The players' beliefs about each other are **common knowledge**, meaning everyone knows the beliefs, everyone knows that everyone knows, and so on.
 
-Let's assume the girl's strategy is to play `C` if she's Interested and `M` if she's Uninterested (we'll call this strategy `CM`).
+---
 
-* **If the boy plays C:**
-    * With probability 1/2 (girl is Interested), the outcome is (C, C) -> Boy's payoff is **10**.
-    * With probability 1/2 (girl is Uninterested), the outcome is (C, M) -> Boy's payoff is **0**.
-    * Boy's Expected Payoff from C: $0.5(10) + 0.5(0) = 5$.
+### 4. Bayesian Nash Equilibrium (BNE)
 
-* **If the boy plays M:**
-    * With probability 1/2 (girl is Interested), the outcome is (M, C) -> Boy's payoff is **0**.
-    * With probability 1/2 (girl is Uninterested), the outcome is (M, M) -> Boy's payoff is **5**.
-    * Boy's Expected Payoff from M: $0.5(0) + 0.5(5) = 2.5$.
+* **Definition:** "A set of strategies, one for each type of each player, such that no type of any player has any incentive to change his or her strategy given the beliefs which are there about other players."
+* **Core Principle:** A BNE is a Nash Equilibrium in a game of incomplete information. It requires each player to choose a strategy that is a best response to the other players' strategies, taking into account their beliefs about the other players' possible types.
+* **Analysis of the Boy-Girl Game:**
+    * **Step 1: The Boy's Expected Payoffs.** The boy's strategy must maximize his **expected payoff**, which is calculated by averaging his payoffs across the girl's possible types, weighted by his beliefs (1/2 for each type).
+    * **Step 2: The Girl's Best Response.** The girl, who knows her own type, chooses a strategy that maximizes her payoff, given her belief about what the boy will do. The girl's strategy can be **type-dependent**.
+    * **Result:** The lecture identifies a **pure strategy Bayes Nash Equilibrium**:
+        * **Boy's Strategy:** Go to the **Cricket match (C)**. (This is his best response because his expected payoff is highest for this action).
+        * **Girl's Strategy:** Go to the **Cricket match (C)** if she is **Interested**, and go to the **Movie (M)** if she is **Uninterested**. (These are her best responses, conditional on her own type).
 
-* **Decision:** The boy's best response is to play **C**, as his expected payoff (5) is greater than his expected payoff from playing M (2.5).
-
-#### The Girl's Best Response (Conditional on Her Type)
-
-The girl knows the boy's belief and that his best response is to play C. Now, the girl's best response can be determined for each of her types.
-
-* **If the girl is Interested (I):** She sees the boy will play C. Her choices are:
-    * Play C -> Payoff is 5.
-    * Play M -> Payoff is 0.
-    * Her best response is to play **C**.
-
-* **If the girl is Uninterested (U):** She sees the boy will play C. Her choices are:
-    * Play C -> Payoff is 0.
-    * Play M -> Payoff is 10.
-    * Her best response is to play **M**.
-
-#### The Pure Strategy Bayes Nash Equilibrium
-
-The pure strategy BNE is an action for each type of every player where no player (of any type) has an incentive to deviate.
-
-* **Boy's Strategy:** Play **C**.
-* **Girl's Strategy:** Play **C** if Interested, play **M** if Uninterested.
-
-This action profile, **(Boy plays C; Girl plays C if Interested, M if Uninterested)**, is a pure strategy Bayes Nash equilibrium because every player's action is a best response given their beliefs and the actions of the other players. No one has a unilateral incentive to deviate.
-
-#### What's Next?
-
-The next lecture will inspect if this game also has a **mixed strategy Bayes Nash equilibrium**, where players choose their actions randomly based on a probability distribution.
+This equilibrium is stable because, given this set of strategies, no player has a unilateral incentive to deviate. The boy plays his best response based on his beliefs, and the girl plays her best response based on her actual type.

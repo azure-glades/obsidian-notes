@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dynamic Programming/Knapsack problem.md",
-                "mode": "preview",
+                "file": "Dynamic Programming/Dynamic Programming.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Knapsack problem"
+              "title": "Dynamic Programming"
             }
           },
           {
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dynamic Programming/Knapsack problem.md",
+                "file": "Dynamic Programming/Dynamic Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Knapsack problem"
+              "title": "Backlinks for Dynamic Programming"
             }
           },
           {
@@ -211,10 +211,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385.5
+    "width": 385.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
@@ -225,6 +227,7 @@
   },
   "active": "fa00bd5aa1156023",
   "lastOpenFiles": [
+    "Dynamic Programming/Knapsack problem.md",
     "Dynamic Programming/Floyd-Warshall Algorithm.md",
     "Dynamic Programming/Bellman-Ford Algorithm.md",
     "Greedy Algorithms/Dijkstra's Algorithm.md",
@@ -251,7 +254,6 @@
     "Greedy Algorithms/Minimum Spanning Tree.md",
     "Greedy Algorithms/Prim's Algorithm.md",
     "Conquer Techniques/Transform and Conquer/Transform and Conquer.md",
-    "Conquer Techniques/Divide and Conquer/Divide and Conquer.md",
     "Pasted image 20250629233620.png",
     "Pasted image 20250629232101.png",
     "Misc Algorithms",

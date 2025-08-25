@@ -1,4 +1,4 @@
-### Game Theory: Mixed Strategy Nash Equilibrium
+	### Game Theory: Mixed Strategy Nash Equilibrium
 
 This lecture introduces the concept of **mixed strategies** to solve games that lack a **pure strategy Nash equilibrium**, using the penalty kick game as a primary example.
 

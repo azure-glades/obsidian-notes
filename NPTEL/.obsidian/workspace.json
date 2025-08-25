@@ -8,63 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dbeb7bb45ae6fadd",
+            "id": "5ab57bad2d942621",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "W3L5 - Deep learning.md",
+                "file": "W5L4 - Network Economics 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "W3L5 - Deep learning"
+              "title": "W5L4 - Network Economics 1"
             }
           },
           {
-            "id": "8996fc6df2da74f1",
+            "id": "33cf368f4b8bf463",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "W4L3  - Game theory 1.md",
+                "file": "W5L4.1 - In Simpler Words.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "W4L3  - Game theory 1"
+              "title": "W5L4.1 - In Simpler Words"
             }
           },
           {
-            "id": "f6891dd3179b4c2e",
+            "id": "7c3f88ea1594f737",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "W4L5 - Game theory 3.md",
+                "file": "W5L5 - Network Economics 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "W4L5 - Game theory 3"
-            }
-          },
-          {
-            "id": "29cf766350182a1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "W4L4 - Game theory 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "W4L4 - Game theory 2"
+              "title": "W5L5 - Network Economics 2"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,6 +189,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -211,8 +198,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "29cf766350182a1d",
+  "active": "7c3f88ea1594f737",
   "lastOpenFiles": [
+    "W5L4.1 - In Simpler Words.md",
+    "W5L4 - Network Economics 1.md",
+    "W5L5 - Network Economics 2.md",
+    "Pasted image 20250823185226.png",
+    "W5L3 - Bargaining.md",
+    "W5L2 - Sequential Games.md",
+    "W5L1 - Game theory 4.md",
     "W4L5 - Game theory 3.md",
     "W4L4 - Game theory 2.md",
     "W4L3  - Game theory 1.md",
@@ -233,8 +227,6 @@
     "W1L4 - Hedging.md",
     "W1L3 - Hedging.md",
     "W1L2 - Stable Matching Algorithm.md",
-    "W1L1 - Measure of network centrality.md",
-    "Welcome.md",
     "AI for economics"
   ]
 }
