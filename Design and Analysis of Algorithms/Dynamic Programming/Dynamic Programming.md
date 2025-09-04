@@ -21,7 +21,7 @@ Ex:
 > [[Johnson’s Algorithm]] - For sparse matrices
 > [[Kadane’s Algorithm]]
 > *Problems:*
-> [[Dynamic Programming/Knapsack problem]] and [[Fractional Knapsack Problem]]
+> [[Knapsack problem]] and [[Fractional Knapsack Problem]]
 > [[Rod Cutting Problem]]
 > *Techniques:*
 > [[Binomial Coefficient]]

@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "9845c7d0a59f909c",
+        "id": "5ab651967aae1aae",
         "type": "tabs",
         "children": [
           {
-            "id": "5ab57bad2d942621",
+            "id": "59504e31b61018a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "W5L4 - Network Economics 1.md",
+                "file": "W7L1 - VCG mechanism.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "W5L4 - Network Economics 1"
-            }
-          },
-          {
-            "id": "33cf368f4b8bf463",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "W5L4.1 - In Simpler Words.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "W5L4.1 - In Simpler Words"
-            }
-          },
-          {
-            "id": "7c3f88ea1594f737",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "W5L5 - Network Economics 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "W5L5 - Network Economics 2"
+              "title": "W7L1 - VCG mechanism"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,11 +169,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c3f88ea1594f737",
+  "active": "59504e31b61018a3",
   "lastOpenFiles": [
+    "Key Concepts.md",
+    "W6L4 - Mechanism Design.md",
+    "W6L5 - Groves Mechanism.md",
+    "W7L1 - VCG mechanism.md",
+    "W6L1 - Auction Theory.md",
+    "W3L5 - Deep learning.md",
+    "W3L2 - Linear Regression and Classifiers.md",
+    "W2L4 - Heuristics and Game Trees.md",
+    "W6L3 - Auction Theory 3.md",
+    "W6L2 - Auction Theory 2.md",
+    "2025-08-26.md",
+    "W5L5 - Network Economics 2.md",
     "W5L4.1 - In Simpler Words.md",
     "W5L4 - Network Economics 1.md",
-    "W5L5 - Network Economics 2.md",
     "Pasted image 20250823185226.png",
     "W5L3 - Bargaining.md",
     "W5L2 - Sequential Games.md",
@@ -212,21 +194,10 @@
     "W4L3  - Game theory 1.md",
     "W4L2 - Causality 2.md",
     "W4L1 - Causality 1.md",
-    "W3L5 - Deep learning.md",
     "W3L4 - Neural Networks.md",
     "W3L3 - Uncertainty Modelling.md",
-    "W3L2 - Linear Regression and Classifiers.md",
     "W3L1 - Decision Trees and Random Forest.md",
     "W2L5 - Clustering and Segmentation.md",
-    "W2L4 - Heuristics and Game Trees.md",
-    "W2L4 - Game trees.md",
-    "W2L3 - Heuristic Techniques.md",
-    "W2L2 - Constrained Optimization.md",
-    "W2L1 - Unconstrained optimization.md",
-    "W1L5 - Hedging.md",
-    "W1L4 - Hedging.md",
-    "W1L3 - Hedging.md",
-    "W1L2 - Stable Matching Algorithm.md",
     "AI for economics"
   ]
 }

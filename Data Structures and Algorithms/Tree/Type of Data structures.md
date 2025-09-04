@@ -8,7 +8,7 @@
 - **Linear**: Elements are stored in a sequential manner. Data elements have distinct, unique adjacent elements
 	- via contiguous memory allocation or pointer/links between elements
 - **Non-Linear:** Elements are not stored in a sequential manner. Data elements need not have unique adjacent elements
-## 1. Arrays
+## 1. [[Arrays]]
 - Linear data-structure where elements of a *single data type* stored in consecutive memory locations
 - Elements are referred to via an **index**
 

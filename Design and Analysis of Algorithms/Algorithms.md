@@ -19,6 +19,9 @@
 > [[Branch and Bound Approach]]
 > [[Backtracking Algorithms]]
 
+> *Good for DSA*
+> [[Array Algorithms]]
+
 >*See further*
 >[[Efficiency Analysis]]
 >[[P and NP Problems]]
