@@ -8,20 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "59504e31b61018a3",
+            "id": "efa781faf73734b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "W7L1 - VCG mechanism.md",
+                "file": "W8L4 - Computer Vision in Economics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "W7L1 - VCG mechanism"
+              "title": "W8L4 - Computer Vision in Economics"
+            }
+          },
+          {
+            "id": "41cc9b638b6cd669",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "W8L5 -NLP for economics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "W8L5 -NLP for economics"
+            }
+          },
+          {
+            "id": "42c8c5504d00ffa0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "W2L3 - Heuristic Search.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "W2L3 - Heuristic Search"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -169,35 +198,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59504e31b61018a3",
+  "active": "42c8c5504d00ffa0",
   "lastOpenFiles": [
-    "Key Concepts.md",
+    "W2L2 - Constrained Optimization.md",
+    "W2L1 - Unconstrained optimization.md",
+    "W1L5 - Hedging.md",
+    "W1L4 - Hedging.md",
+    "W1L3 - Hedging.md",
+    "W1L2 - Stable Matching Algorithm.md",
+    "W1L1 - Measure of network centrality.md",
+    "W8L6 - Ethics in AI.md",
+    "W8L5 -NLP for economics.md",
+    "W8L4 - Computer Vision in Economics.md",
+    "W8L3 - Agent based modelling for economics.md",
+    "W8L1 - PCA 2.md",
+    "W7L1 - VCG mechanism IMPORTANT.md",
+    "W7L4 - Voting.md",
+    "W7L5 - PCA 1.md",
+    "W7L2 -  Myerson Lemma.md",
     "W6L4 - Mechanism Design.md",
     "W6L5 - Groves Mechanism.md",
-    "W7L1 - VCG mechanism.md",
-    "W6L1 - Auction Theory.md",
-    "W3L5 - Deep learning.md",
-    "W3L2 - Linear Regression and Classifiers.md",
-    "W2L4 - Heuristics and Game Trees.md",
-    "W6L3 - Auction Theory 3.md",
     "W6L2 - Auction Theory 2.md",
-    "2025-08-26.md",
-    "W5L5 - Network Economics 2.md",
-    "W5L4.1 - In Simpler Words.md",
-    "W5L4 - Network Economics 1.md",
-    "Pasted image 20250823185226.png",
-    "W5L3 - Bargaining.md",
-    "W5L2 - Sequential Games.md",
-    "W5L1 - Game theory 4.md",
-    "W4L5 - Game theory 3.md",
-    "W4L4 - Game theory 2.md",
-    "W4L3  - Game theory 1.md",
-    "W4L2 - Causality 2.md",
-    "W4L1 - Causality 1.md",
-    "W3L4 - Neural Networks.md",
+    "W6L3 - Auction Theory 3.md",
+    "W2L3 - Heuristic Techniques.md",
+    "W2L3 - Heuristic Search.md",
     "W3L3 - Uncertainty Modelling.md",
-    "W3L1 - Decision Trees and Random Forest.md",
-    "W2L5 - Clustering and Segmentation.md",
+    "W3L4 - Neural Networks.md",
+    "W6L1 - Auction Theory.md",
+    "W7L3 - Sponsored Search Auction.md",
+    "Pasted image 20250823185226.png",
     "AI for economics"
   ]
 }

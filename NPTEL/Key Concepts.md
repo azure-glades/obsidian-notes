@@ -95,4 +95,26 @@ Utility is a measure of satisfaction, while efficiency is about making the best 
 * **Conflict with Stability:** It's important to note that an efficient outcome is not always stable. A system could be very efficient overall, but some individuals might have an incentive to change it to increase their own utility, even if it harms the group's total utility. 
 
 ---
+A **mechanism** and a **payment scheme** are related but distinct concepts in economics, particularly in the field of mechanism design.
 
+---
+### Mechanism
+A **mechanism** is the complete set of rules that governs a strategic interaction among self-interested individuals to achieve a desired outcome.1 It's essentially the "game" that a designer creates.2 The mechanism defines:
+- **The set of actions** available to each player (e.g., what they can report or bid).
+- **The outcome function** that determines the final allocation of goods or resources based on the players' actions.
+- **The payment scheme** that determines the monetary transfers or payments.
+In essence, a mechanism is the overall framework that links players' actions to a final allocation and a set of payments. The goal of a mechanism designer is to create rules so that players, acting in their own self-interest, will produce a desirable outcome, such as an efficient allocation of resources.
+
+---
+### Payment Scheme
+A **payment scheme** is a specific component of a mechanism. It is the rule that specifies the monetary transfer for each player based on the outcome of the mechanism. The payment scheme is crucial because it creates the incentives for players to act in a certain way.
+For example, in a **Vickrey-Clarke-Groves (VCG)** mechanism, the payment scheme is designed to make it a **dominant strategy** for each player to reveal their true valuation. The payment for a player is calculated to be equal to the negative of the externality they impose on the other players in the system. This ensures that a player's private gain from the allocation is aligned with the social gain.
+
+### Key Differences
+
+|Feature|**Mechanism**|**Payment Scheme**|
+|---|---|---|
+|**Scope**|A complete set of rules for a strategic game.|A specific rule for monetary transfers within that game.|
+|**Components**|Includes the action space, outcome function, and payment scheme.|Is a single part of the overall mechanism.|
+|**Purpose**|To achieve a desired social outcome by designing a game.|To create the correct incentives for players to participate truthfully and efficiently.|
+|**Analogy**|The full rulebook for a board game.|The rule in the board game that dictates how much money you pay when you land on a specific space.|
