@@ -10,7 +10,7 @@ The cricket betting example is a fantastic way to illustrate fundamental concept
 
 - **Individual Bets (High Risk):**
     
-    - **Betting with Virat (on Australia):** If you bet your $100 against Virat (meaning you believe Australia will win), you stand to gain $2500 if Australia wins, but lose your entire $100 if India wins.
+    - **Betting against Virat (on Australia):** If you bet your $100 against Virat (meaning you believe Australia will win), you stand to gain $2500 if Australia wins, but lose your entire $100 if India wins.
         
     - **Betting against Steve (on India):** If you bet your $100 against Steve (meaning you believe India will win), you stand to gain $120 if India wins, but lose your entire $100 if Australia wins.
         
@@ -158,48 +158,6 @@ Imagine you own TCS stock at $3416. You hope the price goes up after election re
     
 
 ---
-
-## Shorting Assets: Betting on a Decline 📉
-
-**Definition:** **Shorting a stock/asset** means selling a stock or an asset that you **don't actually own**. You typically borrow the asset from a broker, sell it in the market, and then buy it back later at a lower price to return it to the broker. This strategy profits when the asset's price falls.
-
-### How it works:
-
-1. **Borrow and Sell:** You borrow a stock from your broker and immediately sell it in the market at the current price (e.g., $100). You receive $100.
-    
-2. **Wait for Price Drop:** You hope the price of the stock goes down.
-    
-3. **Buy Back and Return:** If the price drops (e.g., to $90), you buy the stock back from the market for $90 and return it to your broker.
-    
-4. **Profit:** You made a profit of $10 ($100 received - $90 paid).
-    
-
-### Shorting Payoff:
-
-- **If the price of the asset goes down:** Your profit increases.
-    
-- **If the price of the asset goes up:** You incur a loss (you'll have to buy it back at a higher price to return it).
-    
-- **Graphically:** The payoff is a downward-sloping line.
-    
-
-### Shorting with a Call Option (Hedge for Shorting) 🛡️
-
-Shorting a stock carries unlimited risk if the price skyrockets.4 To **mitigate** this risk, you can combine shorting with a **long call option**.
-
-- You **short the stock** (hoping the price goes down).
-    
-- You **buy a call option** (with a strike price E) on the same stock and expiration date.
-    
-
-**Why?**
-
-- If the stock price **falls**, your short position makes a profit. Your call option expires worthless (you lose its premium), but your short profit outweighs this.
-    
-- If the stock price **rises sharply**, your short position would lead to massive losses.5 However, your call option gives you the right to _buy_ the stock at the strike price E. This effectively caps your potential loss. You can exercise the call option to buy the stock at E and return it to the broker, preventing unlimited losses from the short position.
-    
-- **Payoff:** This strategy creates a capped loss on the upside, while still allowing for profit if the stock price declines.
-    
 
 ---
 

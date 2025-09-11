@@ -21,7 +21,7 @@ This lecture introduces the fundamental concepts of **network economics**, focus
 
 This concept is rooted in the idea of individual rationality, similar to a Nash Equilibrium in game theory. A stable network represents a situation where individual self-interest prevents any single player or pair from deviating from the current network structure. However, a stable network may not always exist.
 
-> [!NOTE] Efficiency
+> [!NOTE] Efficiency -> Social Utility
 > **Efficiency**, on the other hand, focuses on **social welfare**. A network is considered efficient if it maximizes the **total utility** (or sum of payoffs) of all the players in the network.
 > - The goal of efficiency is to find the network that provides the greatest collective good for all members, regardless of how that total utility is distributed among them.
 > - An efficient network is also considered **Pareto-efficient**, meaning you can't find another network that makes at least one player better off without making anyone else worse off.
@@ -72,9 +72,9 @@ The conflict arises because a network that is stable due to individual self-inte
 This model provides a concrete framework to analyze efficiency and stability.
 
 * **Utility Function:** A player's utility is based on the benefits from connections minus the cost of forming those connections.
-    * $U_i(G) = \sum_{j \neq i} B(L_{ij}) - C \cdot d_i$
+    * $U_i(g) = \sum_{j \neq i} b(l_{ij}(g)) - C \cdot d_i(g)$
     * $L_{ij}$ is the minimum path distance between player $i$ and $j$.
-    * $B(k)$ is the benefit derived from a connection at distance $k$. The benefit decreases as the distance increases, so $B(k) > B(k+1)$.
+    * $B(k)$ is the benefit derived from a connection at distance $k$. The benefit decreases as the distance increases, so $B(k) > B(k+1)$. distance (k) is the number of nodes on the path from i to j
     * $C$ is the cost of forming a link.
     * $d_i$ is the number of links player $i$ has (their degree).
 
@@ -83,13 +83,13 @@ This model provides a concrete framework to analyze efficiency and stability.
 Based on the relationship between the cost of a link ($C$) and the benefits of direct ($B_1$) and indirect ($B_2$) connections, the lecture proves that the efficient network structure is one of three types:
 
 1.  **Complete Network:** A network where every player is connected to every other player.
-    * **Condition:** $C < B_1 - B_2$.
-    * **Logic:** The total utility of the network is maximized by adding every possible link. This is because the benefit of forming a new direct link ($B_1$) outweighs the cost ($C$) and is more beneficial than the indirect connection ($B_2$).
+    * **Condition:** $$C < b(1) - b(2)$$
+    * **Logic:** Cost of forming a direct link is much lesser than connecting through an indirect, longer link. I.e every node prefers to form a connection of distance 1 (i.e direct link) over an indirect link thats longer distance
 2.  **Star Network:** A network with one central player connected to all other players, who are only connected to the central player.
-    * **Condition:** $B_1 - B_2 \le C \le B_1 + (n-2)B_2$.
+    * **Condition:** $$b(1) - b(2) \le C \le b(1) + \frac{(n-2)}{2}b(2)$$
     * **Logic:** The star network maximizes the total utility in this cost range. The central player's utility comes from many direct links, while peripheral players benefit from indirect connections through the center.
 3.  **Empty Network:** A network with no links at all.
-    * **Condition:** $C > B_1 + (n-2)B_2$.
+    * **Condition:** $$C > b(1) + \frac{(n-2)}{2}b(2)$$
     * **Logic:** The cost of forming a link is so high that it outweighs any potential benefits. The total utility of any connected network would be negative, so the empty network, with a total utility of zero, is the most efficient.
 
 ---
