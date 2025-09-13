@@ -2,7 +2,7 @@ Absolutely! Let’s break these four concepts **clearly and contrast them**, ste
 
 ---
 
-## **1. Allocative Efficiency (AE)**
+## 1. Allocative Efficiency (AE)
 
 **Definition:**
 
@@ -20,7 +20,7 @@ Absolutely! Let’s break these four concepts **clearly and contrast them**, ste
 
 ---
 
-## **2. Strictly Budget Balanced (SBB)**
+## 2. Strictly Budget Balanced (SBB)
 
 **Definition:**
 
@@ -39,35 +39,32 @@ Absolutely! Let’s break these four concepts **clearly and contrast them**, ste
 
 ---
 
-## **3. DSIC (Dominant Strategy Incentive Compatible)**
+## 3. DSIC (Dominant Strategy Incentive Compatible)
 
-**Definition:**
+> A mechanism is **DSIC** if **truth-telling is a dominant strategy** for every agent — meaning, no matter what other agents do, each agent’s best strategy is to report their true private information (e.g., valuation, type).
 
-> A mechanism is DSIC if **truth-telling is a dominant strategy** for each agent, **regardless of what others do**.
-
-* **Focus:** Individual incentives are independent of others
-* **Example:**
-
-  * Second-price (Vickrey) auction: bidding your true value is the best strategy **no matter what others bid**
-* **Contrast:**
-
-  * DSIC is stronger than Bayesian IC because it **doesn’t rely on beliefs** about others’ strategies
+ Key Features:
+- **No assumptions about other players’ types or strategies.**
+- Truth-telling is optimal **regardless of what others report**.
+- Very strong requirement — harder to satisfy.
+- Often used in settings like **Vickrey auctions (second-price)** or the **Vickrey-Clarke-Groves (VCG)** mechanism.
+Example:
+In a **second-price sealed-bid auction**, bidding your true value is a dominant strategy — you don’t need to know or guess what others are bidding.
 
 ---
 
-## **4. Bayesian Incentive Compatible (BIC)**
+## 4. Bayesian Incentive Compatible (BIC)
 
-**Definition:**
+> A mechanism is **BIC** if **truth-telling is a Bayesian Nash equilibrium** — meaning, if all other agents are reporting truthfully (according to their beliefs), then it is optimal for each agent to also report truthfully, **given their beliefs about others’ types**.
 
-> A mechanism is BIC if **truth-telling maximizes expected utility** given **beliefs about other agents’ types**.
+Key Features:
+- Assumes agents have **prior beliefs** about the distribution of others’ private types (e.g., “others’ valuations are drawn from a known distribution”).
+- Agents maximize **expected utility**, given these beliefs.
+- Weaker requirement than DSIC — easier to satisfy.
+- Common in settings with **incomplete information**, modeled via **Bayesian games**.
 
-* **Focus:** Incentives **on average**, based on probability distributions
-* **Example:**
-
-  * Myerson’s optimal auction: to maximize expected revenue, truth-telling is optimal **given the distribution of other bidders’ valuations**
-* **Contrast:**
-
-  * Truth-telling may not be optimal for **every possible combination of others’ bids**, only **in expectation**
+Example:
+In a **first-price sealed-bid auction** with symmetric bidders whose valuations are drawn from a common known distribution, there exists a BIC equilibrium where bidders shade their bids according to a known function of their true value — but if you _assume_ everyone follows that strategy, then best responding means you also follow it (i.e., bid according to your true value transformed by the equilibrium bidding function).
 
 ---
 

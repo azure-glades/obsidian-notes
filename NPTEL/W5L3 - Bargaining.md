@@ -1,4 +1,4 @@
-### Rubenstein Bargaining: A Sequential Game of Negotiation
+	### Rubenstein Bargaining: A Sequential Game of Negotiation
 
 This lecture explores **Rubenstein bargaining**, a model for sequential bargaining, by building on the concepts of sequential games and **Subgame Perfect Nash Equilibrium (SPNE)**. The central insight is that a player's patience (or impatience) directly impacts their bargaining power and final payoff.
 
