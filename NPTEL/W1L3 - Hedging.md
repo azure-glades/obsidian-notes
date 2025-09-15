@@ -1,3 +1,4 @@
+[[W1L4 - Hedging]]
 The speaker explains how to manage risk and make a profit in situations with uncertain outcomes, using examples from cricket betting and financial markets.
 
 ***

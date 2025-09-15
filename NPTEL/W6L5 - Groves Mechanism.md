@@ -1,5 +1,5 @@
 The lecture transcript explains **Groves' theorem**, a fundamental result in mechanism design, which provides a way to bypass the negative implications of the Gibbard-Satterthwaite theorem by introducing a specific economic structure called a **quasi-linear setting**.
-
+[[W6L5.1 --- Groves Mechanism Simplified]]
 ### 1. The Quasi-Linear Setting: A New Structure for Outcomes and Utilities 💰
 
 The Gibbard-Satterthwaite theorem showed that, under very general assumptions, only a "dictatorship" can be dominant strategy incentive compatible (DSIC). To get around this, we need to add more structure. The quasi-linear setting does this by making two key assumptions:

@@ -1,5 +1,5 @@
 ### Network Economics: Strategic Network Formation
-[[W5L4.1 - In Simpler Words]]
+[[W5L4.1 --- In Simpler Words]]  [[W5L4.2 --- Efficient Network Structure]]
 This lecture introduces the fundamental concepts of **network economics**, focusing on strategic network formation where agents choose to form links based on self-interest. It defines key concepts like stability and efficiency and analyzes a specific model with distance-based utility functions.
 
 ---

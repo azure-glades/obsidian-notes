@@ -8,63 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "915696ace4cd603c",
+            "id": "523d731d86031799",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Key Concepts - Networks.md",
+                "file": "W7L1 - VCG mechanism IMPORTANT.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Key Concepts - Networks"
+              "title": "W7L1 - VCG mechanism IMPORTANT"
             }
           },
           {
-            "id": "b22cf019a3884000",
+            "id": "513a5f80f6884bb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Key Concepts - Mechanism Design.md",
-                "mode": "source",
+                "file": "W1L5 - Hedging.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Key Concepts - Mechanism Design"
-            }
-          },
-          {
-            "id": "386354b6433dc771",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "W6L4.1 - Mechanism Design Simplified.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "W6L4.1 - Mechanism Design Simplified"
-            }
-          },
-          {
-            "id": "3abe4f78f105a12e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "W2L5 - Clustering and Segmentation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "W2L5 - Clustering and Segmentation"
+              "title": "W1L5 - Hedging"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 346.5
   },
   "right": {
     "id": "94672a287e6c6214",
@@ -212,34 +184,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3abe4f78f105a12e",
+  "active": "513a5f80f6884bb5",
   "lastOpenFiles": [
-    "W3L1 - Decision Trees and Random Forest.md",
-    "W2L5 - Clustering and Segmentation.md",
-    "W2L4 - Heuristics and Game Trees.md",
-    "W2L3 - Heuristic Search.md",
-    "W2L3 - Heuristic Techniques.md",
-    "W2L4 - Game trees.md",
-    "W2L2 - Constrained Optimization.md",
-    "W2L1 - Unconstrained optimization.md",
-    "W5L3 - Bargaining.md",
     "W1L4 - Hedging.md",
     "W1L3 - Hedging.md",
-    "W6L5 - Groves Mechanism.md",
-    "W6L4 - Mechanism Design.md",
-    "W6L5.1 - Groves Mechanism Simplified.md",
-    "W6L4.1 - Mechanism Design Simplified.md",
-    "Key Concepts - Mechanism Design.md",
-    "Key Concepts - Networks.md",
-    "Options.md",
-    "Key Concepts - Auctions.md",
-    "Key Concepts - Game theory.md",
-    "W6L3 - Auction Theory 3.md",
-    "W6L2 - Auction Theory 2.md",
-    "W6L1 - Auction Theory.md",
-    "Key Concept - Rubinstein Bargaining.md",
-    "W5L5 - Network Economics 2.md",
-    "W4L2 - Causality 2.md",
+    "W7L4 - Voting.md",
+    "W7L3 - Sponsored Search Auction.md",
+    "W7L2 -  Myerson Lemma.md",
+    "Key Concept - Clarke and Grove.md",
+    "W7L1 - VCG mechanism IMPORTANT.md",
+    "W8L6 - Ethics in AI.md",
+    "W8L5 -NLP for economics.md",
+    "W8L3 - Agent based modelling for economics.md",
+    "W8L1 - PCA 2.md",
+    "W7L5 - PCA 1.md",
+    "W8L4 - Computer Vision in Economics.md",
+    "Key Concept - PCA.md",
+    "W3L2.1 --- Regression and Classifier.md",
+    "W3L2 - Linear Regression and Classifiers.md",
+    "W3L3 - Uncertainty Modelling.md",
+    "W3L5.1 --- Deep Learning v2.md",
+    "W3L4.1 --- Neural Networks v2.md",
+    "W3L4 - Neural Networks.md",
+    "W3L5 - Deep learning.md",
+    "W6L5.1 --- Groves Mechanism Simplified.md",
+    "W6L4.1 --- Mechanism Design Simplified.md",
+    "W5L4.2 --- Efficient Network Structure.md",
+    "W5L4.1 --- In Simpler Words.md",
+    "W4L1 - Causality 1.md",
     "Pasted image 20250823185226.png",
     "AI for economics"
   ]

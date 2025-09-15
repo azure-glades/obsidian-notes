@@ -1,5 +1,5 @@
 The provided transcript discusses **mechanism design**, a field that aims to design rules for games or interactions to achieve a desired outcome, especially when the participants have private information and may act strategically. The speaker uses the example of an **auction** to explain the core concepts.
-
+[[W6L4.1 --- Mechanism Design Simplified]]
 ### 1. The Core Problem: The Mechanism Designer's Challenge 🧐
 
 The central idea is that a "mechanism designer"—an entity like an organization or a government—wants to achieve a specific goal, represented by a **social choice function ($f$)**. This function takes inputs from several "players" (e.g., bidders in an auction) who have private information, known as their **types** (e.g., a bidder's true valuation for an item).
