@@ -40,7 +40,7 @@ Myerson's Lemma is a powerful result that characterizes what can be implemented 
     - This means if you have a monotone allocation rule, you don't need to guess about the payment scheme; there is only one "right" way to set payments to make it work.
 
 3.  **Payment Formula:** The lemma provides an explicit formula for this unique payment rule. For a winning player *i* with type $\theta_i$, the payment is given by:
-    - $T_i(\theta_i, \theta_{-i}) = - \int_0^{\theta_i} \frac{\partial k_i(z, \theta_{-i})}{\partial z} dz$
+    - $$T_i(\theta_i, \theta_{-i}) = - \int_0^{\theta_i} \frac{\partial k_i(z, \theta_{-i})}{\partial z} dz$$
     - The negative sign indicates a payment is made. This formula shows that the payment is an integral over the change in the player's allocation probability or status as their type increases.
     - **In simpler terms:** The payment is based on a player's **critical value**—the lowest bid at which they would win, given the bids of everyone else. The payment is the negative of the critical value, which means they pay an amount equal to their critical value.
 

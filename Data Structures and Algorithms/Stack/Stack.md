@@ -1,5 +1,5 @@
 [[Infix-Prefix-Postfix]]
-
+[[Stack Cheatsheet]]
 A **stack** is a linear data structure that operates on a **Last In, First Out (LIFO)** principle.
 Stacks have 2 variables `top` and `MAX` and 3 primitive operations; `pop`, `push`, `peek`
 

@@ -26,7 +26,7 @@ Before stating the theorem, the speaker defines **allocative efficiency**. An al
 **Groves' theorem** states that if you have an **allocatively efficient** social choice function, it can be made **dominant strategy incentive compatible (DSIC)** if the payments are structured in a very specific way.
 
 The payment for player *i* must be:
-$t_i(\theta_i, \theta_{-i}) = \sum_{j \neq i} v_j(k(\theta_i, \theta_{-i}), \theta_j) + h_i(\theta_{-i})$
+$$t_i(\theta_i, \theta_{-i}) = \sum_{j \neq i} v_j(k(\theta_i, \theta_{-i}), \theta_j) + h_i(\theta_{-i})$$
 
 In simple terms, a player's payment must be equal to:
 * The **sum of the valuations of all other players** for the chosen allocation,

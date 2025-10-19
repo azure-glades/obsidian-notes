@@ -1,11 +1,1 @@
-{
-  "accentColor": "#0070a8",
-  "cssTheme": "Border",
-  "theme": "moonstone",
-  "interfaceFontFamily": "",
-  "textFontFamily": "Bodoni 72",
-  "monospaceFontFamily": "DejaVu Sans Mono",
-  "showRibbon": true,
-  "baseFontSize": 16,
-  "nativeMenus": false
-}
+{}

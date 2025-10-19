@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Layer/Internet Protocol/IPv6.md",
+                "file": "Data-link Layer/DLC/DLC Sublayer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IPv6"
+              "title": "DLC Sublayer"
             }
           }
         ],
@@ -202,6 +202,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "graph:Open graph view": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
@@ -212,9 +213,9 @@
   },
   "active": "8bf32c2137c1356c",
   "lastOpenFiles": [
+    "Network Layer/Internet Protocol/IPv6.md",
     "Network Layer/Internet Protocol/IPv4.md",
     "Transport Layer/Transport Control Protocol/TCP - Transmission Control Protocol.md",
-    "Network Layer/Internet Protocol/IPv6.md",
     "Data-link Layer/MAC/CSMA.md",
     "Data-link Layer/MAC/MAC Sublayer.md",
     "Data-link Layer/DLC/PPP.md",

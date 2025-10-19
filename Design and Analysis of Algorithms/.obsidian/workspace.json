@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Array Algorithms/Sliding Window.md",
+                "file": "Action Plan for DSA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sliding Window"
+              "title": "Action Plan for DSA"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "binary",
+                "query": "binary search",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,15 +196,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9293e1ca3f36153b",
+  "active": "b37b384de32c2dfa",
   "lastOpenFiles": [
-    "Array Algorithms/Prefix Sum.md",
+    "Dynamic Programming vs DivideConquer.md",
+    "DFS vs BFS.md",
+    "Algorithms.md",
+    "Action Plan for DSA.md",
+    "Array Algorithms/Two Pointer.md",
     "Array Algorithms/Sliding Window.md",
+    "Array Algorithms/Prefix Sum.md",
     "Array Algorithms/Array Algorithms.md",
     "Complexity Analysis/Examples/Binary search.md",
     "Array Algorithms/Kadane's Algorithm.md",
-    "Array Algorithms/Two Pointer.md",
-    "Algorithms.md",
     "Complexity Analysis/Examples/Bubble sort.md",
     "Conquer Techniques/Decrease and Conquer/Decrease and Conquer.md",
     "Array Algorithms",
@@ -222,9 +225,6 @@
     "Greedy Algorithms/Kruskal's Algorithm.md",
     "Greedy Algorithms/Huffman Encoding.md",
     "Greedy Algorithms/Fractional Knapsack Problem.md",
-    "String Matching/Horspool Algorithm.md",
-    "Dynamic Programming vs DivideConquer.md",
-    "Complexity Analysis/P and NP Problems.md",
     "syllabus.png",
     "Pasted image 20250629233620.png",
     "Pasted image 20250629232101.png",

@@ -298,14 +298,14 @@ Now imagine you’re not just trying to maximize one thing — you have **two or
 You want to fly from City A to City B.  
 You have 6 flight options:
 
-| Airline    | Time (hrs) | Cost (₹ thousands) |
-|------------|------------|---------------------|
-| Indigo     | 2          | 8                   |
-| GoAir      | 3          | 8                   |
-| Vistara    | 4          | 6                   |
-| AirAsia    | 5          | 4                   |
-| Jet Airways| 5          | 7                   |
-| Kingfisher | 6          | 9                   |
+| Airline     | Time (hrs) | Cost (₹ thousands) |
+| ----------- | ---------- | ------------------ |
+| Indigo      | 2          | 8                  |
+| GoAir       | 3          | 8                  |
+| Vistara     | 4          | 6                  |
+| AirAsia     | 5          | 4                  |
+| Jet Airways | 5          | 7                  |
+| Kingfisher  | 6          | 9                  |
 
 You want to:
 - Minimize **time** ✅

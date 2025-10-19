@@ -1,3 +1,4 @@
+[[Queue Cheatsheet]]
 
 *Definition*:
 A queue is a linear data structure that operates on the First In, First Out (FIFO) principle.

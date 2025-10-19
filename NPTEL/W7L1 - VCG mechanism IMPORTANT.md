@@ -5,14 +5,14 @@ This lecture is a continuation of the previous one on Groves mechanisms, focusin
 **Clarke's Mechanism: A Special Case of Groves**
 
 - **Groves Payment Scheme:** The payment received by a player *i* is given by the formula:
-    $T_i = \sum_{j \in N, j \neq i} v_j(k^*) + h_i(\theta_{-i})$
+    $$T_i = \sum_{j \in N, j \neq i} v_j(k^*) + h_i(\theta_{-i})$$
     where:
     - $\sum v_j(k^*)$ is the sum of valuations of all other players *j* for the efficient allocation rule $k^*$.
     - $h_i(\theta_{-i})$ is an arbitrary function of the types of all other players, $\theta_{-i}$.
 
 - **Clarke's Payment Scheme:** This mechanism defines a specific function for $h_i(\theta_{-i})$. It's only applicable when it makes sense to have an efficient allocation rule in the absence of a player *i*.
     - The specific function is:
-    $h_i(\theta_{-i}) = - \sum_{j \in N, j \neq i} v_j(k^*_{-i})$
+    $$h_i(\theta_{-i}) = - \sum_{j \in N, j \neq i} v_j(k^*_{-i})$$
     - $k^*_{-i}$ is the efficient allocation rule in the absence of player *i*.
     - Therefore, the full Clarke's payment scheme is:
     $T_i(\theta) = \sum_{j \in N, j \neq i} v_j(k^*) - \sum_{j \in N, j \neq i} v_j(k^*_{-i})$
