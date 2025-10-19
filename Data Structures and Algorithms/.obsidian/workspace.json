@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arrays/Sliding Window.md",
+                "file": "Pointers.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sliding Window"
+              "title": "Pointers"
             }
           }
         ]
@@ -126,8 +126,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -199,6 +199,7 @@
   },
   "active": "f2fa728937676e67",
   "lastOpenFiles": [
+    "Arrays/Sliding Window.md",
     "Arrays/Two Pointer.md",
     "Tree/B and B+ tree.md",
     "Tree/Binary Tree/Threaded Binary Tree.md",
@@ -213,7 +214,6 @@
     "Tree/Red Black Tree.md",
     "Tree/Tree.md",
     "Tree/Tree Traversal Techniques.md",
-    "Arrays/Sliding Window.md",
     "Queue Cheatsheet.md",
     "Queue/Queue.md",
     "Stack/Stack Cheatsheet.md",
