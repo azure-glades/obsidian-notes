@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"2335b7dda31845ba","type":"file","file":"Unit 1.md","x":-720,"y":-260,"width":480,"height":740},
+		{"id":"2f3cba91a8b6606b","x":320,"y":-260,"width":400,"height":400,"type":"file","file":"Search Strategies.md"}
+	],
+	"edges":[
+		{"id":"080393a33c31809a","fromNode":"2335b7dda31845ba","fromSide":"right","toNode":"2f3cba91a8b6606b","toSide":"left"}
+	]
+}

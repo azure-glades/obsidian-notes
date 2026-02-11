@@ -1,0 +1,247 @@
+{
+  "main": {
+    "id": "42bcc243c6a63164",
+    "type": "split",
+    "children": [
+      {
+        "id": "25d45cbbaa7bf64f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6905db8947cc1e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Supervised Learning/Naive Bayes Classifier/Naive Bayes Continuous Variable Example.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Naive Bayes Continuous Variable Example"
+            }
+          },
+          {
+            "id": "810621fd2c2f770e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
+          },
+          {
+            "id": "45174e27c5e582bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Supervised Learning/Ensemble Classifiers/Ensemble Techniques.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ensemble Techniques"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2c701aa8718b80d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "38fb027785da1fc9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b673d83c48e2108",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4ae8da3af8c16f59",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "variables",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "499a87c32ecc7d5a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 328.51103591918945
+  },
+  "right": {
+    "id": "bfed1a5c0b0848c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "92764059cedadc1e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c2697bacc6c7b18",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Supervised Learning/Decision Trees/Decision Tree Induction Algorithms.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Decision Tree Induction Algorithms"
+            }
+          },
+          {
+            "id": "64ff60e9802a0118",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "168f86549f0952ce",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5c33b336c70cf9a4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Thinking Machines/Overfitting and Underfitting.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Overfitting and Underfitting"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 496.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "810621fd2c2f770e",
+  "lastOpenFiles": [
+    "Supervised Learning/Naive Bayes Classifier/Naive Bayes Classifier.md",
+    "Supervised Learning/Naive Bayes Classifier/Bayesian Belief Networks.md",
+    "Supervised Learning/Logistic Regression/Logistic Regression.md",
+    "Supervised Learning/Nearest Neighbhour Classifier/K Nearest Neighbhours.md",
+    "Supervised Learning/Decision Trees/Decision Tree Induction Algorithms.md",
+    "Supervised Learning/Decision Trees/Class notes on decision trees.md",
+    "Supervised Learning/Ensemble Classifiers/Bagging.md",
+    "Supervised Learning/Ensemble Classifiers/Boosting.md",
+    "Supervised Learning/Ensemble Classifiers/Ensemble Techniques.md",
+    "Supervised Learning/Decision Trees/Impurity Measures.md",
+    "Supervised Learning/Decision Trees/Decision Trees.md",
+    "Supervised Learning/Decision Trees/Pruning Techniques.md",
+    "Supervised Learning/Decision Trees/Example for attribute selection.md",
+    "images/Pasted image 20260131104021.png",
+    "Supervised Learning/Classification.md",
+    "Supervised Learning/Ensemble Classifiers/Random Forest.md",
+    "images/Pasted image 20260131083705.png",
+    "images/Pasted image 20260131082519.png",
+    "Supervised Learning/Ensemble Classifiers/Bagging vs Boosting.md",
+    "Machine Learning.md",
+    "Artificial Intelligence and Machine Learning.md",
+    "Artificial Intelligence.md",
+    "AI and ML/Machine Learning Tasks.md",
+    "Supervised Learning/Logistic Regression/Logistic Regression Example.md",
+    "Supervised Learning/Naive Bayes Classifier/Naive Bayes Discreet Variable Example.md",
+    "Supervised Learning/Naive Bayes Classifier/Naive Bayes Continuous Variable Example.md",
+    "Cluster Analysis/Cluster Measures/Similarity Measures.md",
+    "AI and ML/Performance Measure.md",
+    "Supervised Learning/Naive Bayes Classifier",
+    "syllabus.png",
+    "Supervised Learning/Logistic Regression",
+    "Supervised Learning/Nearest Neighbhour Classifier",
+    "Supervised Learning/Ensemble Classifiers",
+    "Supervised Learning/Decision Trees",
+    "Cluster Analysis/Cluster Measures",
+    "Supervised Learning",
+    "State Space Search/Local Search",
+    "AI and ML/Thinking Machines",
+    "Archive",
+    "images/Pasted image 20260116163154.png",
+    "images/Pasted image 20260115175330.png",
+    "images/Pasted image 20260111181206.png",
+    "images/Pasted image 20260111170046.png",
+    "images/Pasted image 20260111165530.png",
+    "images/Pasted image 20260111165522.png",
+    "NoteMap.canvas"
+  ]
+}
