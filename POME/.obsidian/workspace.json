@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "1d9a7c1b56c3758b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e3df87806e91105",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "521c851081b1567d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unit 2/2025-11-20 - BCG Matrix.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-11-20 - BCG Matrix"
+            }
+          },
+          {
+            "id": "947e6e0e0aa509a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unit 4/2025-11-05 - Circular Flow Model.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-11-05 - Circular Flow Model"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ef79684f76a980e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "30d413a1d350950d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f674dc754239a800",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9302421a65080004",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "633422d43128af17",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 353.50418853759766
+  },
+  "right": {
+    "id": "8d0031175059d68e",
+    "type": "split",
+    "children": [
+      {
+        "id": "207bc53bd96a3b57",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67ffec53d61d2206",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "64d8f9259e1e124b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "3b1eb56dd13f7612",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e98bd6bb88c807b0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "947e6e0e0aa509a1",
+  "lastOpenFiles": [
+    "Unit 2/2025-11-24 - Goal Setting.md",
+    "Unit 2/2025-11-20 - BCG Matrix.md",
+    "Unit 2/2025-11-18 - Strategic Management.md",
+    "Unit 2/2025-11-20 - Porters Five Forces.md",
+    "2025-10-29.md",
+    "syllabus.png",
+    "CIEs.md",
+    "Unit 2/2025-12-01 - Organization.md",
+    "Unit 2/2025-11-22 - Planning.md",
+    "Unit 1/Hawthorne Studies.md",
+    "Unit 1/2025-10-27 - Comparision.md",
+    "Unit 1/2025-10-21 - Operations Research.md",
+    "Unit 1/2025-10-21 - Contemporary Approaches.md",
+    "Unit 1/2025-10-13 - Evolution of Management thought.md",
+    "Unit 1/2025-10-09 - Mintzbergs Roles.md",
+    "Unit 1/2025-10-08 - POSDCORB.md",
+    "Unit 1/2025-10-08 - Intro to management and organization.md",
+    "Unit 3/2025-12-24 - Leadership.md",
+    "Unit 3/2025-12-23 - Motivation.md",
+    "2026-01-24 - Macroeconomics.md",
+    "images/Pasted image 20251223130221.png",
+    "Untitled.md",
+    "Unit 5",
+    "Unit 4/2025-12-11 - Demand and Supply.md",
+    "Unit 4/2025-11-03 - Economics.md",
+    "Unit 4/2025-11-03 - Micro and Macro Economics.md",
+    "images/Pasted image 20260105102947.png",
+    "images/Pasted image 20260105102915.png",
+    "Pasted image 20251223130519.png",
+    "images/Pasted image 20260105101615.png",
+    "images/Pasted image 20260105101548.png",
+    "images/Pasted image 20260105102442.png",
+    "Unit 3/2026-01-05 - Motivation Theory.md",
+    "Unit 4/2025-12-18 - Competition.md",
+    "Unit 4/2025-11-05 - Circular Flow Model.md",
+    "Pasted image 20260105101628.png",
+    "images/Pasted image 20251223130325.png",
+    "Unit 3"
+  ]
+}

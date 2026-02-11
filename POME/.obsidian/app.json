@@ -1,0 +1,27 @@
+{
+  "alwaysUpdateLinks": true,
+  "mobileToolbarCommands": [
+    "editor:undo",
+    "editor:redo",
+    "editor:insert-wikilink",
+    "editor:insert-embed",
+    "editor:insert-tag",
+    "editor:attach-file",
+    "editor:insert-footnote",
+    "editor:insert-table",
+    "insert-current-date",
+    "insert-current-time",
+    "editor:toggle-blockquote",
+    "editor:toggle-bold",
+    "editor:toggle-italics",
+    "editor:toggle-strikethrough",
+    "editor:toggle-highlight",
+    "editor:toggle-code",
+    "editor:insert-link",
+    "editor:toggle-bullet-list",
+    "editor:toggle-numbered-list",
+    "editor:toggle-checklist-status",
+    "editor:configure-toolbar"
+  ],
+  "promptDelete": false
+}

@@ -1,0 +1,14 @@
+{
+  "anuppuccin-theme-settings@@anuppuccin-accent-toggle": false,
+  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte",
+  "things-style@@default-font-color": false,
+  "things-style@@strong-color": "#4D689A",
+  "things-style@@em-color": "#82AEFF",
+  "things-style@@active-line": true,
+  "things-style@@h2-size": "1.3em",
+  "things-style@@h1-size": "2em",
+  "things-style@@h2-color": "#000000",
+  "things-style@@h3-color": "#000000",
+  "things-style@@h4-color": "#000000",
+  "things-style@@h5-color": "#000000"
+}

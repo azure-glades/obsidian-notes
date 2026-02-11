@@ -1,0 +1,3 @@
+# Monopolistic
+
+# Oligopolistic

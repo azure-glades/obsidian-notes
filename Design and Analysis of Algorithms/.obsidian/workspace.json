@@ -11,14 +11,10 @@
             "id": "9293e1ca3f36153b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Action Plan for DSA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Action Plan for DSA"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -196,12 +192,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b37b384de32c2dfa",
+  "active": "9293e1ca3f36153b",
   "lastOpenFiles": [
+    "Greedy Algorithms/Dijkstra's Algorithm.md",
+    "Greedy Algorithms/Fractional Knapsack Problem.md",
+    "Machine Learning Algorithms/Decision Trees.md",
+    "Johnson-Trotter Algorithm.md",
+    "Action Plan for DSA.md",
     "Dynamic Programming vs DivideConquer.md",
     "DFS vs BFS.md",
     "Algorithms.md",
-    "Action Plan for DSA.md",
     "Array Algorithms/Two Pointer.md",
     "Array Algorithms/Sliding Window.md",
     "Array Algorithms/Prefix Sum.md",
@@ -215,16 +215,12 @@
     "Dynamic Programming/Knapsack problem.md",
     "Dynamic Programming/Floyd-Warshall Algorithm.md",
     "Dynamic Programming/Bellman-Ford Algorithm.md",
-    "Greedy Algorithms/Dijkstra's Algorithm.md",
     "Kahn's Algorithm.md",
     "Conquer Techniques/Decrease and Conquer/Topological Ordering.md",
     "Conquer Techniques/Decrease and Conquer/Depth First Search.md",
     "Conquer Techniques/Decrease and Conquer/Insertion sort.md",
-    "Johnson-Trotter Algorithm.md",
     "Josephus Problem.md",
     "Greedy Algorithms/Kruskal's Algorithm.md",
-    "Greedy Algorithms/Huffman Encoding.md",
-    "Greedy Algorithms/Fractional Knapsack Problem.md",
     "syllabus.png",
     "Pasted image 20250629233620.png",
     "Pasted image 20250629232101.png",
